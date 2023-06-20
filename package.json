@@ -1,0 +1,53 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@loadable/component": "^5.15.3",
+    "@mux/mux-player-react": "^1.8.0",
+    "framer-motion": "^10.0.0",
+    "gatsby": "^5.7.0",
+    "gatsby-cli": "^5.7.0",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^3.7.0",
+    "gatsby-plugin-layout": "^4.7.0",
+    "gatsby-plugin-netlify": "^5.1.0",
+    "gatsby-plugin-open-graph-images": "^0.1.8",
+    "gatsby-plugin-react-helmet": "^6.7.0",
+    "gatsby-plugin-sharp": "^5.7.0",
+    "gatsby-source-airtable": "^2.3.1",
+    "gatsby-source-datocms": "^5.0.4",
+    "gatsby-source-filesystem": "^5.7.0",
+    "gatsby-transformer-remark": "^6.7.0",
+    "gatsby-transformer-sharp": "^5.7.0",
+    "got": "^11.0.0",
+    "hoist-non-react-statics": "^3.3.2",
+    "p5": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-p5": "^1.3.33",
+    "react-p5-wrapper": "^4.1.0",
+    "react-router-dom": "^6.8.1",
+    "react-spring": "^9.7.0",
+    "save": "^2.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

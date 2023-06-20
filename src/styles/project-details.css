@@ -1,0 +1,163 @@
+@media screen and (max-width: 700px) {
+  .project-desc {
+    display: inline-block !important;
+    padding: 1.25em 0 2em !important;
+  }
+  .project-desc__title {
+    width: 100% !important;
+    padding-bottom: 1.1em;
+  }
+
+  .project-desc__desc {
+    width: 100% !important;
+  }
+}
+
+@font-face {
+  font-family: 'Calibre Bold';
+  src:  url('/static/fonts/Calibre/Calibre-Semibold.woff2') format('woff2'),
+        url('/static/fonts/Calibre/Calibre-Semibold.woff') format('woff');
+}
+
+.project-page {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.uxProject{
+  width: 75%;
+  margin: auto;
+  
+}
+
+.ux-subtitle{
+  font-size: 0.75em;
+  letter-spacing: 0.025em;
+  color: rgb(49, 49, 49);
+  padding-bottom: 1%;
+  margin-top: 2.5%;
+
+}
+
+.ux-subheader{
+  font-size: 2em;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 0.04em;
+  text-underline-offset: 0.25em;
+  padding-bottom: 3%;
+  line-height: 0.75em !important;
+
+}
+
+.ux-subheader p{
+  line-height: 1.7em;
+}
+
+
+.dual-image-wrapper{
+  padding-top: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7.5%;
+}
+
+.leftPic{
+  width: 48%;
+  display: inline-block;
+ 
+}
+
+.rightPic{
+  width: 48%;
+  display: inline-block;
+ 
+}
+
+.paragraph-left{
+
+  margin-top: 1.5%;
+  padding-bottom: 2%;
+
+}
+
+
+.ux-linebreak{
+  border-top: 2px solid rgb(49, 49, 49);
+  opacity: 0.4;
+  padding-bottom: 2.5%;
+}
+
+.text-block-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.text-block-title{
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+
+.onePic{
+  margin-top: 2%;
+  margin-bottom: 7.5%;
+}
+
+.leftblock{
+  width: 49%;
+
+}
+
+.rightblock{
+  width: 44%;
+}
+
+.project-page {
+  padding: 1.1em 1em 1.1em 1.1em;
+  display: block;
+}
+
+.project-desc__title {
+  width: 50%;
+}
+
+.project-desc__desc {
+  width: 60%;
+}
+
+.project-desc {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1.25em 0 3.5em;
+  flex-direction: row;
+}
+
+.project-image,
+.project-video {
+  width: 100%;
+  margin: 1.1em 0;
+  padding-bottom: 2.5%;
+}
+
+@media screen and (max-width: 700px) {
+  .project-page .project-content .project-desc {
+    flex-direction: column;
+    padding: 1.25em 0 2.5em;
+  }
+}
+
+.bottomLink{
+  margin-top: 2.5%;
+  padding-bottom: 5%;
+  text-decoration: underline !important;
+}
+
+p{
+  margin: 0;
+}

@@ -1,0 +1,52 @@
+@media screen and (min-width: 1920px){
+    .canvas {
+        padding-right: 1.1em;
+    }
+}
+
+
+
+
+.mirror{
+    max-width: 1921px;
+}
+
+#container {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    opacity: 1;
+    width: calc(100vw - 1.1em);
+}
+
+.gone{
+    opacity: 0;
+    width: 1px;
+}
+
+.canvas {
+    padding-left: 1.1em;
+    top:0; bottom:0; right:0; left:0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#index {
+    overflow: hidden;
+}
+
+video {
+    width: 1px;
+    height: 1px;
+}
+
+@media screen and (max-width: 700px){
+    .wholeThing{
+        position: fixed !important;
+    }
+    .canvas {
+        padding-left: 1.1em;
+    }
+}
+
+

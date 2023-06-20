@@ -1,0 +1,183 @@
+@media screen and (max-width: 700px) {
+.aboutText{
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 0 6.5em 0 !important;
+}
+.headShot{
+  display: none;
+}
+}
+
+
+section {
+  display: flex;
+}
+
+#portrait {
+  width: 31%;
+  max-width: 450px;
+  filter: drop-shadow(1px 1px 2px #4e4e4e);
+  transform: rotate(-3deg);
+  padding-left: 50%;
+}
+
+#tape1 {
+  width: 13%;
+  position: absolute;
+  z-index: 2;
+  top: 9.3%;
+  margin-left: 3%;
+  transform: rotate(5deg);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: url("../images/Stylo.png"), auto;
+  pointer-events: none;
+}
+
+.frame {
+  width: 17.2vw;
+  height: 22.36vw;
+  max-width: 320px;
+  max-height: 416px;
+  cursor: url("../images/Stylo.png"), auto;
+}
+
+#tape2 {
+  width: 15%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  margin-left: 17.5%;
+  margin-bottom: 6%;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: url("../images/Stylo.png"), auto;
+  pointer-events: none;
+}
+
+#penZone {
+  cursor: url("../images/Stylo.png");
+}
+
+button {
+  width: 5%;
+  height: 2%;
+  border-radius: 50%;
+  position: absolute;
+  right: 34%;
+  top: 87%;
+  z-index: 5;
+  cursor: pointer;
+  font-family: "Calibre";
+  font-size: 100%;
+  background-color: transparent;
+  /* border: 2px solid rgb(150, 150, 150); */
+  color: rgb(200, 200, 200);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: rotate(-3deg);
+  align-items: center;
+}
+
+button:hover + #frame {
+  pointer-events: none;
+}
+
+button:hover {
+  color: #000000;
+  /* border: 2px solid black; */
+}
+
+.clearButton {
+  opacity: 0;
+}
+
+button span {
+  margin-bottom: 2vw;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadein {
+  animation: fadein 1s;
+  opacity: 1;
+}
+
+.resume {
+  text-decoration: underline;
+}
+
+.about {
+  display: block;
+  color: #000;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  padding: 1.1em;
+  box-sizing: border-box;
+  margin: auto 0 0;
+  clear: both;
+}
+
+.aboutWrap {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  align-items: center;
+}
+
+.about .aboutWrap .aboutText p {
+  margin: 1em 0 0;
+}
+
+.about .aboutWrap .aboutText {
+  margin: 0 1em 0 0;
+  width: 50%;
+  padding: 1em 0 0.75em;
+}
+
+.about .aboutWrap .aboutText .aboutLinks {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 0.825em;
+  margin: 2.725em 0 1.1em;
+}
+
+#portrait > .react-p5-wrapper{
+  display: none;
+}
+
+#tape1, #tape2{
+  border: none;
+}
+
+.aboutText p{
+  line-height: 1.25em !important;
+}
+
+p a{
+  text-decoration: underline !important;
+}
