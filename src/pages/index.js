@@ -4,34 +4,17 @@ import Footer from "../components/Footer";
 import { easeInOut, motion } from "framer-motion";
 import "../styles/global.css";
 import "../styles/home.css";
-import loadable from "@loadable/component";
 import { graphql, Link, Script } from "gatsby";
-import p5 from "p5";
+
 import Instagram from "../images/tester-images/ig.svg";
 import Linkedin from "../images/tester-images/li.svg";
 import Tester1 from "../images/tester-images/tester1.png";
-
-const LoadableP5 = loadable(() => import("react-p5-wrapper"), {
-  resolveComponent: ({ ReactP5Wrapper }) => ReactP5Wrapper,
-});
 
 export function Head() {
   return <title>Graeme Mounsey, Digital Product Designer</title>;
 }
 
-// p5.js section in case its needed
-
 export default function Home() {
-  // const bodyRef = React.createRef();
-
-  function sketch(p5) {
-    p5.setup = () => {};
-
-    p5.draw = () => {};
-
-    p5.windowResized = () => {};
-  }
-
   return (
     <div className="scroll-container">
       <div>

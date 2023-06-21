@@ -9,94 +9,13 @@ import "../styles/about.css";
 import tape1 from "../images/tape3.png";
 import tape2 from "../images/tape2.png";
 import head from "../images/Headshot.jpg";
-import loadable from "@loadable/component";
 import { Script } from "gatsby";
 
 export function Head() {
   return <title>About | Graeme Mounsey</title>;
 }
 
-const LoadableP5 = loadable(() => import("react-p5-wrapper"), {
-  resolveComponent: ({ ReactP5Wrapper }) => ReactP5Wrapper,
-});
-
 export default function About() {
-  const frameRef = React.createRef();
-  const clearRef = React.createRef();
-  const headRef = React.createRef();
-  const buttonRef = React.createRef();
-
-  function sketch(p5) {
-    p5.preload = () => {
-      headRef.current = p5.loadImage(head);
-    };
-
-    p5.setup = () => {
-      if (!frameRef.current) {
-        return;
-      }
-      {
-        p5.createCanvas(
-          frameRef.current.offsetWidth,
-          frameRef.current.offsetHeight
-        ).parent(frameRef.current);
-        p5.colorMode(p5.HSB, 255);
-        p5.drawingContext.willReadFrequently = true;
-        p5.image(
-          headRef.current,
-          0,
-          0,
-          frameRef.current.offsetWidth,
-          frameRef.current.offsetHeight
-        );
-        buttonRef.current = p5.createButton("<span>HEY!</span>");
-        buttonRef.current.parent(clearRef.current);
-        buttonRef.current.mousePressed(resetSketch);
-      }
-    };
-
-    p5.draw = () => {
-      p5.cursor(pen);
-      if (p5.mouseIsPressed) {
-        const x = p5.mouseX;
-        const y = p5.mouseY;
-
-        p5.strokeWeight(7);
-        p5.stroke((p5.frameCount + 240) % 255, 255, 255);
-        p5.line(p5.pmouseX, p5.pmouseY, x, y);
-      }
-    };
-
-    p5.windowResized = () => {
-      if (!frameRef.current) {
-        return;
-      }
-      p5.resizeCanvas(
-        frameRef.current.offsetWidth,
-        frameRef.current.offsetHeight
-      );
-      p5.image(
-        headRef.current,
-        0,
-        0,
-        frameRef.current.offsetWidth,
-        frameRef.current.offsetHeight
-      );
-    };
-
-    function resetSketch() {
-      p5.clear();
-      p5.image(
-        headRef.current,
-        0,
-        0,
-        frameRef.current.offsetWidth,
-        frameRef.current.offsetHeight
-      );
-      p5.cursor(pen);
-    }
-  }
-
   return (
     <div>
       <Layout>
@@ -143,14 +62,9 @@ export default function About() {
                 <img id="tape2" alt="" src={tape2}></img>
               </div>
               <div id="portrait">
-                <div ref={frameRef} className="frame"></div>
-                <LoadableP5 sketch={sketch} />
+                <div className="frame"></div>
               </div>
-              <div
-                ref={clearRef}
-                className="clearButton"
-                id="clearButton"
-              ></div>
+              <div className="clearButton" id="clearButton"></div>
             </div>
           </div>
         </section>

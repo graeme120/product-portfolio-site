@@ -1,3 +1,5 @@
+// const p5 = require("p5");
+
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -5,6 +7,9 @@ module.exports = {
   siteMetadata: {
     title: `Graeme Mounsey, Digital Designer`,
     siteUrl: `https://www.graemeswork.com`,
+  },
+  flags: {
+    DEV_SSR: true,
   },
   plugins: [
     {
@@ -41,7 +46,7 @@ module.exports = {
     "gatsby-transformer-sharp",
     "react-p5-wrapper",
     "gatsby-transformer-remark",
-    `gatsby-plugin-netlify`
+    `gatsby-plugin-netlify`,
   ],
   siteMetadata: {
     title: "Graeme Mounsey",
