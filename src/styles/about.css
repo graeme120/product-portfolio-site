@@ -1,17 +1,12 @@
 @media screen and (max-width: 700px) {
-.aboutText{
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 0 6.5em 0 !important;
-}
-.headShot{
-  display: none;
-}
-}
-
-
-section {
-  display: flex;
+  .aboutText {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 0 6.5em 0 !important;
+  }
+  .headShot {
+    display: none;
+  }
 }
 
 #portrait {
@@ -64,44 +59,6 @@ section {
 
 #penZone {
   cursor: url("../images/Stylo.png");
-}
-
-button {
-  width: 5%;
-  height: 2%;
-  border-radius: 50%;
-  position: absolute;
-  right: 34%;
-  top: 87%;
-  z-index: 5;
-  cursor: pointer;
-  font-family: "Calibre";
-  font-size: 100%;
-  background-color: transparent;
-  /* border: 2px solid rgb(150, 150, 150); */
-  color: rgb(200, 200, 200);
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  transform: rotate(-3deg);
-  align-items: center;
-}
-
-button:hover + #frame {
-  pointer-events: none;
-}
-
-button:hover {
-  color: #000000;
-  /* border: 2px solid black; */
-}
-
-.clearButton {
-  opacity: 0;
-}
-
-button span {
-  margin-bottom: 2vw;
 }
 
 @keyframes fadein {
@@ -166,18 +123,19 @@ button span {
   margin: 2.725em 0 1.1em;
 }
 
-#portrait > .react-p5-wrapper{
+#portrait > .react-p5-wrapper {
   display: none;
 }
 
-#tape1, #tape2{
+#tape1,
+#tape2 {
   border: none;
 }
 
-.aboutText p{
+.aboutText p {
   line-height: 1.25em !important;
 }
 
-p a{
+p a {
   text-decoration: underline !important;
 }

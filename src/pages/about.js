@@ -1,10 +1,11 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Layout from "../components/Layout.js";
 import pen from "../images/Stylo.png";
 import "../styles/global.css";
 import "../styles/navbar.css";
 import "../styles/about.css";
-import Resume from "../../static/GraemeMounsey_Resume.pdf";
 import tape1 from "../images/tape3.png";
 import tape2 from "../images/tape2.png";
 import head from "../images/Headshot.jpg";
@@ -104,23 +105,27 @@ export default function About() {
             <div className="aboutText">
               <p className="aboutLine">Hello World!</p>
               <p className="aboutLine">
-                My name is Graeme Mounsey. I’m a digital product designer
-                from Toronto, Canada.
+                My name is Graeme Mounsey. I’m a digital product designer from
+                Toronto, Canada.
               </p>
               <p className="aboutLine">
                 I’m currently an honors B.F.A. student, majoring in
-                Human-Computer Interaction at {" "}
+                Human-Computer Interaction at{" "}
                 <a href="https://www.newschool.edu/parsons/">
                   Parsons School of Design.
                 </a>
-                </p>
-                <p> Last summer I interned at {" "}
-                <a href="https://hifyreretail.com/">
-                  Hifyre,
-                </a> and developed the first online delivery platform for the Canadian cannabis industry.
+              </p>
+              <p>
+                {" "}
+                Last summer I interned at{" "}
+                <a href="https://hifyreretail.com/">Hifyre,</a> and developed
+                the first online delivery platform for the Canadian cannabis
+                industry.
               </p>
               <p className="aboutLine">
-                I am a product designer with a strong background in visual communication and creative coding, interested in building products that embody human-centered design. I also{" "}
+                I am a product designer with a strong background in visual
+                communication and creative coding, interested in building
+                products that embody human-centered design. I also{" "}
                 <a href="https://www.instagram.com/eggsbenedictreview/">
                   review eggs benedict
                 </a>
@@ -152,14 +157,36 @@ export default function About() {
         <Script
           dangerouslySetInnerHTML={{
             __html: `
-    var portrait = document.getElementById('portrait');
-  var clearButton = document.getElementById('clearButton');
-
-portrait.addEventListener("click", function() {
-  clearButton.classList.add("fadein");
-  clearButton.style.opacity = '1';
-})
-`,
+            if (typeof faders === 'undefined') {
+                const faders = document.querySelectorAll(".fade-in");
+  
+  const appearOptions = {
+    threshold: 0.9,
+  };
+  
+  const appearOnScroll = new IntersectionObserver(function (
+    entries,
+    appearOnScroll
+  ) {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) {
+        return;
+      } else {
+        entry.target.classList.add("appear");
+        appearOnScroll.unobserve(entry.target);
+      }
+    });
+  },
+  appearOptions);
+  
+  faders.forEach((fader) => {
+    appearOnScroll.observe(fader);
+  });
+  
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+  }`,
           }}
         />
       </Layout>

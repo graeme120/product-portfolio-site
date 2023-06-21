@@ -1,229 +1,154 @@
-@media screen and (min-width: 1920px){
-body, html, h1, h2, h3 {
-    max-width: 1920px;
-    margin: auto;
-    font-size: 32px;
-    box-sizing: border-box;
-}
-}
-
-@media screen and (max-width: 1920px) {
-    body, html, h1, h2, h3 {
-        font-size: 1.65vw;
-    }
-    }
-
 @media screen and (max-width: 700px) {
-    body, html, h1, h2, h3 {
-        font-size: 24px;
-    }
-    }
+  body,
+  html,
+  h1,
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+}
 
 body {
-    max-width: 1920px !important;
-    margin: auto !important;
-    float: none !important;
-    overflow-y: scroll;
+  margin: auto !important;
+  float: none !important;
+  overflow-y: scroll;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #FFFCF6; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #FFFCF6; 
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #FFFCF6; 
-  }
-
-
-@media screen and (max-width: 700px){
-.hide-mobile {
-    display: none!important;
+  background: #fffcf6;
 }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fffcf6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fffcf6;
+}
+
+@media screen and (max-width: 700px) {
+  .hide-mobile {
+    display: none !important;
+  }
 }
 
 @font-face {
-    font-family: 'Calibre Regular';
-    src:  url('../../static/fonts/Calibre/Calibre-Regular.woff2') format('woff2'),
-          url('/static/fonts/Calibre/Calibre-Regular.woff') format('woff');
-  }
+  font-family: "TT Commons Demibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/TTCommons/TT-Commons-DemiBold.woff2 DemiBold.woff2")
+      format("woff2"),
+    url("/fonts/TTCommons/TT-Commons-DemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "TT Commons Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/TTCommons/TT-Commons-Medium.woff2") format("woff2"),
+    url("/fonts/TTCommons/TT-Commons-Medium.woff") format("woff");
+}
 
 @font-face {
-    font-family: 'Calibre Italic';
-    src:  url('/static/fonts/Calibre/Calibre-RegularItalic.woff2') format('woff2'),
-          url('/static/fonts/Calibre/Calibre-RegularItalic.woff') format('woff');
-  }
+  font-family: "TT Commons Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/TTCommons/TT-Commons-Regular.woff2") format("woff2"),
+    url("/fonts/TTCommons/TT-Commons-Regular.woff") format("woff");
+}
 
 @font-face {
-    font-family: 'Calibre Bold';
-    src:  url('/static/fonts/Calibre/Calibre-Semibold.woff2') format('woff2'),
-          url('/static/fonts/Calibre/Calibre-Semibold.woff') format('woff');
+  font-family: "TT Commons Regular Italic";
+  font-style: Italic;
+  font-weight: 400;
+  src: url("/fonts/TTCommons/TT-Commons-Italic.woff2") format("woff2"),
+    url("/fonts/TTCommons/TT-Commons-Italic.woff") format("woff");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-
-
-body, html {
-    height: 100%;
-    font-family: Calibre Regular;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #000000;
-    background-color: #FFFCF6;
+  100% {
+    opacity: 1;
+  }
 }
 
-body, h1, h2, h3 {
-
-    line-height: 1.1em;
-    font-weight: 400;
-    font-kerning: auto;
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+@keyframes buttonFadeIn {
+  0% {
+    background-color: transparent;
+    color: #242020;
+  }
+  100% {
+    background-color: #242020;
+    color: white;
+  }
 }
 
-*, :after, :before {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+@keyframes buttonFadeOut {
+  0% {
+    background-color: #242020;
+    color: white;
+  }
+  100% {
+    background-color: transparent;
+    color: #242020;
+  }
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
+@keyframes backgroundIn {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgba(233, 232, 232, 0.5);
+  }
 }
 
-a {
-    color: #000000; 
-    display: inline-block;
+@keyframes backgroundOut {
+  0% {
+    background-color: rgba(233, 232, 232, 0.5);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.fadeInAnimation {
+  animation: fadeIn 0.25s ease-in-out 0ms 1 normal forwards;
 }
 
-a[href^="mailto:"]:link{
-    color:#000000
+.fadeOutAnimation {
+  animation: fadeOut 0.25s ease-in-out 0s 1 normal forwards;
 }
 
-a[href^="mailto:"]:visited{
-    color:#000000
+.button-reveal {
+  animation: buttonFadeIn 0.25s ease-out 0s 1 normal forwards;
 }
 
-a[href^="mailto:"]:hover{
-    color:#0000ff
+.button-exit {
+  animation: buttonFadeOut 0.2s ease-out 0s 1 normal forwards;
 }
 
-a:link{
-    color: #000000;
-    text-decoration: none;
+.backgroundIn {
+  animation: backgroundIn 0.2s ease-out 0s 1 normal forwards;
+  cursor: pointer;
 }
 
-a:visited{
-    color: #000000;
+.backgroundOut {
+  animation: backgroundOut 0.2s ease-out 0s 1 normal forwards;
+  cursor: auto;
 }
 
-a:hover{
-    color: #0000ff;
-    text-decoration: none;
+footer {
+  font-size: 1.15em;
 }
-
-
-div, html {
-    display: block;
-}
-
-h1 {
-    display: block;
-    margin-block-start: 0.9em;
-    margin-block-end: 0.9em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-h2 {
-    display: block;
-    margin-block-start: 0.9em;
-    margin-block-end: 0.9em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-
-li {
-    display: list-item;
-    list-style-type: none;
-    text-align: -webkit-match-parent;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 0.9em;
-    margin-block-end: 0.9em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-p {
-    margin: 0 0 1em;
-    widows: 2;
-    orphans: 2;
-    line-height: 1.125;
-}
-
-p .aboutLine {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.pinkAndGreen:hover{
-    color: #243623;
-}
-
-.whiteAndRed:hover{
-    color: #660000;
-}
-
-.justBlack:hover{
-    text-decoration: underline;
-}
-
-
-.default{
-    color: #000000;
-}
-
-.blue:hover{
-    color: #0000ff;
-}
-
-.pink:hover{
-    color: #ffb3cf;
-}
-
-.red:hover{
-    color: #660000;
-}
-
-.underline:hover{
-    color: black;
-    text-decoration: underline;
-}
-
-
-
-
-
-
-

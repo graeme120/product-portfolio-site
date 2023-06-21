@@ -1,52 +1,239 @@
-@media screen and (min-width: 1920px){
-    .canvas {
-        padding-right: 1.1em;
-    }
+html {
+  scroll-behavior: smooth;
 }
 
-
-
-
-.mirror{
-    max-width: 1921px;
+a {
+  text-decoration: none;
+  color: #242020;
 }
 
-#container {
+a::after {
+  color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #242020;
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  color: #242020;
+  background-size: 2.5vw 2.5vw;
+  background-image: url("../images/grid.svg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  font-family: TT Commons Regular, sans-serif;
+}
+
+main {
+  max-width: 1780px;
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  padding: 2.5%;
+  font-family: TT Commons;
+  background-color: transparent;
+  border: 1px solid #242020;
+  color: #242020;
+}
+
+footer {
+  font-size: 1vw;
+  padding-bottom: 5%;
+  line-height: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  padding-top: 15%;
+  padding-bottom: 2.5%;
+  width: 90%;
+  font-family: TT Commons Medium;
+}
+
+#phonetic-spelling {
+  font-family: TT Commons Regular Italic, sans-serif;
+  padding-left: 18.5%;
+  line-height: -5%;
+  opacity: 0;
+}
+
+.intro {
+  font-size: 4em;
+}
+
+#bump {
+  padding-bottom: 2.5%;
+}
+
+.intro1 {
+  padding-bottom: 3%;
+  font-size: 3.5vw;
+}
+
+.intro2 {
+  font-size: 1.75vw;
+  line-height: 1.25em;
+}
+
+.work {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.project-wrapper {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-bottom: 7.5%;
+  border-radius: 2vh;
+  font-size: 1.25vw;
+}
+
+.animation-end {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-text {
+  padding-right: 2.5%;
+  width: 37%;
+}
+
+.project-image {
+  width: 50%;
+  margin-left: 2.5%;
+}
+
+.image {
+  border-radius: 1vh 1vh 1vh 1vh;
+  width: 100%;
+}
+
+.project-title {
+  font-family: TT Commons Medium;
+  font-weight: 500;
+  font-size: 2.5vw;
+  padding-bottom: 1.25%;
+  color: #242020;
+}
+
+.project-subtitle {
+  color: #464646;
+  padding-bottom: 7.5%;
+}
+
+.project-description {
+  height: 20%;
+  padding-bottom: 5%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: hidden;
+  overflow: hidden;
+  color: #242020;
+}
+
+.project-skills {
+  font-family: TT Commons Regular Italic;
+  color: #464646;
+  padding-bottom: 7.5%;
+}
+
+.project-button {
+  font-family: TT Commons Regular;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #242020;
+  font-size: 1.25vw;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.explicit-link {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.075em;
+}
+
+.social-links {
+  width: 8%;
+  display: flex;
+}
+
+.social-links--icon {
+  width: 100%;
+}
+
+@media screen and (min-width: 2300px) {
+  .intro1 {
+    font-size: 84px;
+  }
+  .intro2,
+  .name {
+    font-size: 42px;
+  }
+  .header {
+    font-size: 40px;
+  }
+
+  .project-wrapper {
+    font-size: 30px;
+  }
+  .project-title {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    width: 90%;
+  }
+  .mobile-gone {
+    display: none;
+  }
+  .hero {
+    width: 100%;
+    padding-top: 2.5%;
+  }
+  .intro1 {
+    font-size: 24px;
+  }
+  .intro2 {
+    font-size: 18px;
+  }
+  .project-content {
     display: block;
-    height: auto;
-    overflow: hidden;
-    opacity: 1;
-    width: calc(100vw - 1.1em);
+  }
+  .project-wrapper {
+    font-size: 12px;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  .project-image {
+    width: 100%;
+    margin: 0;
+  }
 }
-
-.gone{
-    opacity: 0;
-    width: 1px;
-}
-
-.canvas {
-    padding-left: 1.1em;
-    top:0; bottom:0; right:0; left:0;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-#index {
-    overflow: hidden;
-}
-
-video {
-    width: 1px;
-    height: 1px;
-}
-
-@media screen and (max-width: 700px){
-    .wholeThing{
-        position: fixed !important;
-    }
-    .canvas {
-        padding-left: 1.1em;
-    }
-}
-
-
