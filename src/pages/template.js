@@ -8,7 +8,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import "../styles/global.css";
 import "../styles/navbar.css";
 import "../styles/project-page.css";
-import tester from "../images/tester-images/tester.png";
+import Tester from "../images/tester-images/tester.png";
 
 export function Head() {
   return <title>Project Page Debug</title>;
@@ -19,7 +19,7 @@ export default function Work() {
     <body>
       <Navbar />
       <div className="project-writeup">
-        <img id="image-header" src={tester}></img>
+        <img id="image-header" src={Tester}></img>
         <div className="content--block fade-in">
           <div className="content--main">
             <h1>SnapSave</h1>

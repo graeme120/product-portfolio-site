@@ -7,9 +7,9 @@ import "../styles/home.css";
 import loadable from "@loadable/component";
 import { graphql, Link, Script } from "gatsby";
 import p5 from "p5";
-import instagram from "../images/tester-images/ig.svg";
-import linkedin from "../images/tester-images/li.svg";
-import tester1 from "../images/tester-images/tester1.png";
+import Instagram from "../images/tester-images/ig.svg";
+import Linkedin from "../images/tester-images/li.svg";
+import Tester1 from "../images/tester-images/tester1.png";
 
 const LoadableP5 = loadable(() => import("react-p5-wrapper"), {
   resolveComponent: ({ ReactP5Wrapper }) => ReactP5Wrapper,
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/template">
               <div className="project-image">
-                <img className="image" src={tester1} />
+                <img className="image" src={Tester1} />
               </div>
               <div className="project-text">
                 <div className="project-title">SnapSave</div>
@@ -98,7 +98,7 @@ export default function Home() {
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/template">
               <div className="project-image">
-                <img className="image" src={tester1} />
+                <img className="image" src={Tester1} />
               </div>
               <div className="project-text">
                 <div className="project-title">Firebird Delivery</div>
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/template">
               <div className="project-image">
-                <img className="image" src={tester1} />
+                <img className="image" src={Tester1} />
               </div>
               <div className="project-text">
                 <div className="project-title">SwitchPitch</div>

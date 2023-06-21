@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import React from "react";
 import "../styles/global.css";
 import "../styles/navbar.css";
-import linkedin from "../images/tester-images/li.svg";
-import instagram from "../images/tester-images/ig.svg";
+import Linkedin from "../images/tester-images/li.svg";
+import Instagram from "../images/tester-images/ig.svg";
 
 export function Mailto({ mailto, label }) {
   return (
@@ -31,10 +31,10 @@ export default function Nav() {
         </div>
         <div className="social-links">
           <a href="">
-            <img className="social-links--icon" src={instagram}></img>
+            <img className="social-links--icon" src={Instagram}></img>
           </a>
           <a href="">
-            <img className="social-links--icon" src={linkedin}></img>
+            <img className="social-links--icon" src={Linkedin}></img>
           </a>
         </div>
       </footer>
