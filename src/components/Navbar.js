@@ -27,10 +27,10 @@ export default function Nav() {
             <Link to="/index">Graeme Mounsey</Link>
           </div>
           <div className="nav">
-            <a className="link" href="#work">
+            <a className="link bump-left" href="#work">
               Work
             </a>
-            <Link className="link" to="/about">
+            <Link className="link bump-left" to="/about">
               About
             </Link>
             <a

@@ -149,6 +149,10 @@ body {
   cursor: auto;
 }
 
+.bump-left {
+  padding-right: 5%;
+}
+
 footer {
   font-size: 1.15em;
 }
