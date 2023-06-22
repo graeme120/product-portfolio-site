@@ -35,11 +35,10 @@ body {
 }
 
 @font-face {
-  font-family: "TT Commons Demibold";
-  font-style: normal;
+  font-family: "TT Commons Italic";
+  font-style: italic;
   font-weight: 400;
-  src: url("/fonts/TTCommons/TT-Commons-DemiBold.woff2 DemiBold.woff2")
-      format("woff2"),
+  src: url("/fonts/TTCommons/TT-Commons-DemiBold.woff2") format("woff2"),
     url("/fonts/TTCommons/TT-Commons-DemiBold.woff") format("woff");
 }
 @font-face {

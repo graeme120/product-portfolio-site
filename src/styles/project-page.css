@@ -84,7 +84,7 @@ li {
 }
 
 h1 {
-  font-family: "TT Commons Demibold";
+  font-family: TT Commons Medium;
   font-size: 3em;
   font-weight: 500;
   margin: 0;
@@ -107,7 +107,7 @@ h3 {
 
 h4 {
   font-family: "TT Commons Regular";
-  font-size: 1em;
+  font-size: 1vw;
   font-weight: 500;
   color: #312e2e;
   margin: 0;
@@ -282,4 +282,46 @@ u {
 }
 
 @media screen and (max-width: 700px) {
+  main {
+    width: 100% !important;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  li {
+    font-size: 18px;
+  }
+  .content--block {
+    grid-template-columns: 10% 80% 10%;
+  }
+  .content--subdivide {
+    display: block;
+  }
+  .content--image-wrapper-full {
+    display: block;
+    padding-top: 5%;
+  }
+  .content--subdivision-big,
+  .content--subdivision-medium,
+  .content--subdivision-small {
+    width: 100%;
+  }
+  .content--section-title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: start;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 1.25%;
+    font-size: 12px;
+  }
 }

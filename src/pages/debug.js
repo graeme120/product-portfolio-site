@@ -372,7 +372,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        {/* <!-- Section with subtitle and paragraph with no headline --> */}
+        {/* <!-- Section with section title, full-width paragraph and image, no headline --> */}
         <div id="white">
           <div className="fade-in content--block">
             <div className="content--section-title">SUBTITLE</div>
@@ -389,6 +389,26 @@ export default function Work() {
                   </p>
                 </div>
               </div>
+              <img
+                className="fade-in content--image-wrapper-full"
+                src={sixteenbynine}
+              ></img>
+            </div>
+          </div>
+        </div>
+        {/* <!-- Section with full-width images, no headline --> */}
+        <div id="white">
+          <div className="fade-in content--block">
+            <div className="content--section-title">SUBTITLE</div>
+            <div className="content--main no-headline">
+              <img
+                className="fade-in content--image-wrapper-full"
+                src={sixteenbynine}
+              ></img>
+              <img
+                className="fade-in content--image-wrapper-full"
+                src={sixteenbynine}
+              ></img>
               <img
                 className="fade-in content--image-wrapper-full"
                 src={sixteenbynine}
