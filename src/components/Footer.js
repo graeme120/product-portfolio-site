@@ -31,7 +31,7 @@ export default function Nav() {
         </div>
         <div className="social-links">
           <a href="">
-            <img className="social-links--icon bump-left" src={Instagram}></img>
+            <img className="social-links--icon" src={Instagram}></img>
           </a>
           <a href="">
             <img className="social-links--icon" src={Linkedin}></img>
