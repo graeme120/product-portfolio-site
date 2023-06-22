@@ -50,8 +50,7 @@ body {
 }
 
 main {
-  width: 80%;
-  margin: auto;
+  width: 100% !important;
 }
 
 html {
@@ -135,7 +134,7 @@ i {
   padding-top: 5%;
   padding-bottom: 5%;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 25% 50% 25%;
   grid-template-rows: 1fr;
 }
 
