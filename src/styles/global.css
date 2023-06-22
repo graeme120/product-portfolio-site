@@ -65,6 +65,14 @@ body {
     url("/fonts/TTCommons/TT-Commons-Italic.woff") format("woff");
 }
 
+@font-face {
+  font-family: "TT Commons Demibold";
+  font-style: Italic;
+  font-weight: 400;
+  src: url("/fonts/TTCommons/TT-Commons-DemiBold.woff2") format("woff2"),
+    url("/fonts/TTCommons/TT-Commons-DemiBold.woff") format("woff");
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -154,4 +162,13 @@ body {
 
 footer {
   font-size: 1.15em;
+}
+
+b {
+  font-family: TT Commons Demibold;
+}
+
+ol {
+  line-height: 45vw;
+  padding-left: 5%;
 }

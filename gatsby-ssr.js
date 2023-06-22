@@ -8,7 +8,7 @@ export const wrapPageElement = ({ element }) => (
 export const onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
     <link
-      key="TT-Commons-Demibold"
+      key="TT Commons Demibold"
       rel="preload"
       href="/fonts/TTCommons/TT-Commons-DemiBold.woff2"
       as="font"
@@ -16,7 +16,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       crossOrigin="anonymous"
     />,
     <link
-      key="TT-Commons-Demibold"
+      key="TT Commons Demibold"
       rel="preload"
       href="/fonts/TTCommons/TT-Commons-DemiBold.woff"
       as="font"

@@ -23,9 +23,7 @@ export function Head() {
 export default function Work() {
   return (
     <div className="scroll-container">
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -418,15 +416,20 @@ export default function Work() {
         </div>
         {/* <!-- footer, slide deck, next project --> */}
         <div id="grey">
-          <div className="content--block">
-            <div className="fade-in content--main">
+          <div className="content--block content--next-project">
+            <div className="fade-in content--main footer">
               <h2>
-                Thank you for reading about my project! Here it is again as a
-                <span> </span>
-                <u>slide-deck.</u>
+                Thank you for reading about my project!<br></br> Here it is
+                again as a<span> </span>
+                <a href="">
+                  <u>slide-deck.</u>
+                </a>
               </h2>
               <h3 id="nextProject">
-                Next Project → <u>Firebird Delivery</u>
+                Next Project →{" "}
+                <Link to="">
+                  <u>Project Project</u>
+                </Link>
               </h3>
             </div>
           </div>
@@ -467,6 +470,7 @@ window.onbeforeunload = function () {
           }}
         />{" "}
       </motion.main>
+      <Footer />
     </div>
   );
 }

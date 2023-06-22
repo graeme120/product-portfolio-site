@@ -90,6 +90,12 @@
   align-items: center;
 }
 
+footer {
+  max-width: 1780px;
+  width: 80%;
+  margin: auto;
+}
+
 @media screen and (max-width: 700px) {
   .header-content {
     padding-left: 5%;
@@ -100,5 +106,14 @@
   }
   .header {
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .header {
+    font-size: 32px;
+  }
+  .name {
+    font-size: 48px;
   }
 }

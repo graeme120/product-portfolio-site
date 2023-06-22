@@ -30,10 +30,10 @@ export default function Nav() {
           Site designed & coded by yours truly.
         </div>
         <div className="social-links">
-          <a href="">
+          <a href="https://www.instagram.com/graemeswork/">
             <img className="social-links--icon bump-left" src={Instagram}></img>
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/graeme-mounsey/">
             <img className="social-links--icon" src={Linkedin}></img>
           </a>
         </div>

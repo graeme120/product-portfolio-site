@@ -9,6 +9,7 @@ import { graphql, Link, Script } from "gatsby";
 import Instagram from "../images/tester-images/ig.svg";
 import Linkedin from "../images/tester-images/li.svg";
 import Tester1 from "../images/tester-images/tester1.png";
+import Layout from "../components/Layout";
 
 export function Head() {
   return <title>Graeme Mounsey, Digital Product Designer</title>;
@@ -17,10 +18,9 @@ export function Head() {
 export default function Home() {
   return (
     <div className="scroll-container">
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
       <motion.main
+        className="skinny"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
@@ -54,7 +54,7 @@ export default function Home() {
           {/* These should / could be replaced by a forEach datoCMS algo */}
 
           <div className="project-wrapper fade-in">
-            <Link className="project-content" to="/template">
+            <Link className="project-content" to="/project-snapsave">
               <div className="project-image">
                 <img className="image" src={Tester1} />
               </div>
@@ -79,7 +79,7 @@ export default function Home() {
           {/* These should / could be replaced by a forEach datoCMS algo */}
 
           <div className="project-wrapper fade-in">
-            <Link className="project-content" to="/template">
+            <Link className="project-content" to="/project-firebird">
               <div className="project-image">
                 <img className="image" src={Tester1} />
               </div>
@@ -130,11 +130,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <Footer />
-
-        {/* <div>
-              <LoadableP5 sketch={sketch} />
-            </div> */}
         <Script
           dangerouslySetInnerHTML={{
             __html: `
@@ -239,6 +234,7 @@ window.onbeforeunload = function () {
           }}
         />
       </motion.main>
+      <Footer />
     </div>
   );
 }

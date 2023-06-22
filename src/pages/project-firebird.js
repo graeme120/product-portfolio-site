@@ -12,7 +12,7 @@ import "../styles/project-page.css";
 import Tester from "../images/tester-images/tester.png";
 
 export function Head() {
-  return <title>Project Page Debug</title>;
+  return <title>FireBird | Graeme Mounsey </title>;
 }
 
 export default function Work() {

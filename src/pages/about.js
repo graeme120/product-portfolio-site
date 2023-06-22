@@ -18,62 +18,58 @@ export function Head() {
 export default function About() {
   return (
     <div>
-      <Layout>
-        <div>
-          <Navbar />
-        </div>
-        <section className="about">
-          <div className="aboutWrap">
-            <div className="aboutText">
-              <p className="aboutLine">Hello World!</p>
-              <p className="aboutLine">
-                My name is Graeme Mounsey. I’m a digital product designer from
-                Toronto, Canada.
-              </p>
-              <p className="aboutLine">
-                I’m currently an honors B.F.A. student, majoring in
-                Human-Computer Interaction at{" "}
-                <a href="https://www.newschool.edu/parsons/">
-                  Parsons School of Design.
-                </a>
-              </p>
-              <p>
-                {" "}
-                Last summer I interned at{" "}
-                <a href="https://hifyreretail.com/">Hifyre,</a> and developed
-                the first online delivery platform for the Canadian cannabis
-                industry.
-              </p>
-              <p className="aboutLine">
-                I am a product designer with a strong background in visual
-                communication and creative coding, interested in building
-                products that embody human-centered design. I also{" "}
-                <a href="https://www.instagram.com/eggsbenedictreview/">
-                  review eggs benedict
-                </a>
-                , arguably the most delicious form of human-centered design.
-              </p>
-              <p className="aboutLine">
-                <a href="https://drive.google.com/file/d/1445QKHAml-_1TKAyXUy4LWTYJeCnemF_/view?usp=sharing">
-                  <span className="resume">Resume.pdf</span>
-                </a>
-              </p>
-            </div>
-            <div className="headShot">
-              <div id="penZone">
-                <img id="tape1" alt="" src={tape1}></img>
-                <img id="tape2" alt="" src={tape2}></img>
-              </div>
-              <div id="portrait">
-                <div className="frame"></div>
-              </div>
-              <div className="clearButton" id="clearButton"></div>
-            </div>
+      <Navbar />
+      <section className="about">
+        <div className="aboutWrap">
+          <div className="aboutText">
+            <p className="aboutLine">Hello World!</p>
+            <p className="aboutLine">
+              My name is Graeme Mounsey. I’m a digital product designer from
+              Toronto, Canada.
+            </p>
+            <p className="aboutLine">
+              I’m currently an honors B.F.A. student, majoring in Human-Computer
+              Interaction at{" "}
+              <a href="https://www.newschool.edu/parsons/">
+                Parsons School of Design.
+              </a>
+            </p>
+            <p>
+              {" "}
+              Last summer I interned at{" "}
+              <a href="https://hifyreretail.com/">Hifyre,</a> and developed the
+              first online delivery platform for the Canadian cannabis industry.
+            </p>
+            <p className="aboutLine">
+              I am a product designer with a strong background in visual
+              communication and creative coding, interested in building products
+              that embody human-centered design. I also{" "}
+              <a href="https://www.instagram.com/eggsbenedictreview/">
+                review eggs benedict
+              </a>
+              , arguably the most delicious form of human-centered design.
+            </p>
+            <p className="aboutLine">
+              <a href="https://drive.google.com/file/d/1445QKHAml-_1TKAyXUy4LWTYJeCnemF_/view?usp=sharing">
+                <span className="resume">Resume.pdf</span>
+              </a>
+            </p>
           </div>
-        </section>
-        <Script
-          dangerouslySetInnerHTML={{
-            __html: `
+          <div className="headShot">
+            <div id="penZone">
+              <img id="tape1" alt="" src={tape1}></img>
+              <img id="tape2" alt="" src={tape2}></img>
+            </div>
+            <div id="portrait">
+              <div className="frame"></div>
+            </div>
+            <div className="clearButton" id="clearButton"></div>
+          </div>
+        </div>
+      </section>
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
 
@@ -104,9 +100,9 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
 }`,
-          }}
-        />
-      </Layout>
+        }}
+      />
+      <Footer />
     </div>
   );
 }
