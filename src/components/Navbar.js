@@ -24,7 +24,7 @@ export default function Nav() {
       <header className="header">
         <div className="header-content">
           <div className="name">
-            <Link to="/">Graeme Mounsey</Link>
+            <Link to="/index">Graeme Mounsey</Link>
           </div>
           <div className="nav">
             <a className="link" href="#work">
