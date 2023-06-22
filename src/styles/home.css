@@ -21,7 +21,7 @@ body {
   margin: auto;
   padding: 0;
   color: #242020;
-  background-size: 2.5vw 2.5vw;
+  background-size: 1.25vw 1.25vw;
   background-image: url("../images/grid.svg");
   background-repeat: repeat;
   background-attachment: fixed;
@@ -160,6 +160,7 @@ footer {
   background-color: transparent;
   color: #242020;
   font-size: 1.25vw;
+  cursor: pointer;
 }
 
 .fade-in {

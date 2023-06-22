@@ -24,13 +24,13 @@ export default function Nav() {
       <header className="header">
         <div className="header-content">
           <div className="name">
-            <Link to="/index">Graeme Mounsey</Link>
+            <Link to="/">Graeme Mounsey</Link>
           </div>
           <div className="nav">
             <a className="link bump-left" href="#work">
               Work
             </a>
-            <Link className="link bump-left" to="/about">
+            <Link className="link bump-left" to="/debug">
               About
             </Link>
             <a

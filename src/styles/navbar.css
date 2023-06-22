@@ -64,12 +64,18 @@
 }
 
 .link {
-  color: #464646;
+  color: #242020;
   margin-right: 5%;
+  transition-duration: 0.3s;
+  transform: perspective(1px) translateZ(0);
+  transition-property: text-decoration, text-underline-offset,
+    text-decoration-thickness;
 }
 
 .link:hover {
-  color: hsl(0, 6%, 13%);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.075em;
 }
 
 .social-links {

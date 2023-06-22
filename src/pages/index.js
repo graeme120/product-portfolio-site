@@ -138,6 +138,7 @@ export default function Home() {
         <Script
           dangerouslySetInnerHTML={{
             __html: `
+            if (typeof projectWrapperArray === 'undefined') {
               // Convert the HTMLCollection returned by getElementsByClassName to an array
               const projectWrapperArray = Array.from(
                 document.getElementsByClassName("project-wrapper")
@@ -199,10 +200,9 @@ export default function Home() {
                   mouseMoveFlag = false;
                   mouseEnterFlag = false;
               
-                  buttonArray[index].classList.add("button-exit");
                   buttonArray[index].classList.remove("button-reveal");
                   project.classList.remove("backgroundIn");
-                  project.classList.add("backgroundOut");
+          
                 });
               });
               
@@ -235,7 +235,7 @@ faders.forEach((fader) => {
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
-}`,
+}}`,
           }}
         />
       </motion.main>

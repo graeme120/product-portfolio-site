@@ -19,6 +19,9 @@ export default function About() {
   return (
     <div>
       <Layout>
+        <div>
+          <Navbar />
+        </div>
         <section className="about">
           <div className="aboutWrap">
             <div className="aboutText">
@@ -71,36 +74,36 @@ export default function About() {
         <Script
           dangerouslySetInnerHTML={{
             __html: `
-            if (typeof faders === 'undefined') {
-                const faders = document.querySelectorAll(".fade-in");
-  
-  const appearOptions = {
-    threshold: 0.9,
-  };
-  
-  const appearOnScroll = new IntersectionObserver(function (
-    entries,
-    appearOnScroll
-  ) {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) {
-        return;
-      } else {
-        entry.target.classList.add("appear");
-        appearOnScroll.unobserve(entry.target);
-      }
-    });
-  },
-  appearOptions);
-  
-  faders.forEach((fader) => {
-    appearOnScroll.observe(fader);
+          if (typeof faders === 'undefined') {
+              const faders = document.querySelectorAll(".fade-in");
+
+const appearOptions = {
+  threshold: 0.9,
+};
+
+const appearOnScroll = new IntersectionObserver(function (
+  entries,
+  appearOnScroll
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
   });
-  
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  };
-  }`,
+},
+appearOptions);
+
+faders.forEach((fader) => {
+  appearOnScroll.observe(fader);
+});
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
+}`,
           }}
         />
       </Layout>
