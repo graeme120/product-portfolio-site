@@ -112,7 +112,7 @@ window.onbeforeunload = function () {
 };
 }`,
         }}
-      />
+      ></Script>
     </body>
   );
 }

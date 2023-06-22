@@ -237,7 +237,7 @@ window.onbeforeunload = function () {
 };
 }`,
           }}
-        />
+        ></Script>
       </motion.main>
     </div>
   );

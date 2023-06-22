@@ -102,7 +102,7 @@ export default function About() {
   };
   }`,
           }}
-        />
+        ></Script>
       </Layout>
     </div>
   );
