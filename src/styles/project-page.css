@@ -148,7 +148,6 @@ i {
 }
 
 .content--section-title {
-  padding-left: 25%;
   display: flex;
   justify-content: center;
   grid-column-start: 1;
@@ -314,6 +313,9 @@ u {
     font-size: 24px;
   }
   li {
+    font-size: 24px;
+  }
+  .content--section-title {
     font-size: 24px;
   }
 }

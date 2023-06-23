@@ -389,6 +389,15 @@ export default function Work() {
             </div>
           </div>
         </div>
+        <div className="content--block">
+          <div className="content--section-title">FINAL PRODUCT</div>
+          <div className="content--main">
+            <img
+              className="fade-in content--image-wrapper-full"
+              src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
+            ></img>
+          </div>
+        </div>
         {/* No Content Below this line, only footer and relevant javascript */}
         {/* <!-- footer, slide deck, next project --> */}
         <div id="grey">
