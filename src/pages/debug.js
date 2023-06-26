@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../components/Layout.js";
 import { graphql, Link, Script } from "gatsby";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { easeInOut, motion } from "framer-motion";
 import { GatsbyImage } from "gatsby-plugin-image";
