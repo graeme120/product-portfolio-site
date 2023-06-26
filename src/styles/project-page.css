@@ -276,6 +276,11 @@ i {
   width: 100%;
 }
 
+.broad {
+  width: 100%;
+  max-width: 1780px;
+}
+
 .footer {
   line-height: 2.75vw;
 }

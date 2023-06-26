@@ -29,6 +29,7 @@ export default function Work() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
         exit={{ opacity: 0 }}
+        className="broad"
       >
         <div className="project-writeup">
           <img id="image-header" src={tester3}></img>
