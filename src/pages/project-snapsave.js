@@ -77,25 +77,129 @@ export default function Work() {
             </div>
           </div>
         </div>
+
+        <div className="content--block">
+          <div className="fade-in content--main content--two-columns content--text-and-image">
+            <div className="content--half-text-2">
+              <h2 className="snapsave-h2-style">
+                <span>A Painless Way to Review Transactions</span>
+              </h2>
+              <ul>
+                <li>Sort your purchases in 3 quick taps</li>
+                <br></br>
+                <li>Improve spending by identifying problem areas</li> <br />
+                <li>
+                  Create custom categories that reflect your spending habits
+                </li>
+              </ul>
+            </div>
+            <div className="content--half-2">
+              <video
+                className="content--image-wrapper-full content--iphone-video"
+                src="https://www.datocms-assets.com/103104/1687810847-ss_solution1.mov"
+                playsInline
+                muted
+                autoPlay
+                loop
+              ></video>
+            </div>
+          </div>
+        </div>
+        <div className="content--block addition">
+          <div className="fade-in content--main content--two-columns content--text-and-image">
+            <div className="content--half-2">
+              <video
+                className="content--image-wrapper-full content--iphone-video"
+                src="https://www.datocms-assets.com/103104/1687810863-ss_solution2.mov"
+                playsInline
+                muted
+                autoPlay
+                loop
+              ></video>
+            </div>
+            <div className="content--half-text-2">
+              <h2 className="snapsave-h2-style">
+                <span>Clearly Visualize Your Spending</span>
+              </h2>
+              <ul>
+                <li>View categories as % of total spending</li>
+                <br />
+                <li>See how spending breaks down over weeks, months, years</li>
+                <br />
+                <li>Develop intuitive insight about spending habits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="content--block addition">
+          <div className="fade-in content--main content--two-columns content--text-and-image">
+            <div className="content--half-text-2">
+              <h2 className="snapsave-h2-style">
+                <span>Track Purchases Across All Platforms</span>
+              </h2>
+              <ul>
+                <li>
+                  Connect multiple payment platforms, including Venmo and Cash
+                  App
+                </li>
+                <br />
+                <li>
+                  Stay accountable for money in wallets outside your bank
+                  account{" "}
+                </li>
+              </ul>
+            </div>
+            <div className="content--half-2">
+              <img
+                className="content--image-wrapper-full "
+                src="https://www.datocms-assets.com/103104/1687811430-ss_solution3.png"
+              ></img>
+            </div>
+          </div>
+        </div>
         <div>
           <div className="content--block">
             <div className="content--section-title">DEFINING THE PROBLEM</div>
             <div className="content--main">
               <h2 className="fade-in">
-                Students Don’t Realize How Much They Spend
+                Students Don’t Like to be Reminded of their Spending
               </h2>
               <img
-                className="fade-in content--image-wrapper-full"
+                className="fade-in content--image-wrapper-full bump-2point5"
                 src="https://www.datocms-assets.com/103104/1687461295-ss_tiktok.png"
               ></img>
-              <p className="fade-in">
-                My initial hypothesis was that students have trouble budgeting
-                because they simply don’t know how much they’re spending in the
-                first place.
+              <p className="fade-in bump-2point5">
+                My interest in this problem stems from a situation i've been in
+                more times than I'd like to admit- my friends and I spend
+                without hesitation all day, and surprise ourselves when checking
+                the damange to our balances. Based on this anecdotal evidence,
+                my initial hypothesis was that students spend too much because
+                we forget about past purchases. While doing research however, I
+                stumbled across an interesting psychological effect that may
+                better explain the problem:
               </p>
+              <h2 className="bump-2point5">
+                <strong>
+                  <a
+                    className="explicit-link"
+                    href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/cognitive-overload"
+                  >
+                    Cognitive Overload:
+                  </a>
+                </strong>{" "}
+                <i>
+                  As problems become more complex, they require greater
+                  cognitive resources to analyze and solve. This overload can
+                  lead to decision paralysis or avoidance of the problem
+                  altogether.
+                </i>
+              </h2>
               <p>
-                To improve and develop healthier spending habits, students first
-                need to understand them.
+                This insight led me to consider that students may be willfully
+                avoiding their transaction history, offering mental peace but
+                also causing them to spend more. Therein was the problem- how
+                could students improve their spending patterns if they weren’t
+                aware of them to begin with?
               </p>
             </div>
           </div>
@@ -103,7 +207,7 @@ export default function Work() {
         <div className="content--block" id="grey">
           <div className="content--section-title">PROBLEM</div>
           <div className="content--main">
-            <h2 className="fade-in">
+            <h2 className="fade-in no-padding">
               How might we help college students better understand their
               spending patterns?
             </h2>
@@ -142,6 +246,14 @@ export default function Work() {
                 </li>
               </ol>
             </p>
+            <img
+              className="fade-in content--image-wrapper-full no-padding bump-2point5"
+              src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
+            ></img>
+            <h4>
+              $37 for every colour of sticky note at Staples... I need this app
+              more than anyone!
+            </h4>
           </div>
         </div>
 
@@ -165,11 +277,11 @@ export default function Work() {
                 </h3>
                 <p>
                   An overwhelming majority of students confessed that they
-                  <b>don’t review their purchases,</b> or even know exactly how
-                  much they’ve spent in a given month, citing anxiety as a
-                  disuasive factor. Instead, they mostly use their overall
-                  balance to gauge whether they’re in a good or bad place
-                  financially.
+                  <strong> don’t review their purchases,</strong> or even know
+                  exactly how much they’ve spent in a given month, citing
+                  anxiety as a disuasive factor. Instead, they mostly use their
+                  overall balance to gauge whether they’re in a good or bad
+                  place financially.
                 </p>
               </div>
             </div>
@@ -204,7 +316,7 @@ export default function Work() {
         <div className="content--block">
           <div className="content--section-title">COMPETITOR ANALYSIS</div>
           <div className="content--main">
-            <h2 className="fade-in">
+            <h2 className="fade-in bump-2point5">
               Existing Platforms Don’t Account for Student Needs
             </h2>
             <img
@@ -217,11 +329,11 @@ export default function Work() {
               understand where they were falling short.
             </p>
             <p>
-              In the process, I realized these platforms were automating user’s
-              spending breakdown, sorting user purchases into predefined
-              categories without the user ever having to review them. This
-              allows students to continue avoiding their transactions, and in
-              turn, valuable insight.
+              In the process, I realized these platforms were{" "}
+              <strong>automating user’s spending breakdown,</strong> sorting
+              user purchases into predefined categories without the user ever
+              having to review them. This allows students to continue avoiding
+              their transactions, and in turn, valuable insight.
             </p>
           </div>
         </div>
@@ -229,14 +341,14 @@ export default function Work() {
           <div className="content--block">
             <div className="content--section-title">DESIGN GOALS</div>
             <div className="content--main">
-              <p className="fade-in">
-                Based on my research, and limited timeframe, I set 3 main design
-                goals for my project:
-              </p>
+              <h2 className="fade-in">
+                I set 3 main design goals for my project, based on my research
+                (and limited timeframe)
+              </h2>
 
               <div className="fade-in content--main ">
                 <h3>
-                  Make sorting purchases <b>easy and painless.</b>
+                  Make sorting purchases <strong>easy and painless.</strong>
                 </h3>
                 <div className="content--two-columns">
                   <div className="content--half">
@@ -263,7 +375,7 @@ export default function Work() {
               </div>
               <div className="fade-in content--main ">
                 <h3>
-                  Account for <b>every</b> payment platform
+                  Account for <strong>every</strong> payment platform
                 </h3>
                 <div className="content--two-columns">
                   <div className="content--half">
@@ -289,7 +401,9 @@ export default function Work() {
                 </div>
               </div>
               <div className="fade-in content--main ">
-                <h3>Encourage long-term, habitual usage</h3>
+                <h3>
+                  Encourage long-term, <strong>habitual</strong> usage
+                </h3>
                 <div className="content--two-columns">
                   <div className="content--half">
                     <img
@@ -331,20 +445,25 @@ export default function Work() {
         <div className="content--block addition">
           <div className="fade-in content--main content--two-columns content--text-and-image">
             <div className="content--half-text">
-              <h3>Users Control the Spending Breakdown</h3>
-              <li>
-                Usability testing revealed a desire to focus only on relevant
-                purchases, control which transactions are sorted
-              </li>
-              <li>
-                Sorting page was updated to let users both exclude transactions
-                and log custom ones
-              </li>
+              <h3 className="snapsave-header-style">
+                Users Control the Spending Breakdown
+              </h3>
+              <ul>
+                <li>
+                  Usability testing revealed a desire to focus only on relevant
+                  purchases, control which transactions are sorted
+                </li>
+                <br />
+                <li>
+                  Sorting page was updated to let users both exclude
+                  transactions and log custom ones
+                </li>
+              </ul>
             </div>
             <div className="content--half">
               <img
                 className="content--image-wrapper-full"
-                src={threebytwo}
+                src="https://www.datocms-assets.com/103104/1687807337-ss_improvement1.png"
               ></img>
             </div>
           </div>
@@ -354,38 +473,44 @@ export default function Work() {
             <div className="content--half">
               <img
                 className="content--image-wrapper-full"
-                src={fourbythree}
+                src="https://www.datocms-assets.com/103104/1687807349-ss_improvement2.png"
               ></img>
             </div>
             <div className="content--half-text">
-              <h3>A Gameified Approach</h3>
-              <li>
-                Users responded better to a rewards system than a streak-based
-                feature
-              </li>
-              <li>
-                ‘Trophies’ added to reward users based on money saved, encourage
-                long-term usage
-              </li>
+              <h3 className="snapsave-header-style">A Gameified Approach</h3>
+              <ul>
+                <li>
+                  Users responded better to a rewards system than a streak-based
+                  feature
+                </li>
+                <br />
+                <li>
+                  ‘Trophies’ added to reward users based on money saved,
+                  encourage long-term usage
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <div className="content--block addition">
           <div className="fade-in content--main content--two-columns content--text-and-image">
             <div className="content--half-text">
-              <h3>Suggested Labels</h3>
-              <li>
-                Suggested purchase labels now appear as buttons when re-naming a
-                purchase
-              </li>
-              <li>
-                Simplifies the most tedious aspect of the primary user flow{" "}
-              </li>
+              <h3 className="snapsave-header-style">Suggested Labels</h3>
+              <ul>
+                <li>
+                  Suggested purchase labels now appear as buttons when re-naming
+                  a purchase
+                </li>
+                <br />
+                <li>
+                  Simplifies the most tedious aspect of the primary user flow{" "}
+                </li>
+              </ul>
             </div>
             <div className="content--half">
               <img
                 className="content--image-wrapper-full"
-                src={threebytwo}
+                src="https://www.datocms-assets.com/103104/1687807376-ss_improvement3.png"
               ></img>
             </div>
           </div>
@@ -397,6 +522,68 @@ export default function Work() {
               className="fade-in content--image-wrapper-full"
               src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
             ></img>
+            <div className="figma-iframe">
+              <iframe
+                className="iframe"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLl9gF4hJGEChgsAv13EJb%2FSnapSave%3Fpage-id%3D476%253A59732%26type%3Ddesign%26node-id%3D476-62145%26viewport%3D778%252C1298%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D476%253A62145%26mode%3Ddesign"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div id="grey" className="content--block">
+          <div className="content--section-title">STYLE GUIDE</div>
+          <div className="content--main">
+            <img
+              className="fade-in content--image-wrapper-full black-border"
+              src="https://www.datocms-assets.com/103104/1687807638-ss_style-guide.png"
+            ></img>
+          </div>
+        </div>
+
+        <div>
+          <div className="content--block">
+            <div className="fade-in content--section-title">SUBTITLE</div>
+            <div className="content--main">
+              <h2 className="fade-in">Key User Insights</h2>
+              <p className="fade-in">
+                I found that three main user insights will drive my design
+                decisions and that usability research confirmed the analysis
+                that. I found that three main user insights will drive my design
+                decisions and that usability research confirmed the analysis
+                that.
+              </p>
+              <div className="fade-in content--point-section">
+                <div className="content--point">
+                  <h3 className="content--point-title">🌊 Point One</h3>
+                  <p>
+                    Description of the point.As college students, myself and
+                    many of my peers are managing our finances for the very
+                    first time which… comes with a learning curve.
+                  </p>
+                </div>
+              </div>
+              <div className="fade-in content--point-section">
+                <div className="content--point">
+                  <h3 className="content--point-title">📊 Point One</h3>
+                  <p>
+                    Description of the point.As college students, myself and
+                    many of my peers are managing our finances for the very
+                    first time which… comes with a learning curve.
+                  </p>
+                </div>
+              </div>
+              <div className="fade-in content--point-section">
+                <div className="content--point">
+                  <h3 className="content--point-title">✅ Point One</h3>
+                  <p>
+                    Description of the point.As college students, myself and
+                    many of my peers are managing our finances for the very
+                    first time which… comes with a learning curve.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         {/* No Content Below this line, only footer and relevant javascript */}
@@ -413,8 +600,8 @@ export default function Work() {
               </h2>
               <h3 id="nextProject">
                 Next Project →{" "}
-                <Link to="">
-                  <u>Project Project</u>
+                <Link to="/project-firebird">
+                  <u>Firebird Delivery</u>
                 </Link>
               </h3>
             </div>

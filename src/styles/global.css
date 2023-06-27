@@ -35,13 +35,6 @@ body {
 }
 
 @font-face {
-  font-family: "TT Commons Italic";
-  font-style: italic;
-  font-weight: 400;
-  src: url("/fonts/TTCommons/TT-Commons-DemiBold.woff2") format("woff2"),
-    url("/fonts/TTCommons/TT-Commons-DemiBold.woff") format("woff");
-}
-@font-face {
   font-family: "TT Commons Medium";
   font-style: normal;
   font-weight: 400;
@@ -66,11 +59,19 @@ body {
 }
 
 @font-face {
-  font-family: "TT Commons Demibold";
-  font-style: Italic;
-  font-weight: 400;
+  font-family: "TT Commons DemiBold";
+  font-style: normal;
+  font-weight: bold;
   src: url("/fonts/TTCommons/TT-Commons-DemiBold.woff2") format("woff2"),
     url("/fonts/TTCommons/TT-Commons-DemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TT Commons DemiBold Italic";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/TTCommons/TT-Commons-DemiBold-Italic.woff2") format("woff2"),
+    url("/fonts/TTCommons/TT-Commons-DemiBold-Italic.woff") format("woff");
 }
 
 @keyframes fadeIn {
@@ -164,11 +165,35 @@ footer {
   font-size: 1.15em;
 }
 
-b {
-  font-family: TT Commons Demibold;
+strong {
+  font-family: TT Commons DemiBold;
+}
+
+i {
+  font-family: TT Commons Regular Italic;
 }
 
 ol {
   line-height: 45vw;
   padding-left: 5%;
+}
+
+/*  Other random extra classes to modify styles slightly  */
+
+.black-border {
+  padding-bottom: 0%;
+  border: 1px solid black;
+}
+
+.bump-2point5 {
+  margin-bottom: 2.5%;
+}
+
+.bump-5 {
+  margin-bottom: 5%;
+}
+
+.no-padding {
+  padding-bottom: 0% !important;
+  padding-top: 0%;
 }

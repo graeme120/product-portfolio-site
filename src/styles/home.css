@@ -178,10 +178,7 @@ footer {
   text-decoration-thickness: 0.075em;
 }
 
-.skinny {
-  width: 80%;
-  max-width: 1780px;
-}
+
 
 @media screen and (min-width: 2200px) {
   .intro1 {

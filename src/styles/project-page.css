@@ -49,6 +49,10 @@ body {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
+h3.snapsave-header-style {
+  padding: 2.5% 0% 2.5% 5%;
+}
+
 main {
   width: 80%;
 }
@@ -102,6 +106,7 @@ h3 {
   font-family: TT Commons Medium;
   font-size: 1.75vw;
   font-weight: 500;
+  padding-bottom: 2.5%;
 }
 
 h4 {
@@ -153,7 +158,7 @@ i {
   grid-column-start: 1;
   grid-column-end: 2;
   font-family: TT Commons Medium, sans-serif;
-  font-size: 1.15vw;
+  font-size: 0.75vw;
 }
 
 .content--main {
@@ -201,6 +206,18 @@ i {
 
 .content--half-text {
   width: 42%;
+}
+
+.content--half-2 {
+  width: 30%;
+}
+
+.content--half-text-2 {
+  width: 55%;
+}
+
+.content--half-text-2 > li {
+  font-size: 1.25vw;
 }
 
 #grey {
@@ -293,9 +310,45 @@ ol > li {
   margin-top: 0;
 }
 
+.black-border {
+  padding-bottom: 0%;
+  border: 1px solid black;
+}
+
 u {
   text-underline-offset: 0.15em;
   text-decoration-thickness: 0.075em;
+}
+
+.iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+}
+
+.figma-iframe {
+  display: flex;
+  height: 45vh;
+}
+
+.snapsave-header-style {
+  border: 0.25vw solid #75f9a2;
+  border-style: none none none solid;
+  background-color: #f1fef6;
+}
+
+h2.snapsave-h2-style span {
+  background: linear-gradient(
+    0deg,
+    rgba(186, 252, 208, 0) 0%,
+    rgba(186, 252, 208, 0) 10%,
+    rgba(186, 252, 208, 1) 10%,
+    rgba(186, 252, 208, 1) 50%,
+    rgba(186, 252, 208, 0) 50%
+  );
+  padding: 0 1vw 0 0;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 @media screen and (min-width: 2200px) {
@@ -321,6 +374,10 @@ u {
     font-size: 24px;
   }
   .content--section-title {
+    font-size: 18px;
+    padding-left: 12%;
+  }
+  .content--half-text-2 > li {
     font-size: 24px;
   }
 }
