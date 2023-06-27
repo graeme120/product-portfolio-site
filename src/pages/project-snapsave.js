@@ -86,8 +86,8 @@ export default function Work() {
               </h2>
               <ul className="big-bullet-points">
                 <li>Sort your purchases in 3 quick taps</li>
-                <br></br>
-                <li>Improve spending by identifying problem areas</li> <br />
+
+                <li>Improve spending by identifying problem areas</li>
                 <li>
                   Create custom categories that reflect your spending habits
                 </li>
@@ -123,9 +123,9 @@ export default function Work() {
               </h2>
               <ul className="big-bullet-points">
                 <li>View categories as % of total spending</li>
-                <br />
+
                 <li>See how spending breaks down over weeks, months, years</li>
-                <br />
+
                 <li>Develop intuitive insight about spending habits</li>
               </ul>
             </div>
@@ -142,7 +142,7 @@ export default function Work() {
                   Connect multiple payment platforms, including Venmo and Cash
                   App
                 </li>
-                <br />
+
                 <li>
                   Stay accountable for money in wallets outside your bank
                   account{" "}
@@ -337,7 +337,7 @@ export default function Work() {
             </p>
           </div>
         </div>
-        {/* <div id="grey">
+        <div id="grey">
           <div className="content--block">
             <div className="content--section-title">DESIGN GOALS</div>
             <div className="content--main">
@@ -429,7 +429,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="content--block">
           <div className="content--section-title">TESTING + IMPROVEMENTS</div>
           <div className="content--main">
@@ -453,7 +453,7 @@ export default function Work() {
                   Usability testing revealed a desire to focus only on relevant
                   purchases, control which transactions are sorted
                 </li>
-                <br />
+
                 <li>
                   Sorting page was updated to let users both exclude
                   transactions and log custom ones
@@ -483,7 +483,7 @@ export default function Work() {
                   Users responded better to a rewards system than a streak-based
                   feature
                 </li>
-                <br />
+
                 <li>
                   ‘Trophies’ added to reward users based on money saved,
                   encourage long-term usage
@@ -501,7 +501,7 @@ export default function Work() {
                   Suggested purchase labels now appear as buttons when re-naming
                   a purchase
                 </li>
-                <br />
+
                 <li>
                   Simplifies the most tedious aspect of the primary user flow{" "}
                 </li>
@@ -515,7 +515,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="content--block">
+        <div id="grey" className="content--block">
           <div className="content--section-title">FINAL PRODUCT</div>
           <div className="content--main">
             <img
@@ -540,7 +540,7 @@ export default function Work() {
             ></img>
           </div>
         </div>
-        {/* 
+
         <div>
           <div className="content--block">
             <div className="fade-in content--section-title">SUBTITLE</div>
@@ -585,7 +585,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* No Content Below this line, only footer and relevant javascript */}
         {/* <!-- footer, slide deck, next project --> */}
         <div id="grey">

@@ -61,6 +61,7 @@ li {
   font-family: "TT Commons Regular";
   font-size: 1.15vw;
   line-height: 1.5em;
+  padding-bottom: 5%;
 }
 
 .link {
@@ -149,11 +150,11 @@ i {
 
 .content--section-title {
   display: flex;
-  justify-content: center;
   grid-column-start: 1;
   grid-column-end: 2;
   font-family: TT Commons Medium, sans-serif;
   font-size: 0.75vw;
+  padding-top: 2.5%;
 }
 
 .content--main {
@@ -321,7 +322,7 @@ u {
 }
 
 .iframe {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(0, 0, 0);
   width: 100%;
   display: flex;
 }
@@ -333,7 +334,12 @@ u {
 
 .big-quote {
   font-size: 2vw;
-  line-height: 2.15vw;
+  line-height: 3vw;
+}
+
+.big-bullet-points > li {
+  font-size: 1.75vw;
+  padding-bottom: 2.5%;
 }
 
 .snapsave-header-style {
@@ -381,12 +387,17 @@ h2.snapsave-h2-style span {
   .content--section-title {
     font-size: 18px;
     padding-left: 12%;
+    padding-top: 12px;
   }
   .content--half-text-2 > li {
     font-size: 24px;
   }
+  .big-bullet-points > li {
+    font-size: 24px;
+  }
   .big-quote {
     font-size: 36px;
+    line-height: 48px;
   }
 }
 
