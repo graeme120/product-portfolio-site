@@ -215,6 +215,10 @@ i {
   font-size: 1.25vw;
 }
 
+.big-bullet-points {
+  font-size: 1.5vw;
+}
+
 #grey {
   background-color: rgb(245, 245, 245);
 }
@@ -324,11 +328,12 @@ u {
 
 .figma-iframe {
   display: flex;
-  height: 45vh;
+  height: 45vw;
 }
 
 .big-quote {
   font-size: 2vw;
+  line-height: 2.15vw;
 }
 
 .snapsave-header-style {

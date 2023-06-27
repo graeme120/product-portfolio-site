@@ -84,7 +84,7 @@ export default function Work() {
               <h2 className="snapsave-h2-style">
                 <span>A Painless Way to Review Transactions</span>
               </h2>
-              <ul>
+              <ul className="big-bullet-points">
                 <li>Sort your purchases in 3 quick taps</li>
                 <br></br>
                 <li>Improve spending by identifying problem areas</li> <br />
@@ -121,7 +121,7 @@ export default function Work() {
               <h2 className="snapsave-h2-style">
                 <span>Clearly Visualize Your Spending</span>
               </h2>
-              <ul>
+              <ul className="big-bullet-points">
                 <li>View categories as % of total spending</li>
                 <br />
                 <li>See how spending breaks down over weeks, months, years</li>
@@ -137,7 +137,7 @@ export default function Work() {
               <h2 className="snapsave-h2-style">
                 <span>Track Purchases Across All Platforms</span>
               </h2>
-              <ul>
+              <ul className="big-bullet-points">
                 <li>
                   Connect multiple payment platforms, including Venmo and Cash
                   App
@@ -337,7 +337,7 @@ export default function Work() {
             </p>
           </div>
         </div>
-        <div id="grey">
+        {/* <div id="grey">
           <div className="content--block">
             <div className="content--section-title">DESIGN GOALS</div>
             <div className="content--main">
@@ -429,7 +429,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="content--block">
           <div className="content--section-title">TESTING + IMPROVEMENTS</div>
           <div className="content--main">
@@ -540,7 +540,7 @@ export default function Work() {
             ></img>
           </div>
         </div>
-
+        {/* 
         <div>
           <div className="content--block">
             <div className="fade-in content--section-title">SUBTITLE</div>
@@ -585,7 +585,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* No Content Below this line, only footer and relevant javascript */}
         {/* <!-- footer, slide deck, next project --> */}
         <div id="grey">
