@@ -38,11 +38,12 @@
   font-family: "TT Commons Medium";
   font-size: 2vw;
   width: 100%;
+
   color: #242020;
 }
 
 .header-content {
-  max-width: 1780px;
+  max-width: 1450px;
   padding-top: 1.5%;
   display: flex;
   align-items: center;
@@ -91,7 +92,7 @@
 }
 
 footer {
-  max-width: 1780px;
+  max-width: 1450px;
   width: 80%;
   margin: auto;
 }

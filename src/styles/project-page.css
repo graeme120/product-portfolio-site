@@ -53,10 +53,6 @@ h3.snapsave-header-style {
   padding: 2.5% 0% 2.5% 5%;
 }
 
-main {
-  width: 80%;
-}
-
 html {
   margin: none;
 }
@@ -106,7 +102,6 @@ h3 {
   font-family: TT Commons Medium;
   font-size: 1.75vw;
   font-weight: 500;
-  padding-bottom: 2.5%;
 }
 
 h4 {
@@ -236,6 +231,7 @@ i {
 .content--point-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 5%;
 }
 
@@ -295,7 +291,7 @@ i {
 
 .broad {
   width: 100%;
-  max-width: 1780px;
+  max-width: 1550px;
 }
 
 .footer {
@@ -331,6 +327,10 @@ u {
   height: 45vh;
 }
 
+.big-quote {
+  font-size: 2vw;
+}
+
 .snapsave-header-style {
   border: 0.25vw solid #75f9a2;
   border-style: none none none solid;
@@ -351,27 +351,27 @@ h2.snapsave-h2-style span {
   -webkit-box-decoration-break: clone;
 }
 
-@media screen and (min-width: 2200px) {
+@media screen and (min-width: 1780px) {
   .content--block {
     grid-template-columns: 20% 60% 20%;
   }
   h1 {
-    font-size: 72px;
+    font-size: 64px;
   }
   h2 {
-    font-size: 54px;
+    font-size: 48px;
   }
   h3 {
-    font-size: 36px;
+    font-size: 32px;
   }
   h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
   p {
-    font-size: 24px;
+    font-size: 20px;
   }
   li {
-    font-size: 24px;
+    font-size: 20px;
   }
   .content--section-title {
     font-size: 18px;
@@ -379,6 +379,9 @@ h2.snapsave-h2-style span {
   }
   .content--half-text-2 > li {
     font-size: 24px;
+  }
+  .big-quote {
+    font-size: 36px;
   }
 }
 

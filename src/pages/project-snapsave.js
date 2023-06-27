@@ -178,7 +178,7 @@ export default function Work() {
                 stumbled across an interesting psychological effect that may
                 better explain the problem:
               </p>
-              <h2 className="bump-2point5">
+              <h2 className="bump-2point5 big-quote">
                 <strong>
                   <a
                     className="explicit-link"
@@ -320,7 +320,7 @@ export default function Work() {
               Existing Platforms Don’t Account for Student Needs
             </h2>
             <img
-              className="fade-in content--image-wrapper-full"
+              className="fade-in content--image-wrapper-full bump-2point5"
               src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
             ></img>
             <p className="fade-in">
