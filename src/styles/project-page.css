@@ -150,6 +150,7 @@ i {
 
 .content--section-title {
   display: flex;
+  justify-content: center;
   grid-column-start: 1;
   grid-column-end: 2;
   font-family: TT Commons Medium, sans-serif;
@@ -387,6 +388,7 @@ h2.snapsave-h2-style span {
   .content--section-title {
     font-size: 18px;
     padding-left: 12%;
+    justify-content: flex-start;
     padding-top: 12px;
   }
   .content--half-text-2 > li {

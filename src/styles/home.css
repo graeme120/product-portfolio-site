@@ -200,6 +200,20 @@ footer {
   }
 }
 
+@media screen and (min-width: 1780px) {
+  .project-description,
+  .project-skills,
+  .project-button {
+    font-size: 24px;
+  }
+  .project-title {
+    font-size: 48px;
+  }
+  .project-subtitle {
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   main {
     width: 90%;

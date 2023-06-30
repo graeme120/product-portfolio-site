@@ -56,7 +56,10 @@ export default function Home() {
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/project-snapsave">
               <div className="project-image">
-                <img className="image" src={Tester1} />
+                <img
+                  className="image"
+                  src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
+                />
               </div>
               <div className="project-text">
                 <div className="project-title">SnapSave</div>

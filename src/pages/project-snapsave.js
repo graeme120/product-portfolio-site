@@ -34,7 +34,10 @@ export default function Work() {
         className="broad"
       >
         <div className="project-writeup">
-          <img id="image-header" src={Tester}></img>
+          <img
+            id="image-header"
+            src="https://www.datocms-assets.com/103104/1688000501-ss_cover.png"
+          ></img>
           <div className="content--block fade-in">
             <div className="content--main">
               <h1>SnapSave</h1>
@@ -348,81 +351,105 @@ export default function Work() {
 
               <div className="fade-in content--main ">
                 <h3>
-                  Make sorting purchases <strong>easy and painless.</strong>
+                  #1: Make sorting purchases <strong>easy and painless.</strong>
                 </h3>
                 <div className="content--two-columns">
-                  <div className="content--half">
-                    <img
-                      className="content--image-wrapper-full"
-                      src={threebytwo}
-                    ></img>
+                  <div className="content--half ">
+                    <video
+                      className="content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1687899230-ss_wireframe1-1.mov"
+                      playsInline
+                      muted
+                      autoPlay
+                      loop
+                    ></video>
                     <h4>
-                      This is the caption of the image, it is so small and teeny
-                      oo aaa
+                      Users can sort ‘purchase cards’ , transactions pulled in
+                      from your bank account’s API.
                     </h4>
                   </div>
                   <div className="content--half">
-                    <img
-                      className="content--image-wrapper-full"
-                      src={threebytwo}
-                    ></img>
+                    <video
+                      className="content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1687899237-ss_wireframe1-2.mov"
+                      playsInline
+                      muted
+                      autoPlay
+                      loop
+                    ></video>
                     <h4>
-                      This is the caption of the image, it is so small and teeny
-                      oo aaa
+                      Weekly, monthly and yearly visualization of transactions
+                      and spending categories.
                     </h4>
                   </div>
                 </div>
               </div>
               <div className="fade-in content--main ">
                 <h3>
-                  Account for <strong>every</strong> payment platform
+                  #2: Account for <strong>every</strong> payment platform
                 </h3>
                 <div className="content--two-columns">
                   <div className="content--half">
-                    <img
-                      className="content--image-wrapper-full"
-                      src={threebytwo}
-                    ></img>
+                    <video
+                      className="content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1687899432-ss_wireframe2-1.mov"
+                      playsInline
+                      muted
+                      autoPlay
+                      loop
+                    ></video>
                     <h4>
-                      This is the caption of the image, it is so small and teeny
-                      oo aaa
+                      Onboarding will prompt the connecting of multiple payment
+                      platforms.
                     </h4>
                   </div>
                   <div className="content--half">
-                    <img
-                      className="content--image-wrapper-full"
-                      src={threebytwo}
-                    ></img>
+                    <video
+                      className="content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1687899435-ss_wireframe2-2.mov"
+                      playsInline
+                      muted
+                      autoPlay
+                      loop
+                    ></video>
                     <h4>
-                      This is the caption of the image, it is so small and teeny
-                      oo aaa
+                      Purchase cards support incoming funds and display the
+                      source of transaction details.
                     </h4>
                   </div>
                 </div>
               </div>
               <div className="fade-in content--main ">
                 <h3>
-                  Encourage long-term, <strong>habitual</strong> usage
+                  #3: Encourage long-term, <strong>habitual</strong> usage
                 </h3>
                 <div className="content--two-columns">
                   <div className="content--half">
-                    <img
-                      className="content--image-wrapper-full"
-                      src={threebytwo}
-                    ></img>
+                    <video
+                      className="content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1687899447-ss_wireframe3-1.mov"
+                      playsInline
+                      muted
+                      autoPlay
+                      loop
+                    ></video>
                     <h4>
-                      This is the caption of the image, it is so small and teeny
-                      oo aaa
+                      Streak based system that rewards users based on continual
+                      usage.
                     </h4>
                   </div>
                   <div className="content--half">
-                    <img
-                      className="content--image-wrapper-full"
-                      src={threebytwo}
-                    ></img>
+                    <video
+                      className="content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1687899454-ss_wireframe3-2.mov"
+                      playsInline
+                      muted
+                      autoPlay
+                      loop
+                    ></video>
                     <h4>
-                      This is the caption of the image, it is so small and teeny
-                      oo aaa
+                      Trophy-based system that game-ifies engagement through
+                      intermittent rewards.
                     </h4>
                   </div>
                 </div>
@@ -435,10 +462,11 @@ export default function Work() {
           <div className="content--main">
             <h2 className="fade-in">3 Major Improvements to My Design </h2>
             <p className="fade-in">
-              I conducted a few rounds of testing with my initial wireframes,
-              including an A/B test of the habitual-use feature, and two rounds
-              of usability testing for the entire platform. These tests led me
-              to a number of significant improvements to my design:
+              I conducted a few usbility testing sessions with my initial
+              wireframes, including an A/B test of the habitual-use feature, and
+              one round of usability testing for the entire platform with four
+              students as participants. These tests led me to a number of
+              significant improvements to my design:
             </p>
           </div>
         </div>
@@ -446,7 +474,8 @@ export default function Work() {
           <div className="fade-in content--main content--two-columns content--text-and-image">
             <div className="content--half-text">
               <h3 className="snapsave-header-style">
-                Users Control the Spending Breakdown
+                Users Control the
+                <br /> Spending Breakdown
               </h3>
               <ul>
                 <li>
@@ -543,16 +572,10 @@ export default function Work() {
 
         <div>
           <div className="content--block">
-            <div className="fade-in content--section-title">SUBTITLE</div>
+            <div className="fade-in content--section-title">CONCLUSION</div>
             <div className="content--main">
-              <h2 className="fade-in">Key User Insights</h2>
-              <p className="fade-in">
-                I found that three main user insights will drive my design
-                decisions and that usability research confirmed the analysis
-                that. I found that three main user insights will drive my design
-                decisions and that usability research confirmed the analysis
-                that.
-              </p>
+              <h2 className="fade-in">Takeaways + What I'd Do Differently</h2>
+              <p className="fade-in">I'm very proud of</p>
               <div className="fade-in content--point-section">
                 <div className="content--point">
                   <h3 className="content--point-title">🌊 Point One</h3>
@@ -565,21 +588,32 @@ export default function Work() {
               </div>
               <div className="fade-in content--point-section">
                 <div className="content--point">
-                  <h3 className="content--point-title">📊 Point One</h3>
+                  <h3 className="content--point-title">
+                    🎨 Every Design Decision Should Improve the Product**
+                  </h3>
                   <p>
-                    Description of the point.As college students, myself and
-                    many of my peers are managing our finances for the very
-                    first time which… comes with a learning curve.
+                    Coming from a graphic design background, it can be easy to
+                    get wrapped up in aesthetics, which ultimately distracts
+                    from the end goal. Throughout this project, I had to
+                    constantly put myself in the position of the user to remind
+                    myself what would and wouldn’t help the project succeed.
                   </p>
                 </div>
               </div>
               <div className="fade-in content--point-section">
                 <div className="content--point">
-                  <h3 className="content--point-title">✅ Point One</h3>
+                  <h3 className="content--point-title">
+                    🧭 Consider all Possibilities to Solve the Problem
+                  </h3>
                   <p>
-                    Description of the point.As college students, myself and
-                    many of my peers are managing our finances for the very
-                    first time which… comes with a learning curve.
+                    My project was partially guided by my own desire to design a
+                    standalone mobile app, which caused me to ignore other
+                    possibilities for a design solution that may have been more
+                    effective (e.g. a new feature in an existing platform). In
+                    future projects, I’d like to invest more time in
+                    understanding where the best fit for my solution might be,
+                    especially in relation to other products currently on the
+                    market.
                   </p>
                 </div>
               </div>
