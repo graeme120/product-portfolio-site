@@ -161,17 +161,15 @@ export default function Work() {
           </div>
         </div>
         <div>
-          <div className="content--block">
+          <div className="content--block fade-in">
             <div className="content--section-title">DEFINING THE PROBLEM</div>
             <div className="content--main">
-              <h2 className="fade-in">
-                Students Don’t Like to be Reminded of their Spending
-              </h2>
+              <h2>Students Don’t Like to be Reminded of their Spending</h2>
               <img
-                className="fade-in content--image-wrapper-full bump-2point5"
+                className=" content--image-wrapper-full bump-2point5"
                 src="https://www.datocms-assets.com/103104/1687461295-ss_tiktok.png"
               ></img>
-              <p className="fade-in bump-2point5">
+              <p className="bump-2point5">
                 My interest in this problem stems from a situation i've been in
                 more times than I'd like to admit- my friends and I spend
                 without hesitation all day, and surprise ourselves when checking
@@ -207,7 +205,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="content--block" id="grey">
+        <div className="content--block fade-in" id="grey">
           <div className="content--section-title">PROBLEM</div>
           <div className="content--main">
             <h2 className="fade-in no-padding">
@@ -216,14 +214,14 @@ export default function Work() {
             </h2>
           </div>
         </div>
-        <div className="content--block">
+        <div className="content--block fade-in">
           <div className="content--section-title">INTERVIEWS</div>
           <div className="content--main">
             <img
-              className="fade-in content--image-wrapper-full"
+              className="content--image-wrapper-full"
               src="https://www.datocms-assets.com/103104/1687462021-ss_user-interviews.png"
             ></img>
-            <p className="fade-in">
+            <p className="">
               To learn more about student spending habits, I conducted
               interviews with 8 college students actively trying to limit their
               spending. I asked them the questions below to identify other
@@ -325,17 +323,17 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="content--block">
+        <div className="content--block fade-in">
           <div className="content--section-title">COMPETITOR ANALYSIS</div>
           <div className="content--main">
-            <h2 className="fade-in bump-2point5">
+            <h2 className="bump-2point5">
               Existing Platforms Don’t Account for Student Needs
             </h2>
             <img
               className="fade-in content--image-wrapper-full bump-2point5"
               src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
             ></img>
-            <p className="fade-in">
+            <p className="">
               My interviewees also indicated a frustration with other mobile
               saving platforms. I analyzed the most popular budgeting apps to
               understand where they were falling short.
@@ -470,7 +468,7 @@ export default function Work() {
           <div className="content--section-title">TESTING + IMPROVEMENTS</div>
           <div className="content--main">
             <h2 className="fade-in">3 Major Improvements to My Design </h2>
-            <p className="fade-in">
+            <p>
               I conducted a few usbility testing sessions with my initial
               wireframes, including an A/B test of the habitual-use feature, and
               one round of usability testing for the entire platform with four
@@ -557,7 +555,7 @@ export default function Work() {
           <div className="content--section-title">FINAL PRODUCT</div>
           <div className="content--main">
             <img
-              className="fade-in content--image-wrapper-full"
+              className="content--image-wrapper-full"
               src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
             ></img>
             <div className="figma-iframe">
@@ -573,7 +571,7 @@ export default function Work() {
           <div className="content--section-title">STYLE GUIDE</div>
           <div className="content--main">
             <img
-              className="fade-in content--image-wrapper-full black-border"
+              className="content--image-wrapper-full black-border"
               src="https://www.datocms-assets.com/103104/1687807638-ss_style-guide.png"
             ></img>
           </div>
@@ -581,10 +579,16 @@ export default function Work() {
 
         <div>
           <div className="content--block">
-            <div className="fade-in content--section-title">CONCLUSION</div>
+            <div className="content--section-title">CONCLUSION</div>
             <div className="content--main">
-              <h2 className="fade-in">Takeaways + What I'd Do Differently</h2>
-              <p className="fade-in">I'm very proud of</p>
+              <h2 className="">Takeaways + What I'd Do Differently</h2>
+              <p className="fade-in">
+                In designing, iterating, testing and building this platform, I
+                gained so much valuble insight into the process of product
+                design- from start to finish (although...are we ever really
+                "finished" in this business?). Here are a few of the most
+                valuble notes I took from the experience:
+              </p>
               <div className="fade-in content--point-section">
                 <div className="content--point">
                   <h3 className="content--point-title">
@@ -638,8 +642,8 @@ export default function Work() {
         {/* No Content Below this line, only footer and relevant javascript */}
         {/* <!-- footer, slide deck, next project --> */}
         <div id="grey">
-          <div className="content--block content--next-project">
-            <div className="fade-in content--main footer">
+          <div className="content--block content--next-project fade-in ">
+            <div className="content--main footer">
               <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>

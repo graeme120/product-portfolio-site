@@ -200,6 +200,8 @@ export default function Home() {
               
                   buttonArray[index].classList.remove("button-reveal");
                   project.classList.remove("backgroundIn");
+                  project.classList.add("backgroundOut");
+                  buttonArray[index].classList.add("button-exit");
           
                 });
               });
