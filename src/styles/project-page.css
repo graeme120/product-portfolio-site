@@ -115,7 +115,7 @@ h4 {
 
 p {
   font-family: "TT Commons Regular";
-  font-size: 1.15vw;
+  font-size: 1.25vw;
   line-height: 1.5em;
   margin: 0;
   padding-bottom: 5%;
@@ -154,7 +154,7 @@ i {
   grid-column-start: 1;
   grid-column-end: 2;
   font-family: TT Commons Medium, sans-serif;
-  font-size: 0.75vw;
+  font-size: 1vw;
   padding-top: 2.5%;
 }
 

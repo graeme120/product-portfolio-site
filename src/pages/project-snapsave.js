@@ -273,7 +273,10 @@ export default function Work() {
               summarized in three key points:
             </p>
             <div className="fade-in content--point-section">
-              <img className="content--point-icon" src={svg1}></img>
+              <img
+                className="content--point-icon"
+                src="https://www.datocms-assets.com/103104/1688433108-finding_1.svg"
+              ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
                   Fear of Transaction History
@@ -289,7 +292,10 @@ export default function Work() {
               </div>
             </div>
             <div className="fade-in content--point-section">
-              <img className="content--point-icon" src={svg2}></img>
+              <img
+                className="content--point-icon"
+                src="https://www.datocms-assets.com/103104/1688158332-finding_2.svg"
+              ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
                   Frictionless Payment Services
@@ -302,7 +308,10 @@ export default function Work() {
               </div>
             </div>
             <div className="fade-in content--point-section">
-              <img className="content--point-icon" src={svg3}></img>
+              <img
+                className="content--point-icon"
+                src="https://www.datocms-assets.com/103104/1688158331-finding_3.svg"
+              ></img>
               <div className="content--point">
                 <h3 className="content--point-title">Alternative Balances</h3>
                 <p>
@@ -578,11 +587,17 @@ export default function Work() {
               <p className="fade-in">I'm very proud of</p>
               <div className="fade-in content--point-section">
                 <div className="content--point">
-                  <h3 className="content--point-title">🌊 Point One</h3>
+                  <h3 className="content--point-title">
+                    🧪 User Research & Testing is Key
+                  </h3>
                   <p>
-                    Description of the point.As college students, myself and
-                    many of my peers are managing our finances for the very
-                    first time which… comes with a learning curve.
+                    This project challenged me to collect primary data via
+                    interviews for the first time, which ended up providing
+                    crucial insight into how other platforms were failing to
+                    serve our target audience. Identifying patterns across
+                    various interviews also helped prioritize feature
+                    development, and ensure the product was serving the needs of
+                    the largest possible user base.
                   </p>
                 </div>
               </div>
