@@ -161,9 +161,9 @@ export default function Work() {
           </div>
         </div>
         <div>
-          <div className="content--block fade-in">
+          <div className="content--block ">
             <div className="content--section-title">DEFINING THE PROBLEM</div>
-            <div className="content--main">
+            <div className="content--main ">
               <h2>Students Don’t Like to be Reminded of their Spending</h2>
               <img
                 className=" content--image-wrapper-full bump-2point5"
@@ -214,7 +214,7 @@ export default function Work() {
             </h2>
           </div>
         </div>
-        <div className="content--block fade-in">
+        <div className="content--block">
           <div className="content--section-title">INTERVIEWS</div>
           <div className="content--main">
             <img
@@ -586,8 +586,8 @@ export default function Work() {
                 In designing, iterating, testing and building this platform, I
                 gained so much valuble insight into the process of product
                 design- from start to finish (although...are we ever really
-                "finished" in this business?). Here are a few of the most
-                valuble notes I took from the experience:
+                finished?). Here are a few of the most valuble notes I took from
+                the experience:
               </p>
               <div className="fade-in content--point-section">
                 <div className="content--point">
