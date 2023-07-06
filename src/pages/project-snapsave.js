@@ -273,7 +273,7 @@ export default function Work() {
             <div className="fade-in content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688433108-finding_1.svg"
+                src="https://www.datocms-assets.com/103104/1688665443-finding_1.svg"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
@@ -292,7 +292,7 @@ export default function Work() {
             <div className="fade-in content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688158332-finding_2.svg"
+                src="https://www.datocms-assets.com/103104/1688665445-finding_2.svg"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
@@ -308,7 +308,7 @@ export default function Work() {
             <div className="fade-in content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688158331-finding_3.svg"
+                src="https://www.datocms-assets.com/103104/1688665448-finding_3.svg"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">Alternative Balances</h3>

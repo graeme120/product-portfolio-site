@@ -92,11 +92,11 @@ export default function Home() {
                   UX Design Internship, 2022
                 </div>
                 <div className="project-description module line-clamp">
-                  Improving Canada's first cannabis delivery platform. Projects
-                  centered around
+                  Designing the order-tracking interface for Canada's first
+                  online cannabis delivery service.
                 </div>
                 <div className="project-skills">
-                  user research, wireframing, usability testing, prototyping,
+                  user research, wireframing, design strategy, prototyping,
                   interface design
                 </div>
                 <button className="project-button mobile-gone">
