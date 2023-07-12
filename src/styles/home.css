@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   font-weight: 300;
-  font-family: TT Commons Regular, sans-serif;
+  font-family: Calibre Regular, sans-serif;
 }
 
 main {
@@ -38,8 +38,8 @@ main {
 }
 
 button {
-  padding: 2.5%;
-  font-family: TT Commons;
+  padding: 3% 2.5% 2% 2.5%;
+  font-family: Calibre Regular;
   background-color: transparent;
   border: 1px solid #242020;
   color: #242020;
@@ -57,11 +57,11 @@ footer {
   padding-top: 10%;
   padding-bottom: 2.5%;
   width: 90%;
-  font-family: TT Commons Medium;
+  font-family: Calibre Medium;
 }
 
 #phonetic-spelling {
-  font-family: TT Commons Regular Italic, sans-serif;
+  font-family: Calibre Regular Italic, sans-serif;
   padding-left: 18.5%;
   line-height: -5%;
   opacity: 0;
@@ -124,7 +124,7 @@ footer {
 }
 
 .project-title {
-  font-family: TT Commons Medium;
+  font-family: Calibre Medium;
   font-weight: 500;
   font-size: 2.5vw;
   padding-bottom: 1.25%;
@@ -148,13 +148,13 @@ footer {
 }
 
 .project-skills {
-  font-family: TT Commons Regular Italic;
+  font-family: Calibre Regular Italic;
   color: #464646;
   padding-bottom: 7.5%;
 }
 
 .project-button {
-  font-family: TT Commons Regular;
+  font-family: Calibre Regular;
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -176,6 +176,10 @@ footer {
   text-decoration: underline;
   text-underline-offset: 0.15em;
   text-decoration-thickness: 0.075em;
+}
+
+.explicit-link:hover {
+  color: #0000ff;
 }
 
 @media screen and (min-width: 2200px) {

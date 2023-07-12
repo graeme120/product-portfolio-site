@@ -74,6 +74,46 @@ body {
     url("/fonts/TTCommons/TT-Commons-DemiBold-Italic.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Calibre Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Calibre/Calibre-Medium.woff2") format("woff2"),
+    url("/fonts/Calibre/Calibre-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Calibre/Calibre-Regular.woff2") format("woff2"),
+    url("/fonts/Calibre/Calibre-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre Regular Italic";
+  font-style: Italic;
+  font-weight: 400;
+  src: url("/fonts/Calibre/Calibre-RegularItalic.woff2") format("woff2"),
+    url("/fonts/Calibre/Calibre-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre Semibold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Calibre/Calibre-Semibold.woff2") format("woff2"),
+    url("/fonts/Calibre/Calibre-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre Semibold Italic";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Calibre/Calibre-SemiboldItalic.woff2") format("woff2"),
+    url("/fonts/Calibre/Calibre-SemiboldItalic.woff") format("woff");
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -166,11 +206,11 @@ footer {
 }
 
 strong {
-  font-family: TT Commons DemiBold;
+  font-family: Calibre Semibold;
 }
 
 i {
-  font-family: TT Commons Regular Italic;
+  font-family: Calibre Regular Italic;
 }
 
 ol {

@@ -35,7 +35,7 @@
 .header {
   z-index: 5;
   padding-top: 1%;
-  font-family: "TT Commons Medium";
+  font-family: Calibre Medium;
   font-size: 2vw;
   width: 100%;
 
@@ -60,7 +60,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  font-family: "TT Commons Regular";
+  font-family: Calibre;
   padding-right: 5%;
 }
 

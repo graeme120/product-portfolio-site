@@ -197,10 +197,10 @@ export default function Work() {
               </h2>
               <p>
                 This insight led me to consider that students may be willfully
-                avoiding their transaction history, offering mental peace but
-                also causing them to spend more. Therein was the problem- how
-                could students improve their spending patterns if they weren’t
-                aware of them to begin with?
+                <strong> avoiding</strong> their transaction histories, offering
+                mental peace but also causing them to spend more. There was the
+                issue- how can students improve their spending patterns if they
+                aren't aware of them to begin with?
               </p>
             </div>
           </div>
@@ -252,8 +252,7 @@ export default function Work() {
               src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
             ></img>
             <h4>
-              $37 for every colour of sticky note at Staples... I need this app
-              more than anyone!
+              $37 for every colour of sticky note.. yes I do see the irony.
             </h4>
           </div>
         </div>
@@ -301,7 +300,8 @@ export default function Work() {
                 <p>
                   Students primarily made purchases via Apple Pay or tap-based
                   payments, which they say diminishes the psychological imprint
-                  of each purchase, making it easier to spend impulsively.
+                  of each purchase, making it easier to{" "}
+                  <strong> spend impulsively.</strong>
                 </p>
               </div>
             </div>
@@ -316,8 +316,8 @@ export default function Work() {
                   Students possess multiple alternative balances, sources of
                   money outside their main bank account (e.g. Venmo balance).
                   Since these accounts don’t affect their primary balance,
-                  students see this as ‘free money’ to spend without
-                  consequence.
+                  students see this as <strong>‘free money’</strong> to spend
+                  without consequence.
                 </p>
               </div>
             </div>
@@ -469,7 +469,7 @@ export default function Work() {
           <div className="content--main">
             <h2 className="fade-in">3 Major Improvements to My Design </h2>
             <p>
-              I conducted a few usbility testing sessions with my initial
+              I conducted a few usability testing sessions with my initial
               wireframes, including an A/B test of the habitual-use feature, and
               one round of usability testing for the entire platform with four
               students as participants. These tests led me to a number of
@@ -561,7 +561,7 @@ export default function Work() {
             <div className="figma-iframe">
               <iframe
                 className="iframe"
-                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLl9gF4hJGEChgsAv13EJb%2FSnapSave%3Fpage-id%3D476%253A59732%26type%3Ddesign%26node-id%3D476-62145%26viewport%3D778%252C1298%252C0.15%26scaling%3Dscale-down%26starting-point-node-id%3D476%253A62145%26mode%3Ddesign"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLl9gF4hJGEChgsAv13EJb%2FSnapSave%3Fpage-id%3D476%253A59732%26type%3Ddesign%26node-id%3D476-62109%26viewport%3D660%252C1201%252C0.15%26t%3D7VN9H0RHXZ5Ta0sS-1%26scaling%3Dscale-down%26starting-point-node-id%3D476%253A61863%26mode%3Ddesign"
                 allowFullScreen
               ></iframe>
             </div>
@@ -585,9 +585,9 @@ export default function Work() {
               <p className="fade-in">
                 In designing, iterating, testing and building this platform, I
                 gained so much valuble insight into the process of product
-                design- from start to finish (although...are we ever really
-                finished?). Here are a few of the most valuble notes I took from
-                the experience:
+                design- from start to finish (but are we ever really finished?).
+                Here are a few of the most valuble notes I took from the
+                experience:
               </p>
               <div className="fade-in content--point-section">
                 <div className="content--point">
@@ -608,14 +608,15 @@ export default function Work() {
               <div className="fade-in content--point-section">
                 <div className="content--point">
                   <h3 className="content--point-title">
-                    🎨 Every Design Decision Should Improve the Product**
+                    🎨 Every Design Decision Should Improve the Product
                   </h3>
                   <p>
                     Coming from a graphic design background, it can be easy to
-                    get wrapped up in aesthetics, which ultimately distracts
-                    from the end goal. Throughout this project, I had to
-                    constantly put myself in the position of the user to remind
-                    myself what would and wouldn’t help the project succeed.
+                    get wrapped up in visuals and appearance, which sometimes
+                    distracts from core problem you're trying to solve.
+                    Throughout this project, constantly returning to the user's
+                    POV helped me kill my darlings and focus only on what would
+                    make the product a success.
                   </p>
                 </div>
               </div>
@@ -625,8 +626,8 @@ export default function Work() {
                     🧭 Consider all Possibilities to Solve the Problem
                   </h3>
                   <p>
-                    My project was partially guided by my own desire to design a
-                    standalone mobile app, which caused me to ignore other
+                    My instructors strongly suggested we design a mobile app as
+                    our final project, which caused me to ignore other
                     possibilities for a design solution that may have been more
                     effective (e.g. a new feature in an existing platform). In
                     future projects, I’d like to invest more time in
