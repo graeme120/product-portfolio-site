@@ -39,13 +39,21 @@ export default function Home() {
           </div>
           <div className="intro2">
             I’m currently a product design intern at<span> </span>
-            <a href="" className="explicit-link">
+            <a
+              href="https://switchpitch.com/"
+              target="_blank"
+              className="explicit-link"
+            >
               SwitchPitch,
             </a>
             <span> </span>
             and a Junior at<span> </span>
             <br className="mobile-gone" />
-            <a href="" className="explicit-link">
+            <a
+              href="https://www.newschool.edu/parsons/"
+              target="_blank"
+              className="explicit-link"
+            >
               Parsons School of Design.
             </a>
           </div>
@@ -62,8 +70,10 @@ export default function Home() {
                 />
               </div>
               <div className="project-text">
-                <div className="project-title">SnapSave</div>
-                <div className="project-subtitle">UX Bootcamp Final, 2023</div>
+                <div className="project-title">
+                  A Spending Tool Designed for College Students
+                </div>
+                <div className="project-subtitle">SnapSave, 2023</div>
                 <div className="project-description module line-clamp">
                   Mobile app designed to help college students visualize their
                   purchase histories and improve spending patterns.
@@ -84,13 +94,16 @@ export default function Home() {
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/project-firebird">
               <div className="project-image">
-                <img className="image" src={Tester1} />
+                <img
+                  className="image"
+                  src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                />
               </div>
               <div className="project-text">
-                <div className="project-title">Firebird Delivery</div>
-                <div className="project-subtitle">
-                  UX Design Internship, 2022
+                <div className="project-title">
+                  Order-Tracking for a Canadian Cannabis Delivery Platform
                 </div>
+                <div className="project-subtitle">Firebird Delivery, 2022</div>
                 <div className="project-description module line-clamp">
                   Designing the order-tracking interface for Canada's first
                   online cannabis delivery service.
@@ -111,13 +124,16 @@ export default function Home() {
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/template">
               <div className="project-image">
-                <img className="image" src={Tester1} />
+                <img
+                  className="image"
+                  src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                />
               </div>
               <div className="project-text">
-                <div className="project-title">SwitchPitch</div>
-                <div className="project-subtitle">
-                  UX Design Internship, 2023
+                <div className="project-title">
+                  Connecting Investors to Relevant Startups, VC Funds
                 </div>
+                <div className="project-subtitle">SwitchPitch, 2023</div>
                 <div className="project-description module line-clamp">
                   Mobile app designed to help college students visualize their
                   purchase histories and improve spending patterns.

@@ -179,15 +179,19 @@ export default function Work() {
                 stumbled across an interesting psychological effect that may
                 better explain the problem:
               </p>
-              <h2 className="bump-2point5 big-quote">
-                <strong>
-                  <a
-                    className="explicit-link"
-                    href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/cognitive-overload"
-                  >
-                    Cognitive Overload:
-                  </a>
-                </strong>{" "}
+              <h2 className="big-quote bump-2point5 ">
+                <h2 className="bump-2point5-padding">
+                  <strong>
+                    <a
+                      className="explicit-link"
+                      href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/cognitive-overload"
+                      target="_blank"
+                    >
+                      Cognitive Overload
+                    </a>
+                    <br></br>
+                  </strong>{" "}
+                </h2>
                 <i>
                   As problems become more complex, they require greater
                   cognitive resources to analyze and solve. This overload can
@@ -196,19 +200,19 @@ export default function Work() {
                 </i>
               </h2>
               <p>
-                This insight led me to consider that students may be willfully
-                <strong> avoiding</strong> their transaction histories, offering
-                mental peace but also causing them to spend more. There was the
-                issue- how can students improve their spending patterns if they
-                aren't aware of them to begin with?
+                This insight led me to consider that students may be
+                <strong> willfully avoiding</strong> their transaction
+                histories, ignoring the facts to allow themselves to spend more.
+                There was the issue- how can students improve their spending
+                patterns if they aren't aware of them to begin with?
               </p>
             </div>
           </div>
         </div>
-        <div className="content--block fade-in" id="grey">
+        <div className="content--block " id="grey">
           <div className="content--section-title">PROBLEM</div>
           <div className="content--main">
-            <h2 className="fade-in no-padding">
+            <h2 className="  no-padding">
               How might we help college students better understand their
               spending patterns?
             </h2>
@@ -248,7 +252,7 @@ export default function Work() {
               </ol>
             </p>
             <img
-              className="fade-in content--image-wrapper-full no-padding bump-2point5"
+              className="  content--image-wrapper-full no-padding bump-2point5"
               src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
             ></img>
             <h4>
@@ -260,16 +264,16 @@ export default function Work() {
         <div className="content--block" id="grey">
           <div className="content--section-title">FINDINGS</div>
           <div className="content--main">
-            <h2 className="fade-in">
+            <h2 className=" ">
               Students are AFRAID of their Transaction History
             </h2>
-            <p className="fade-in">
+            <p className=" ">
               My main takeaway from the student interviews was that technology
               plays a huge role in incentivizing students to spend, and
               obscuring student’s true spending patterns. My findings can be
               summarized in three key points:
             </p>
-            <div className="fade-in content--point-section">
+            <div className="  content--point-section">
               <img
                 className="content--point-icon"
                 src="https://www.datocms-assets.com/103104/1689702002-finding_1.svg"
@@ -288,7 +292,7 @@ export default function Work() {
                 </p>
               </div>
             </div>
-            <div className="fade-in content--point-section">
+            <div className="  content--point-section">
               <img
                 className="content--point-icon"
                 src="https://www.datocms-assets.com/103104/1689702004-finding_2.svg"
@@ -305,7 +309,7 @@ export default function Work() {
                 </p>
               </div>
             </div>
-            <div className="fade-in content--point-section">
+            <div className="  content--point-section">
               <img
                 className="content--point-icon"
                 src="https://www.datocms-assets.com/103104/1688665448-finding_3.svg"
@@ -323,14 +327,14 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="content--block fade-in">
+        <div className="content--block  ">
           <div className="content--section-title">COMPETITOR ANALYSIS</div>
           <div className="content--main">
             <h2 className="bump-2point5">
               Existing Platforms Don’t Account for Student Needs
             </h2>
             <img
-              className="fade-in content--image-wrapper-full bump-2point5"
+              className="  content--image-wrapper-full bump-2point5"
               src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
             ></img>
             <p className="">
@@ -351,12 +355,12 @@ export default function Work() {
           <div className="content--block">
             <div className="content--section-title">DESIGN GOALS</div>
             <div className="content--main">
-              <h2 className="fade-in">
+              <h2 className=" ">
                 I set 3 main design goals for my project, based on my research
                 (and limited timeframe)
               </h2>
 
-              <div className="fade-in content--main ">
+              <div className="  content--main ">
                 <h3>
                   #1: Make sorting purchases <strong>easy and painless.</strong>
                 </h3>
@@ -391,7 +395,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-              <div className="fade-in content--main ">
+              <div className="  content--main ">
                 <h3>
                   #2: Account for <strong>every</strong> payment platform
                 </h3>
@@ -426,7 +430,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-              <div className="fade-in content--main ">
+              <div className="  content--main ">
                 <h3>
                   #3: Encourage long-term, <strong>habitual</strong> usage
                 </h3>
@@ -467,7 +471,7 @@ export default function Work() {
         <div className="content--block">
           <div className="content--section-title">TESTING + IMPROVEMENTS</div>
           <div className="content--main">
-            <h2 className="fade-in">3 Major Improvements to My Design </h2>
+            <h2 className=" ">3 Major Improvements to My Design </h2>
             <p>
               I conducted a few usability testing sessions with my initial
               wireframes, including an A/B test of the habitual-use feature, and
@@ -567,7 +571,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div id="grey" className="content--block">
+        <div className="content--block">
           <div className="content--section-title">STYLE GUIDE</div>
           <div className="content--main">
             <img
@@ -576,20 +580,31 @@ export default function Work() {
             ></img>
           </div>
         </div>
+        <div id="grey" className="content--block">
+          <div className="content--section-title">HYPOTHETICAL NEXT STEPS</div>
+          <div className="content--main">
+            <p className="  ">
+              In designing, iterating, testing and building this platform, I
+              gained so much valuble insight into the process of product design-
+              from start to finish (but are we ever really finished?). Here are
+              a few of the most valuble notes I took from the experience:
+            </p>
+          </div>
+        </div>
 
         <div>
           <div className="content--block">
             <div className="content--section-title">CONCLUSION</div>
             <div className="content--main">
               <h2 className="">Takeaways + What I'd Do Differently</h2>
-              <p className="fade-in">
+              <p className="  ">
                 In designing, iterating, testing and building this platform, I
                 gained so much valuble insight into the process of product
                 design- from start to finish (but are we ever really finished?).
                 Here are a few of the most valuble notes I took from the
                 experience:
               </p>
-              <div className="fade-in content--point-section">
+              <div className="   content--point-section">
                 <div className="content--point">
                   <h3 className="content--point-title">
                     🧪 User Research & Testing is Key
@@ -605,7 +620,7 @@ export default function Work() {
                   </p>
                 </div>
               </div>
-              <div className="fade-in content--point-section">
+              <div className="   content--point-section">
                 <div className="content--point">
                   <h3 className="content--point-title">
                     🎨 Every Design Decision Should Improve the Product
@@ -620,7 +635,7 @@ export default function Work() {
                   </p>
                 </div>
               </div>
-              <div className="fade-in content--point-section">
+              <div className="   content--point-section">
                 <div className="content--point">
                   <h3 className="content--point-title">
                     🧭 Consider all Possibilities to Solve the Problem
@@ -648,13 +663,13 @@ export default function Work() {
               <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>
-                <a href="">
+                <a className="explicit-link" href="">
                   <u>slide-deck.</u>
                 </a>
               </h2>
               <h3 id="nextProject">
                 Next Project →{" "}
-                <Link to="/project-firebird">
+                <Link className="explicit-link" to="/project-firebird">
                   <u>Firebird Delivery</u>
                 </Link>
               </h3>

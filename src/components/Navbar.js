@@ -27,15 +27,18 @@ export default function Nav() {
             <Link to="/">Graeme Mounsey</Link>
           </div>
           <div className="nav">
-            <a className="link bump-left" href="#work">
+            <a className="navbar-link bump-left" href="#work">
               Work
             </a>
-            <Link className="link bump-left" to="/debug">
+
+            <Link className="navbar-link bump-left" to="/debug">
               About
             </Link>
+
             <a
-              className="link"
-              href="https://drive.google.com/file/d/1kNz9SKjWGtPajaAZNsrUgjL_c2as4Vp5/view?usp=sharing"
+              className="navbar-link"
+              target="_blank"
+              href="https://drive.google.com/file/d/1z3T5yZ0XNUy7sjnPRr-UGjSJis6iCeRN/view?usp=sharing"
             >
               Resume
             </a>

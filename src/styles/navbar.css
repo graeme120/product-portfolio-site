@@ -61,16 +61,10 @@
   display: flex;
   justify-content: space-between;
   font-family: Calibre Regular;
-  padding-right: 5%;
-  color: #464646;
-}
-
-.nav:hover {
-  color: #242020;
+  padding-right: 2.5%;
 }
 
 .link {
-  color: #242020;
   margin-right: 5%;
   transition-duration: 0.3s;
   transform: perspective(1px) translateZ(0);
@@ -78,10 +72,12 @@
     text-decoration-thickness;
 }
 
-.link:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-  text-decoration-thickness: 0.075em;
+.navbar-link {
+  color: #464646 !important;
+}
+
+.navbar-link:hover {
+  color: #000000 !important;
 }
 
 .social-links {

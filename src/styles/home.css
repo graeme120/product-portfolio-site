@@ -7,16 +7,6 @@ a {
   color: #242020;
 }
 
-a::after {
-  color: none;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #242020;
-  text-decoration: none;
-}
-
 body {
   margin: auto;
   padding: 0;
@@ -126,18 +116,18 @@ footer {
 .project-title {
   font-family: Calibre Medium;
   font-weight: 500;
-  font-size: 2.5vw;
+  font-size: 2vw;
   padding-bottom: 1.25%;
   color: #242020;
 }
 
 .project-subtitle {
   color: #464646;
-  padding-bottom: 7.5%;
+  padding-bottom: 12%;
 }
 
 .project-description {
-  height: 20%;
+  height: 14%;
   padding-bottom: 5%;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -150,7 +140,7 @@ footer {
 .project-skills {
   font-family: Calibre Regular Italic;
   color: #464646;
-  padding-bottom: 7.5%;
+  padding-bottom: 5%;
 }
 
 .project-button {
@@ -211,10 +201,11 @@ footer {
     font-size: 24px;
   }
   .project-title {
-    font-size: 48px;
+    font-size: 40px;
   }
   .project-subtitle {
     font-size: 28px;
+    padding-bottom: 10%;
   }
 }
 

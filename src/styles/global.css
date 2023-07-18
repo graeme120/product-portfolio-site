@@ -229,6 +229,11 @@ ol {
   margin-bottom: 2.5%;
 }
 
+.bump-2point5-padding {
+  padding-bottom: 2.5%;
+  font-size: 2vw;
+}
+
 .bump-5 {
   margin-bottom: 5%;
 }

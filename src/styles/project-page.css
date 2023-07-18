@@ -12,11 +12,6 @@ a::after {
   text-decoration: none;
 }
 
-a:visited {
-  color: #242020;
-  text-decoration: none;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -62,14 +57,6 @@ li {
   font-size: 1.15vw;
   line-height: 1.5em;
   padding-bottom: 5%;
-}
-
-.link {
-  color: #464646;
-}
-
-.link:hover {
-  color: #242020;
 }
 
 .project-feature {
@@ -134,7 +121,7 @@ i {
   padding-top: 5%;
   padding-bottom: 5%;
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 15% 70% 15%;
   grid-template-rows: 1fr;
 }
 
@@ -150,12 +137,12 @@ i {
 
 .content--section-title {
   display: flex;
-  justify-content: center;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  font-family: Calibre Medium, sans-serif;
+  justify-content: flex-start;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-family: Calibre Regular, sans-serif;
   font-size: 1vw;
-  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .content--main {
@@ -365,7 +352,7 @@ h2.snapsave-h2-style span {
 
 @media screen and (min-width: 1780px) {
   .content--block {
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 15% 70% 15%;
   }
   h1 {
     font-size: 64px;
@@ -387,9 +374,7 @@ h2.snapsave-h2-style span {
   }
   .content--section-title {
     font-size: 18px;
-    padding-left: 12%;
     justify-content: flex-start;
-    padding-top: 12px;
   }
   .content--half-text-2 > li {
     font-size: 24px;
@@ -400,6 +385,9 @@ h2.snapsave-h2-style span {
   .big-quote {
     font-size: 36px;
     line-height: 48px;
+  }
+  .bump-2point5-padding {
+    font-size: 36px;
   }
 }
 
