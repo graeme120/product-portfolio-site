@@ -36,7 +36,7 @@ export default function Work() {
         <div className="project-writeup">
           <img
             id="image-header"
-            src="https://www.datocms-assets.com/103104/1688000501-ss_cover.png"
+            src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
           ></img>
           <div className="content--block fade-in">
             <div className="content--main">
@@ -272,7 +272,7 @@ export default function Work() {
             <div className="fade-in content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688665443-finding_1.svg"
+                src="https://www.datocms-assets.com/103104/1689702002-finding_1.svg"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
@@ -291,7 +291,7 @@ export default function Work() {
             <div className="fade-in content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688665445-finding_2.svg"
+                src="https://www.datocms-assets.com/103104/1689702004-finding_2.svg"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">

@@ -60,8 +60,13 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  font-family: Calibre;
+  font-family: Calibre Regular;
   padding-right: 5%;
+  color: #464646;
+}
+
+.nav:hover {
+  color: #242020;
 }
 
 .link {
