@@ -50,6 +50,20 @@ const Nav = () => {
 
   return (
     <AnimatePresence>
+      <motion.div
+        key="controls"
+        transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
+        exit={{ opacity: 0 }}
+      >
+        <div className="controls-bar" ref={controlsBarRef}>
+          <a className="controls return" href="#">
+            <img src={returnTop} alt="Back to top" title="Back to top" />
+          </a>
+          <Link className="controls close" to="/">
+            <img src={close} alt="Close project" title="Close project" />
+          </Link>
+        </div>
+      </motion.div>
       <header className="header">
         <div className="header-content">
           <div className="name">
@@ -74,20 +88,6 @@ const Nav = () => {
           </div>
         </div>
       </header>
-      <motion.div
-        key="controls"
-        transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
-        exit={{ opacity: 0 }}
-      >
-        <div className="controls-bar" ref={controlsBarRef}>
-          <a className="controls return" href="#">
-            <img src={returnTop} alt="Back to top" title="Back to top" />
-          </a>
-          <Link className="controls close" to="/">
-            <img src={close} alt="Close project" title="Close project" />
-          </Link>
-        </div>
-      </motion.div>
     </AnimatePresence>
   );
 };

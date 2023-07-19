@@ -144,6 +144,7 @@
 }
 
 .controls-bar {
+  padding-top: 2.5%;
   position: fixed;
   width: 100%;
   display: flex;
