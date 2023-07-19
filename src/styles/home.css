@@ -27,7 +27,7 @@ button {
   padding: 3% 2.5% 2% 2.5%;
   font-family: Calibre Regular;
   background-color: transparent;
-  border: 1px solid #242020;
+  border: 0.01vw solid #242020;
   color: #242020;
 }
 
@@ -48,13 +48,18 @@ footer {
 
 #phonetic-spelling {
   font-family: Calibre Regular Italic, sans-serif;
-  padding-left: 18.5%;
+  font-size: 1.25vw;
+  padding-left: 21.5%;
   line-height: -5%;
   opacity: 0;
 }
 
 .intro {
   font-size: 4em;
+}
+
+#intro {
+  cursor: pointer;
 }
 
 #bump {
@@ -206,6 +211,10 @@ footer {
   .project-subtitle {
     font-size: 28px;
     padding-bottom: 10%;
+  }
+  #phonetic-spelling {
+    padding-left: 20%;
+    font-size: 24px;
   }
 }
 

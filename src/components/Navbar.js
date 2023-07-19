@@ -8,6 +8,7 @@ import returnTop from "../images/return.svg";
 
 const Nav = () => {
   const controlsBarRef = useRef(null);
+  const previousScrollPositionRef = useRef(0);
 
   useEffect(() => {
     const controlsBar = controlsBarRef.current;
@@ -16,15 +17,34 @@ const Nav = () => {
       const scrollPosition = window.scrollY;
       if (scrollPosition >= 800) {
         controlsBar.classList.add("controlsFadeIn");
+        controlsBar.classList.remove("controlsFadeOut");
       } else {
+        controlsBar.classList.remove("controlsFadeIn");
       }
+      if (
+        scrollPosition < previousScrollPositionRef.current &&
+        scrollPosition < 800
+      ) {
+        controlsBar.classList.add("controlsFadeOut");
+      } else {
+        controlsBar.classList.remove("controlsFadeOut");
+      }
+
+      previousScrollPositionRef.current = scrollPosition;
+    };
+
+    const handleBeforeUnload = () => {
+      controlsBar.classList.remove("controlsFadeIn");
+      controlsBar.classList.remove("controlsFadeOut");
     };
 
     window.addEventListener("scroll", handleScroll);
+    window.addEventListener("beforeunload", handleBeforeUnload);
 
     // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      window.addEventListener("beforeunload", handleBeforeUnload);
     };
   }, []);
 

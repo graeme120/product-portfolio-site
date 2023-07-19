@@ -41,8 +41,21 @@
   }
 }
 
+@keyframes controlsFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .controlsFadeIn {
   animation: controlsFadeIn 500ms ease-out 00s 1 normal forwards;
+}
+
+.controlsFadeOut {
+  animation: controlsFadeOut 500ms ease-out 00s 1 normal forwards;
 }
 
 @keyframes controlsHoverIn {
@@ -55,7 +68,7 @@
 }
 
 .controlsHoverIn {
-  animation: controlsHoverIn 0.25s ease-out 0s 1 normal forwards;
+  animation: controlsHoverIn 0.15s ease-out 0s 1 normal forwards;
 }
 
 @keyframes controlsHoverOut {
@@ -68,7 +81,7 @@
 }
 
 .controlsHoverOut {
-  animation: controlsHoverOut 0.25s ease-out 0s 1 normal forwards;
+  animation: controlsHoverOut 0.2s ease-out 0s 1 normal forwards;
 }
 
 .header {

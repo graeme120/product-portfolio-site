@@ -152,6 +152,7 @@ export default function Work() {
             <div className="content--half-2">
               <img
                 className="content--image-wrapper-full "
+                src="https://www.datocms-assets.com/103104/1687811430-ss_solution3.png"
                 alt="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
                 title="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
               ></img>
