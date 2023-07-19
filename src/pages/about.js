@@ -2,13 +2,10 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout.js";
-import pen from "../images/Stylo.png";
 import "../styles/global.css";
 import "../styles/navbar.css";
 import "../styles/about.css";
-import tape1 from "../images/tape3.png";
-import tape2 from "../images/tape2.png";
-import head from "../images/Headshot.jpg";
+
 import { Script } from "gatsby";
 
 export function Head() {
@@ -56,10 +53,6 @@ export default function About() {
             </p>
           </div>
           <div className="headShot">
-            <div id="penZone">
-              <img id="tape1" alt="" src={tape1}></img>
-              <img id="tape2" alt="" src={tape2}></img>
-            </div>
             <div id="portrait">
               <div className="frame"></div>
             </div>

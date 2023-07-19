@@ -4,12 +4,7 @@ import Footer from "../components/Footer";
 import { easeInOut, motion } from "framer-motion";
 import "../styles/global.css";
 import "../styles/home.css";
-import { graphql, Link, Script } from "gatsby";
-
-import Instagram from "../images/tester-images/ig.svg";
-import Linkedin from "../images/tester-images/li.svg";
-import Tester1 from "../images/tester-images/tester1.png";
-import Layout from "../components/Layout";
+import { Link, Script } from "gatsby";
 
 export function Head() {
   return <title>Graeme Mounsey, Digital Product Designer</title>;
@@ -17,7 +12,7 @@ export function Head() {
 
 export default function Home() {
   return (
-    <div className="scroll-container">
+    <div className="scroll-container main-page">
       <Navbar />
       <motion.main
         className="skinny"
@@ -42,6 +37,7 @@ export default function Home() {
             <a
               href="https://switchpitch.com/"
               target="_blank"
+              rel="noreferrer"
               className="explicit-link"
             >
               SwitchPitch,
@@ -52,6 +48,7 @@ export default function Home() {
             <a
               href="https://www.newschool.edu/parsons/"
               target="_blank"
+              rel="noreferrer"
               className="explicit-link"
             >
               Parsons School of Design.
@@ -67,6 +64,8 @@ export default function Home() {
                 <img
                   className="image"
                   src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
+                  alt="SnapSave thumbnail "
+                  title="SnapSave thumbnail "
                 />
               </div>
               <div className="project-text">
@@ -97,6 +96,8 @@ export default function Home() {
                 <img
                   className="image"
                   src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                  alt="Firebird thumbnail  "
+                  title="Firebird thumbnail  "
                 />
               </div>
               <div className="project-text">
@@ -127,6 +128,8 @@ export default function Home() {
                 <img
                   className="image"
                   src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                  alt="SwitchPitch thumbnail "
+                  title="SwitchPitch thumbnail "
                 />
               </div>
               <div className="project-text">

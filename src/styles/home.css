@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 a {
   text-decoration: none;
   color: #242020;
@@ -170,6 +166,10 @@ footer {
 
 .explicit-link:hover {
   color: #0000ff;
+}
+
+.main-page .controls-bar {
+  display: none;
 }
 
 @media screen and (min-width: 2200px) {

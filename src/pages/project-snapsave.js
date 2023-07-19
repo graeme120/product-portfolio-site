@@ -1,22 +1,13 @@
 import React from "react";
-import Layout from "../components/Layout.js";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { easeInOut, motion } from "framer-motion";
 import { Script } from "gatsby";
-import { graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "../styles/global.css";
 import "../styles/navbar.css";
 import "../styles/project-page.css";
-import Tester from "../images/tester-images/tester.png";
-import svg1 from "../images/tester-images/svg1.svg";
-import svg2 from "../images/tester-images/svg2.svg";
-import svg3 from "../images/tester-images/svg3.svg";
-import sixteenbynine from "../images/tester-images/16x9.png";
-import threebyfour from "../images/tester-images/3x4.png";
-import fourbythree from "../images/tester-images/4x3.png";
-import threebytwo from "../images/tester-images/3x2.png";
 
 export function Head() {
   return <title>SnapSave | Graeme Mounsey </title>;
@@ -37,6 +28,8 @@ export default function Work() {
           <img
             id="image-header"
             src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
+            alt="Various screens of the mobile app SnapSave"
+            title="Various screens of the mobile app SnapSave"
           ></img>
           <div className="content--block fade-in">
             <div className="content--main">
@@ -100,6 +93,8 @@ export default function Work() {
               <video
                 className="content--image-wrapper-full content--iphone-video"
                 src="https://www.datocms-assets.com/103104/1687810847-ss_solution1.mov"
+                alt="Iphone screen showcasing the sorting functionality of SnapSave"
+                title="Iphone screen showcasing the sorting functionality of SnapSave"
                 playsInline
                 muted
                 autoPlay
@@ -114,6 +109,8 @@ export default function Work() {
               <video
                 className="content--image-wrapper-full content--iphone-video"
                 src="https://www.datocms-assets.com/103104/1687810863-ss_solution2.mov"
+                alt="Iphone screen showcasing the spending-visualization function of SnapSave"
+                title="Iphone screen showcasing the spending-visualization function of SnapSave"
                 playsInline
                 muted
                 autoPlay
@@ -155,7 +152,8 @@ export default function Work() {
             <div className="content--half-2">
               <img
                 className="content--image-wrapper-full "
-                src="https://www.datocms-assets.com/103104/1687811430-ss_solution3.png"
+                alt="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
+                title="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
               ></img>
             </div>
           </div>
@@ -168,6 +166,8 @@ export default function Work() {
               <img
                 className=" content--image-wrapper-full bump-2point5"
                 src="https://www.datocms-assets.com/103104/1687461295-ss_tiktok.png"
+                alt="Tiktok screenshots of students who've spent more than they planned"
+                title="Tiktok screenshots of students who've spent more than they planned"
               ></img>
               <p className="bump-2point5">
                 My interest in this problem stems from a situation i've been in
@@ -179,26 +179,27 @@ export default function Work() {
                 stumbled across an interesting psychological effect that may
                 better explain the problem:
               </p>
-              <h2 className="big-quote bump-2point5 ">
-                <h2 className="bump-2point5-padding">
+              <div className="big-quote ">
+                <h3>
                   <strong>
                     <a
                       className="explicit-link"
                       href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/cognitive-overload"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Cognitive Overload
                     </a>
                     <br></br>
                   </strong>{" "}
-                </h2>
+                </h3>
                 <i>
                   As problems become more complex, they require greater
                   cognitive resources to analyze and solve. This overload can
                   lead to decision paralysis or avoidance of the problem
                   altogether.
                 </i>
-              </h2>
+              </div>
               <p>
                 This insight led me to consider that students may be
                 <strong> willfully avoiding</strong> their transaction
@@ -224,6 +225,8 @@ export default function Work() {
             <img
               className="content--image-wrapper-full"
               src="https://www.datocms-assets.com/103104/1687462021-ss_user-interviews.png"
+              alt="Compilation of screenshots from my user interview Zoom calls"
+              title="Compilation of screenshots from my user interview Zoom calls"
             ></img>
             <p className="">
               To learn more about student spending habits, I conducted
@@ -231,29 +234,30 @@ export default function Work() {
               spending. I asked them the questions below to identify other
               roadblocks they’ve encountered while trying to budget.
             </p>
-            <p>
-              <ol start="1">
-                <li>
-                  Tell me about a time you tried to budget or limit your
-                  spending. What steps did you take? What worked and what
-                  didn’t?
-                </li>
-                <li>What kind of spending has been the toughest to limit?</li>
-                <li>What motivated you to budget in the first place?</li>
-                <li>
-                  What methods do you use to pay for things? (card, cash,
-                  digital wallet, etc.) Does the method of payment you use
-                  affect the feeling of spending?
-                </li>
-                <li>
-                  What apps do you use that involve your spending? In what ways
-                  do they influence your spending?
-                </li>
-              </ol>
-            </p>
+
+            <ol start="1">
+              <li>
+                Tell me about a time you tried to budget or limit your spending.
+                What steps did you take? What worked and what didn’t?
+              </li>
+              <li>What kind of spending has been the toughest to limit?</li>
+              <li>What motivated you to budget in the first place?</li>
+              <li>
+                What methods do you use to pay for things? (card, cash, digital
+                wallet, etc.) Does the method of payment you use affect the
+                feeling of spending?
+              </li>
+              <li>
+                What apps do you use that involve your spending? In what ways do
+                they influence your spending?
+              </li>
+            </ol>
+
             <img
               className="  content--image-wrapper-full no-padding bump-2point5"
               src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
+              alt="Animated GIF of my findings from user interviews"
+              title="Animated GIF of my findings from user interviews"
             ></img>
             <h4>
               $37 for every colour of sticky note.. yes I do see the irony.
@@ -277,6 +281,8 @@ export default function Work() {
               <img
                 className="content--point-icon"
                 src="https://www.datocms-assets.com/103104/1689702002-finding_1.svg"
+                alt="Receipt icon"
+                title="Receipt icon"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
@@ -296,6 +302,8 @@ export default function Work() {
               <img
                 className="content--point-icon"
                 src="https://www.datocms-assets.com/103104/1689702004-finding_2.svg"
+                alt="Iphone icon"
+                title="Iphone icon"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">
@@ -313,6 +321,8 @@ export default function Work() {
               <img
                 className="content--point-icon"
                 src="https://www.datocms-assets.com/103104/1688665448-finding_3.svg"
+                alt="Coins icon"
+                title="Coins icon"
               ></img>
               <div className="content--point">
                 <h3 className="content--point-title">Alternative Balances</h3>
@@ -336,6 +346,8 @@ export default function Work() {
             <img
               className="  content--image-wrapper-full bump-2point5"
               src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
+              alt="Five existing platforms examined during my competitive audit"
+              title="Five existing platforms examined during my competitive audit"
             ></img>
             <p className="">
               My interviewees also indicated a frustration with other mobile
@@ -369,6 +381,8 @@ export default function Work() {
                     <video
                       className="content--image-wrapper-full "
                       src="https://www.datocms-assets.com/103104/1687899230-ss_wireframe1-1.mov"
+                      alt="Wireframe of sorting mechanism"
+                      title="Wireframe of sorting mechanism"
                       playsInline
                       muted
                       autoPlay
@@ -383,6 +397,8 @@ export default function Work() {
                     <video
                       className="content--image-wrapper-full "
                       src="https://www.datocms-assets.com/103104/1687899237-ss_wireframe1-2.mov"
+                      alt="Wireframe of spending visualization"
+                      title="Wireframe of spending visualization"
                       playsInline
                       muted
                       autoPlay
@@ -404,6 +420,8 @@ export default function Work() {
                     <video
                       className="content--image-wrapper-full "
                       src="https://www.datocms-assets.com/103104/1687899432-ss_wireframe2-1.mov"
+                      alt="Wireframe of platform onboarding"
+                      title="Wireframe of platform onboarding"
                       playsInline
                       muted
                       autoPlay
@@ -418,6 +436,8 @@ export default function Work() {
                     <video
                       className="content--image-wrapper-full "
                       src="https://www.datocms-assets.com/103104/1687899435-ss_wireframe2-2.mov"
+                      alt="Wireframe of purchase cards"
+                      title="Wireframe of purchase cards"
                       playsInline
                       muted
                       autoPlay
@@ -439,6 +459,8 @@ export default function Work() {
                     <video
                       className="content--image-wrapper-full "
                       src="https://www.datocms-assets.com/103104/1687899447-ss_wireframe3-1.mov"
+                      alt="Wireframe of streak system functionality"
+                      title="Wireframe of streak system functionality"
                       playsInline
                       muted
                       autoPlay
@@ -453,6 +475,8 @@ export default function Work() {
                     <video
                       className="content--image-wrapper-full "
                       src="https://www.datocms-assets.com/103104/1687899454-ss_wireframe3-2.mov"
+                      alt="Wireframe of trophy system functionality"
+                      title="Wireframe of trophy system functionality"
                       playsInline
                       muted
                       autoPlay
@@ -504,6 +528,8 @@ export default function Work() {
               <img
                 className="content--image-wrapper-full"
                 src="https://www.datocms-assets.com/103104/1687807337-ss_improvement1.png"
+                alt="First major improvement"
+                title="First major improvement"
               ></img>
             </div>
           </div>
@@ -514,6 +540,8 @@ export default function Work() {
               <img
                 className="content--image-wrapper-full"
                 src="https://www.datocms-assets.com/103104/1687807349-ss_improvement2.png"
+                alt="Second major improvement"
+                title="Second major improvement"
               ></img>
             </div>
             <div className="content--half-text">
@@ -551,6 +579,8 @@ export default function Work() {
               <img
                 className="content--image-wrapper-full"
                 src="https://www.datocms-assets.com/103104/1687807376-ss_improvement3.png"
+                alt="third major improvement"
+                title="third major improvement"
               ></img>
             </div>
           </div>
@@ -561,12 +591,16 @@ export default function Work() {
             <img
               className="content--image-wrapper-full"
               src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
+              alt="Screenshots of the platform's final version"
+              title="Screenshots of the platform's final version"
             ></img>
             <div className="figma-iframe">
               <iframe
                 className="iframe"
                 src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FcLl9gF4hJGEChgsAv13EJb%2FSnapSave%3Fpage-id%3D476%253A59732%26type%3Ddesign%26node-id%3D476-62109%26viewport%3D660%252C1201%252C0.15%26t%3D7VN9H0RHXZ5Ta0sS-1%26scaling%3Dscale-down%26starting-point-node-id%3D476%253A61863%26mode%3Ddesign"
                 allowFullScreen
+                alt="Interactive Figma prototype"
+                title="Interactive Figma prototype"
               ></iframe>
             </div>
           </div>
@@ -577,6 +611,8 @@ export default function Work() {
             <img
               className="content--image-wrapper-full black-border"
               src="https://www.datocms-assets.com/103104/1687807638-ss_style-guide.png"
+              alt="Style Guide"
+              title="Style Guide"
             ></img>
           </div>
         </div>
@@ -680,6 +716,8 @@ export default function Work() {
         <Script
           dangerouslySetInnerHTML={{
             __html: `
+         
+
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
 

@@ -1,18 +1,16 @@
 import React from "react";
-import Layout from "../components/Layout.js";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { easeInOut, motion } from "framer-motion";
 import { Script } from "gatsby";
-import { graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 import "../styles/global.css";
 import "../styles/navbar.css";
 import "../styles/project-page.css";
-import Tester from "../images/tester-images/tester.png";
 
 export function Head() {
-  return <title>Project Page Debug</title>;
+  return <title>Project Page Template </title>;
 }
 
 export default function Work() {
@@ -27,15 +25,26 @@ export default function Work() {
         className="broad"
       >
         <div className="project-writeup">
-          <img id="image-header" src={Tester}></img>
+          <img
+            id="image-header"
+            src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
+            alt="Various screens of the mobile app SnapSave"
+            title="Various screens of the mobile app SnapSave"
+          ></img>
           <div className="content--block fade-in">
             <div className="content--main">
               <h1>SnapSave</h1>
-              <h2>A Spending Tracker Designed for Young People</h2>
+              <h2>A Spending Tracker Designed for College Students</h2>
               <p className="project-writeup-description">
-                As college students, many of my peers and I are managing our
-                finances for the very first time which… comes with a learning
-                curve. Impulse spending,
+                As college students, my peers and I are managing our finances
+                for the very first time which.. comes with a learning curve. One
+                of the biggest issues we face in this pursuit is an unawareness
+                of our spending patterns. To solve this, I designed a mobile app
+                that makes sorting your past purchases simple and painless,
+                which helps to remind students of their purchases, and foster
+                long-term insights about their spending patterns. This project
+                was completed as a final project for my Brainstation UX design
+                bootcamp.
               </p>
               <div className="content--subdivide">
                 <div className="content--subdivision-big">
@@ -57,38 +66,38 @@ export default function Work() {
                 <div className="content--subdivision-small">
                   <p>TIMELINE</p>
                   <p>
-                    June - July 2022 <br /> <i>3 Months</i>
+                    February - April 2022 <br /> <i>10 Weeks</i>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        {/* No Content Below this line, only footer and relevant javascript */}
-        {/* <!-- footer, slide deck, next project --> */}
         <div id="grey">
-          <div className="content--block content--next-project">
-            <div className="fade-in content--main footer">
+          <div className="content--block content--next-project fade-in ">
+            <div className="content--main footer">
               <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>
-                <a href="">
+                <a className="explicit-link" href="">
                   <u>slide-deck.</u>
                 </a>
               </h2>
               <h3 id="nextProject">
                 Next Project →{" "}
-                <Link to="">
-                  <u>Project Project</u>
+                <Link className="explicit-link" to="/project-firebird">
+                  <u>Firebird Delivery</u>
                 </Link>
               </h3>
             </div>
           </div>
         </div>
+
         <Script
           dangerouslySetInnerHTML={{
             __html: `
+         
+
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
 

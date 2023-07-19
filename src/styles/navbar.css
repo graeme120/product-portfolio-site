@@ -32,13 +32,51 @@
   }
 }
 
+@keyframes controlsFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.controlsFadeIn {
+  animation: controlsFadeIn 500ms ease-out 00s 1 normal forwards;
+}
+
+@keyframes controlsHoverIn {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.controlsHoverIn {
+  animation: controlsHoverIn 0.25s ease-out 0s 1 normal forwards;
+}
+
+@keyframes controlsHoverOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+.controlsHoverOut {
+  animation: controlsHoverOut 0.25s ease-out 0s 1 normal forwards;
+}
+
 .header {
   z-index: 5;
   padding-top: 1%;
   font-family: Calibre Medium;
   font-size: 2vw;
   width: 100%;
-
   color: #242020;
 }
 
@@ -90,6 +128,32 @@
   width: 75%;
   display: flex;
   align-items: center;
+}
+
+.controls-bar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.controls img {
+  width: 3.5vw;
+  opacity: 0.4;
+  animation: controlsHoverOut 0.4s ease-out 0s 1 normal forwards;
+}
+
+.return {
+  padding-left: 5%;
+}
+
+.close {
+  padding-right: 5%;
+}
+
+.controls img:hover {
+  animation: controlsHoverIn 0.2s ease-in-out 0s 1 normal forwards;
 }
 
 footer {

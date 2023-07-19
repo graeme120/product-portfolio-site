@@ -242,3 +242,7 @@ ol {
   padding-bottom: 0% !important;
   padding-top: 0%;
 }
+
+.scroll-container {
+  scroll-behavior: smooth;
+}
