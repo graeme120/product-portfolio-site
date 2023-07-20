@@ -60,7 +60,7 @@
 
 @keyframes controlsHoverIn {
   from {
-    opacity: 0.4;
+    opacity: 0.25;
   }
   to {
     opacity: 1;
@@ -76,7 +76,7 @@
     opacity: 1;
   }
   to {
-    opacity: 0.4;
+    opacity: 0.25;
   }
 }
 
@@ -145,6 +145,7 @@
 
 .controls-bar {
   padding-top: 2.5%;
+  z-index: -5;
   position: fixed;
   width: 100%;
   display: flex;
@@ -154,7 +155,7 @@
 
 .controls img {
   width: 3.5vw;
-  opacity: 0.4;
+  opacity: 0.25;
   animation: controlsHoverOut 0.4s ease-out 0s 1 normal forwards;
 }
 

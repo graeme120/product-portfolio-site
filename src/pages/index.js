@@ -22,14 +22,17 @@ export default function Home() {
         exit={{ opacity: 0 }}
       >
         <section className="hero">
+          <h2>
+            ❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀
+          </h2>
           <div id="phonetic-spelling">( gray-um )</div>
           <div className="intro1">
             <div id="bump">
               Hi 👋 I’m <span id="intro">Graeme.</span>
             </div>
             <div>
-              I design products that make emerging technologies accessible and
-              user-friendly.
+              I bring the simplicity of good design to emerging technologies &
+              industries.
             </div>
           </div>
           <div className="intro2">
@@ -57,7 +60,9 @@ export default function Home() {
         </section>
         <section className="work" id="work">
           {/* These should / could be replaced by a forEach datoCMS algo */}
-
+          <h2>
+            ❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀
+          </h2>
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/project-snapsave">
               <div className="project-image">
