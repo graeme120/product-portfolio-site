@@ -22,9 +22,6 @@ export default function Home() {
         exit={{ opacity: 0 }}
       >
         <section className="hero">
-          <h2>
-            ❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀
-          </h2>
           <div id="phonetic-spelling">( gray-um )</div>
           <div className="intro1">
             <div id="bump">
