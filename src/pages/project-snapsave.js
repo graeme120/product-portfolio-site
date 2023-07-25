@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Overlay from "../components/Overlay";
 import { easeInOut, motion } from "framer-motion";
 import { Script } from "gatsby";
 import { Link } from "gatsby";
@@ -25,12 +26,14 @@ export default function Work() {
         className="broad"
       >
         <div className="project-writeup">
-          <img
-            id="image-header"
-            src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
-            alt="Various screens of the mobile app SnapSave"
-            title="Various screens of the mobile app SnapSave"
-          ></img>
+          <div class="image-container">
+            <img
+              id="image-header"
+              src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
+              alt="Various screens of the mobile app SnapSave"
+              title="Various screens of the mobile app SnapSave"
+            ></img>
+          </div>
           <div className="content--block fade-in">
             <div className="content--main">
               <h1>SnapSave</h1>
@@ -150,12 +153,14 @@ export default function Work() {
               </ul>
             </div>
             <div className="content--half-2">
-              <img
-                className="content--image-wrapper-full "
-                src="https://www.datocms-assets.com/103104/1687811430-ss_solution3.png"
-                alt="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
-                title="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
-              ></img>
+              <div class="image-container">
+                <img
+                  className="content--image-wrapper-full "
+                  src="https://www.datocms-assets.com/103104/1687811430-ss_solution3.png"
+                  alt="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
+                  title="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
@@ -164,12 +169,14 @@ export default function Work() {
             <div className="content--section-title">DEFINING THE PROBLEM</div>
             <div className="content--main ">
               <h2>Students Don’t Like to be Reminded of their Spending</h2>
-              <img
-                className=" content--image-wrapper-full bump-2point5"
-                src="https://www.datocms-assets.com/103104/1687461295-ss_tiktok.png"
-                alt="Tiktok screenshots of students who've spent more than they planned"
-                title="Tiktok screenshots of students who've spent more than they planned"
-              ></img>
+              <div class="image-container">
+                <img
+                  className=" content--image-wrapper-full bump-2point5"
+                  src="https://www.datocms-assets.com/103104/1687461295-ss_tiktok.png"
+                  alt="Tiktok screenshots of students who've spent more than they planned"
+                  title="Tiktok screenshots of students who've spent more than they planned"
+                ></img>
+              </div>
               <p className="bump-2point5">
                 My interest in this problem stems from a situation i've been in
                 more times than I'd like to admit- my friends and I spend
@@ -223,12 +230,14 @@ export default function Work() {
         <div className="content--block">
           <div className="content--section-title">INTERVIEWS</div>
           <div className="content--main">
-            <img
-              className="content--image-wrapper-full"
-              src="https://www.datocms-assets.com/103104/1687462021-ss_user-interviews.png"
-              alt="Compilation of screenshots from my user interview Zoom calls"
-              title="Compilation of screenshots from my user interview Zoom calls"
-            ></img>
+            <div class="image-container">
+              <img
+                className="content--image-wrapper-full"
+                src="https://www.datocms-assets.com/103104/1687462021-ss_user-interviews.png"
+                alt="Compilation of screenshots from my user interview Zoom calls"
+                title="Compilation of screenshots from my user interview Zoom calls"
+              ></img>
+            </div>
             <p className="">
               To learn more about student spending habits, I conducted
               interviews with 8 college students actively trying to limit their
@@ -254,12 +263,14 @@ export default function Work() {
               </li>
             </ol>
 
-            <img
-              className="  content--image-wrapper-full no-padding bump-2point5"
-              src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
-              alt="Animated GIF of my findings from user interviews"
-              title="Animated GIF of my findings from user interviews"
-            ></img>
+            <div class="image-container">
+              <img
+                className="  content--image-wrapper-full no-padding bump-2point5"
+                src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
+                alt="Animated GIF of my findings from user interviews"
+                title="Animated GIF of my findings from user interviews"
+              ></img>
+            </div>
             <h4>
               $37 for every colour of sticky note.. yes I do see the irony.
             </h4>
@@ -285,6 +296,7 @@ export default function Work() {
                 alt="Receipt icon"
                 title="Receipt icon"
               ></img>
+
               <div className="content--point">
                 <h3 className="content--point-title">
                   Fear of Transaction History
@@ -306,6 +318,7 @@ export default function Work() {
                 alt="Iphone icon"
                 title="Iphone icon"
               ></img>
+
               <div className="content--point">
                 <h3 className="content--point-title">
                   Frictionless Payment Services
@@ -325,6 +338,7 @@ export default function Work() {
                 alt="Coins icon"
                 title="Coins icon"
               ></img>
+
               <div className="content--point">
                 <h3 className="content--point-title">Alternative Balances</h3>
                 <p>
@@ -344,12 +358,14 @@ export default function Work() {
             <h2 className="bump-2point5">
               Existing Platforms Don’t Account for Student Needs
             </h2>
-            <img
-              className="  content--image-wrapper-full bump-2point5"
-              src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
-              alt="Five existing platforms examined during my competitive audit"
-              title="Five existing platforms examined during my competitive audit"
-            ></img>
+            <div class="image-container">
+              <img
+                className="  content--image-wrapper-full bump-2point5"
+                src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
+                alt="Five existing platforms examined during my competitive audit"
+                title="Five existing platforms examined during my competitive audit"
+              ></img>
+            </div>
             <p className="">
               My interviewees also indicated a frustration with other mobile
               saving platforms. I analyzed the most popular budgeting apps to
@@ -526,24 +542,28 @@ export default function Work() {
               </ul>
             </div>
             <div className="content--half">
-              <img
-                className="content--image-wrapper-full"
-                src="https://www.datocms-assets.com/103104/1687807337-ss_improvement1.png"
-                alt="First major improvement"
-                title="First major improvement"
-              ></img>
+              <div class="image-container">
+                <img
+                  className="content--image-wrapper-full"
+                  src="https://www.datocms-assets.com/103104/1687807337-ss_improvement1.png"
+                  alt="First major improvement"
+                  title="First major improvement"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
         <div className="content--block addition">
           <div className="fade-in content--main content--two-columns content--text-and-image">
             <div className="content--half">
-              <img
-                className="content--image-wrapper-full"
-                src="https://www.datocms-assets.com/103104/1687807349-ss_improvement2.png"
-                alt="Second major improvement"
-                title="Second major improvement"
-              ></img>
+              <div class="image-container">
+                <img
+                  className="content--image-wrapper-full"
+                  src="https://www.datocms-assets.com/103104/1687807349-ss_improvement2.png"
+                  alt="Second major improvement"
+                  title="Second major improvement"
+                ></img>
+              </div>
             </div>
             <div className="content--half-text">
               <h3 className="snapsave-header-style">A Gameified Approach</h3>
@@ -577,24 +597,28 @@ export default function Work() {
               </ul>
             </div>
             <div className="content--half">
-              <img
-                className="content--image-wrapper-full"
-                src="https://www.datocms-assets.com/103104/1687807376-ss_improvement3.png"
-                alt="third major improvement"
-                title="third major improvement"
-              ></img>
+              <div class="image-container">
+                <img
+                  className="content--image-wrapper-full"
+                  src="https://www.datocms-assets.com/103104/1687807376-ss_improvement3.png"
+                  alt="third major improvement"
+                  title="third major improvement"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
         <div id="grey" className="content--block">
           <div className="content--section-title">FINAL PRODUCT</div>
           <div className="content--main">
-            <img
-              className="content--image-wrapper-full"
-              src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
-              alt="Screenshots of the platform's final version"
-              title="Screenshots of the platform's final version"
-            ></img>
+            <div class="image-container">
+              <img
+                className="content--image-wrapper-full"
+                src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
+                alt="Screenshots of the platform's final version"
+                title="Screenshots of the platform's final version"
+              ></img>
+            </div>
             <div className="figma-iframe">
               <iframe
                 className="iframe"
@@ -609,12 +633,14 @@ export default function Work() {
         <div className="content--block">
           <div className="content--section-title">STYLE GUIDE</div>
           <div className="content--main">
-            <img
-              className="content--image-wrapper-full black-border"
-              src="https://www.datocms-assets.com/103104/1687807638-ss_style-guide.png"
-              alt="Style Guide"
-              title="Style Guide"
-            ></img>
+            <div class="image-container">
+              <img
+                className="content--image-wrapper-full black-border"
+                src="https://www.datocms-assets.com/103104/1687807638-ss_style-guide.png"
+                alt="Style Guide"
+                title="Style Guide"
+              ></img>
+            </div>
           </div>
         </div>
         <div id="grey" className="content--block">
@@ -751,6 +777,7 @@ window.onbeforeunload = function () {
 }`,
           }}
         />
+        <Overlay />
       </motion.main>
       <Footer />
     </div>

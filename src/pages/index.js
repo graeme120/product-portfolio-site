@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import RiverComponent from "../components/River";
 import { easeInOut, motion } from "framer-motion";
 import "../styles/global.css";
 import "../styles/home.css";
@@ -55,11 +56,16 @@ export default function Home() {
             </a>
           </div>
         </section>
+        <section>
+          <div class="riverSketch">
+            <div>
+              ────────────────────────────────────────────────────────────────────
+            </div>
+            <RiverComponent />
+          </div>
+        </section>
         <section className="work" id="work">
           {/* These should / could be replaced by a forEach datoCMS algo */}
-          <h2>
-            ❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀∘⋄⟡⋄*∘⋄✿⋄∘*⟡⋄°•°❀°•°⋄⟡*∘⋄✿⋄∘*⋄⟡⋄∘❀
-          </h2>
           <div className="project-wrapper fade-in">
             <Link className="project-content" to="/project-snapsave">
               <div className="project-image">
@@ -154,6 +160,7 @@ export default function Home() {
             </Link>
           </div>
         </section>
+
         <Script
           dangerouslySetInnerHTML={{
             __html: `
@@ -226,6 +233,8 @@ export default function Home() {
           
                 });
               });
+
+              
               
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
@@ -256,7 +265,8 @@ faders.forEach((fader) => {
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
-}}`,
+}}
+`,
           }}
         />
       </motion.main>

@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout.js";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Overlay from "../components/Overlay";
 import { easeInOut, motion } from "framer-motion";
 import { Script } from "gatsby";
 import { graphql, Link } from "gatsby";
@@ -122,6 +123,14 @@ window.onbeforeunload = function () {
           }}
         />
       </motion.main>
+      <Overlay />
+      <div class="overlay" id="overlay">
+        <button id="closeButton">Close</button>
+        <div class="modal">
+          <img src="" alt="Enlarged Image" id="enlargedImage"></img>
+          <div class="image-focus-subtitle" id="imageSubtitle"></div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

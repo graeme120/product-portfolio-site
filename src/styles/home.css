@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  max-width: 1550px;
+  max-width: 1412px;
   width: 80%;
   margin: auto;
 }
@@ -40,8 +40,8 @@ footer {
 }
 
 .hero {
-  padding-top: 10%;
-  padding-bottom: 2.5%;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
   width: 90%;
   font-family: Calibre Medium;
 }
@@ -56,6 +56,20 @@ footer {
 
 .intro {
   font-size: 4em;
+}
+
+.riverSketch {
+  white-space: pre;
+  font-size: 1.15vw;
+}
+
+.riverSketch > div {
+  text-align: justify;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 #intro {
@@ -177,7 +191,7 @@ footer {
   display: none;
 }
 
-@media screen and (min-width: 2200px) {
+@media screen and (min-width: 1780px) {
   .intro1 {
     font-size: 64px;
     width: 80%;
@@ -197,9 +211,7 @@ footer {
   .project-title {
     font-size: 56px;
   }
-}
 
-@media screen and (min-width: 1780px) {
   .project-description,
   .project-skills,
   .project-button {
@@ -215,6 +227,9 @@ footer {
   #phonetic-spelling {
     padding-left: 20%;
     font-size: 24px;
+  }
+  .riverSketch {
+    font-size: 20.7px;
   }
 }
 

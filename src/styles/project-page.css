@@ -38,6 +38,12 @@ body {
   -webkit-font-smoothing: antialiased;
   font-weight: 300;
   font-family: Calibre, "sans-serif";
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .darkbody {
@@ -50,6 +56,10 @@ h3.snapsave-header-style {
 
 html {
   margin: none;
+}
+
+img {
+  cursor: pointer;
 }
 
 li {
@@ -284,7 +294,7 @@ i {
 
 .broad {
   width: 100%;
-  max-width: 1550px;
+  max-width: 1412px;
 }
 
 .footer {
@@ -350,6 +360,54 @@ h2.snapsave-h2-style span {
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
+
+/* CSS related to the image overlay feature */
+
+.overlay {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 900;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-out; /* Define the transition property */
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#enlargedImage {
+  width: 100%;
+  height: auto;
+}
+
+#imageSubtitle {
+  padding-top: 1.25%;
+  color: white;
+}
+
+#closeButton {
+  justify-content: flex-end;
+  position: absolute;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  z-index: 999;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive design stuff */
 
 @media screen and (min-width: 1780px) {
   .content--block {
