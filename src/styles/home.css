@@ -190,6 +190,12 @@ footer {
 .main-page .controls-bar {
   display: none;
 }
+/* River component */
+
+.inline-emoji {
+  width: 0.5vw;
+  height: 0.5vw;
+}
 
 @media screen and (min-width: 1780px) {
   .intro1 {

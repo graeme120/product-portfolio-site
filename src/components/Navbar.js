@@ -70,9 +70,9 @@ const Nav = () => {
             <Link to="/">Graeme Mounsey</Link>
           </div>
           <div className="nav">
-            <a className="navbar-link bump-left" href="#work">
+            <Link className="navbar-link bump-left" to="/#work">
               Work
-            </a>
+            </Link>
 
             <Link className="navbar-link bump-left" to="/debug">
               About
