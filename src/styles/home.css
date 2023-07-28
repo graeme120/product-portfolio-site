@@ -193,8 +193,8 @@ footer {
 /* River component */
 
 .inline-emoji {
-  width: 0.5vw;
-  height: 0.5vw;
+  width: 0.75vw;
+  height: 0.75vw;
 }
 
 @media screen and (min-width: 1780px) {
@@ -231,7 +231,7 @@ footer {
     padding-bottom: 10%;
   }
   #phonetic-spelling {
-    padding-left: 20%;
+    padding-left: 22%;
     font-size: 24px;
   }
   .riverSketch {

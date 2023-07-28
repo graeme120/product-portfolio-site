@@ -226,11 +226,14 @@ export default function Home() {
                   mouseMoveFlag = false;
                   mouseEnterFlag = false;
               
-                  buttonArray[index].classList.remove("button-reveal");
-                  project.classList.remove("backgroundIn");
-                  project.classList.add("backgroundOut");
-                  buttonArray[index].classList.add("button-exit");
-          
+                  // Check if the backgroundIn class is present before adding backgroundOut class
+                  if (project.classList.contains("backgroundIn")) {
+                    buttonArray[index].classList.remove("button-reveal");
+                    project.classList.remove("backgroundIn");
+                    project.classList.add("backgroundOut");
+                    buttonArray[index].classList.add("button-exit");
+                  }
+              
                 });
               });
 
