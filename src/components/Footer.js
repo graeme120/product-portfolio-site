@@ -27,7 +27,7 @@ export default function Nav() {
         <div>
           ©2023 Graeme Mounsey
           <br />
-          Site designed & coded by yours truly.
+          Site designed & coded by me &lt;3
         </div>
         <div className="social-links">
           <a href="https://www.instagram.com/graemeswork/">
