@@ -119,7 +119,7 @@
   display: flex;
   justify-content: space-between;
   font-family: Calibre Regular;
-  padding-right: 2.5%;
+  padding-right: 1.25%;
 }
 
 .link {
@@ -132,6 +132,10 @@
 
 .navbar-link {
   color: #464646 !important;
+}
+
+.navbar-link :nth-child(1) {
+  margin-right: 15%;
 }
 
 .navbar-link:hover {

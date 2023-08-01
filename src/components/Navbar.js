@@ -74,10 +74,6 @@ const Nav = () => {
               Work
             </Link>
 
-            <Link className="navbar-link bump-left" to="/debug">
-              About
-            </Link>
-
             <a
               className="navbar-link"
               target="_blank"
