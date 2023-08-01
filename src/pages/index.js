@@ -29,7 +29,7 @@ export default function Home() {
               Hi 👋 I’m <span id="intro">Graeme.</span>
             </div>
             <div>
-              I bring human-centered product design to emerging technologies &
+              I bring human-centered design to emerging technologies &
               industries.
             </div>
           </div>

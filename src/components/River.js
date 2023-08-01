@@ -44,36 +44,6 @@ const RiverComponent = () => {
   const approximatedQueue = [];
 
   // Function to change the character to "≈" for 400ms when the mouse hovers over it
-  function changeSymbolToApproximately(event, char) {
-    const approximatedChar = "≈";
-    const applicableChars = ["-", " "]; // Dashes and the whitespace symbol (U+2000)
-
-    // If the character is not in the applicableChars array, return without doing anything
-    if (!applicableChars.includes(char)) {
-      return;
-    }
-
-    // If there are already 4 elements in the queue, revert the symbol of the least-recently approximated character
-    if (approximatedQueue.length >= 4) {
-      const leastRecentElement = approximatedQueue.shift();
-      leastRecentElement.textContent =
-        leastRecentElement.dataset.originalSymbol;
-    }
-
-    // Store the original symbol in the dataset of the target element
-
-    event.target.dataset.originalSymbol = char;
-    event.target.textContent = approximatedChar;
-    approximatedQueue.push(event.target);
-
-    setTimeout(() => {
-      event.target.textContent = char;
-      const index = approximatedQueue.indexOf(event.target);
-      if (index !== -1) {
-        approximatedQueue.splice(index, 1);
-      }
-    }, 400);
-  }
 
   // Function to wrap each character of a string in a <span> element and add hover event listeners
   function wrapCharactersInSpan(str) {
@@ -81,7 +51,7 @@ const RiverComponent = () => {
       return (
         <span
           key={index}
-          onMouseOver={(event) => changeSymbolToApproximately(event, char)}
+          // onMouseOver={(event) => changeSymbolToApproximately(event, char)}
         >
           {char}
         </span>
