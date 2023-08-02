@@ -60,7 +60,7 @@ footer {
 
 .riverSketch {
   white-space: pre;
-  font-size: 1.25vw;
+  font-size: 1.5vw;
 }
 
 .riverSketch > div {
@@ -193,8 +193,7 @@ footer {
 /* River component */
 
 .inline-emoji {
-  width: 0.75vw;
-  height: 0.75vw;
+  height: 1.5vw;
 }
 
 @media screen and (min-width: 1780px) {
