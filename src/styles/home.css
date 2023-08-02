@@ -49,7 +49,7 @@ footer {
 #phonetic-spelling {
   font-family: Calibre Regular Italic, sans-serif;
   font-size: 1.25vw;
-  padding-left: 19%;
+  padding-left: 16.5%;
   line-height: -5%;
   opacity: 0;
 }
@@ -228,10 +228,10 @@ footer {
   }
   .project-subtitle {
     font-size: 28px;
-    padding-bottom: 10%;
+    padding-bottom: 7.5%;
   }
   #phonetic-spelling {
-    padding-left: 22%;
+    padding-left: 17.6%;
     font-size: 24px;
   }
   .riverSketch {

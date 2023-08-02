@@ -110,7 +110,7 @@ export default function Home() {
               </div>
               <div className="project-text">
                 <div className="project-title">
-                  Order-Tracking for a Canadian Cannabis Delivery Platform
+                  Order-Tracking for a Cannabis Delivery Platform
                 </div>
                 <div className="project-subtitle">Firebird Delivery, 2022</div>
                 <div className="project-description module line-clamp">
