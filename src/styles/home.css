@@ -61,6 +61,7 @@ footer {
 .riverSketch {
   white-space: pre;
   font-size: 1.5vw;
+  overflow: hidden;
 }
 
 .riverSketch > div {
@@ -235,7 +236,6 @@ footer {
   }
   .riverSketch {
     font-size: 20.7px;
-    font-family: monospace;
   }
   .inline-emoji {
     height: 21px;

@@ -39,8 +39,7 @@ const RiverComponent = () => {
       intervalIds.forEach(clearInterval);
     };
   }, []);
-  // State to store the approximate characters for each string
-  const [approximatedChars, setApproximatedChars] = useState({});
+
   // Queue to store the approximate characters
   const approximatedQueue = [];
 
@@ -57,25 +56,22 @@ const RiverComponent = () => {
     // If there are already 4 elements in the queue, revert the symbol of the least-recently approximated character
     if (approximatedQueue.length >= 4) {
       const leastRecentElement = approximatedQueue.shift();
-      setApproximatedChars((prevChars) => {
-        const updatedChars = { ...prevChars };
-        delete updatedChars[leastRecentElement.dataset.index];
-        return updatedChars;
-      });
+      leastRecentElement.textContent =
+        leastRecentElement.dataset.originalSymbol;
     }
 
-    // Store the original symbol in the state for the target element
-    setApproximatedChars((prevChars) => ({
-      ...prevChars,
-      [event.target.dataset.index]: char,
-    }));
+    // Store the original symbol in the dataset of the target element
+
+    event.target.dataset.originalSymbol = char;
+    event.target.textContent = approximatedChar;
+    approximatedQueue.push(event.target);
 
     setTimeout(() => {
-      setApproximatedChars((prevChars) => {
-        const updatedChars = { ...prevChars };
-        delete updatedChars[event.target.dataset.index];
-        return updatedChars;
-      });
+      event.target.textContent = char;
+      const index = approximatedQueue.indexOf(event.target);
+      if (index !== -1) {
+        approximatedQueue.splice(index, 1);
+      }
     }, 400);
   }
 
