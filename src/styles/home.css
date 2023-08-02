@@ -235,6 +235,10 @@ footer {
   }
   .riverSketch {
     font-size: 20.7px;
+    font-family: monospace;
+  }
+  .inline-emoji {
+    height: 21px;
   }
 }
 

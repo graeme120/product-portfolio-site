@@ -39,11 +39,45 @@ const RiverComponent = () => {
       intervalIds.forEach(clearInterval);
     };
   }, []);
-
+  // State to store the approximate characters for each string
+  const [approximatedChars, setApproximatedChars] = useState({});
   // Queue to store the approximate characters
   const approximatedQueue = [];
 
   // Function to change the character to "≈" for 400ms when the mouse hovers over it
+  function changeSymbolToApproximately(event, char) {
+    const approximatedChar = "≈";
+    const applicableChars = ["-", " "]; // Dashes and the whitespace symbol (U+2000)
+
+    // If the character is not in the applicableChars array, return without doing anything
+    if (!applicableChars.includes(char)) {
+      return;
+    }
+
+    // If there are already 4 elements in the queue, revert the symbol of the least-recently approximated character
+    if (approximatedQueue.length >= 4) {
+      const leastRecentElement = approximatedQueue.shift();
+      setApproximatedChars((prevChars) => {
+        const updatedChars = { ...prevChars };
+        delete updatedChars[leastRecentElement.dataset.index];
+        return updatedChars;
+      });
+    }
+
+    // Store the original symbol in the state for the target element
+    setApproximatedChars((prevChars) => ({
+      ...prevChars,
+      [event.target.dataset.index]: char,
+    }));
+
+    setTimeout(() => {
+      setApproximatedChars((prevChars) => {
+        const updatedChars = { ...prevChars };
+        delete updatedChars[event.target.dataset.index];
+        return updatedChars;
+      });
+    }, 400);
+  }
 
   // Function to wrap each character of a string in a <span> element and add hover event listeners
   function wrapCharactersInSpan(str) {
@@ -51,7 +85,7 @@ const RiverComponent = () => {
       return (
         <span
           key={index}
-          // onMouseOver={(event) => changeSymbolToApproximately(event, char)}
+          onMouseOver={(event) => changeSymbolToApproximately(event, char)}
         >
           {char}
         </span>
