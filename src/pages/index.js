@@ -26,7 +26,7 @@ export default function Home() {
           <div id="phonetic-spelling">( gray-um )</div>
           <div className="intro1">
             <div id="bump">
-              Hi 👋 I’m <span id="intro">Graeme.</span>
+              Hi, I’m <span id="intro">Graeme.</span>
             </div>
             <div>
               I bring human-centered design to emerging technologies &
@@ -103,7 +103,7 @@ export default function Home() {
               <div className="project-image">
                 <img
                   className="image"
-                  src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                  src="https://www.datocms-assets.com/103104/1690941942-ff_thumbnail.png"
                   alt="Firebird thumbnail  "
                   title="Firebird thumbnail  "
                 />
