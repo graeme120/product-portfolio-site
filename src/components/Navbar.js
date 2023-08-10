@@ -19,15 +19,15 @@ const Nav = () => {
         controlsBar.classList.add("controlsFadeIn");
         controlsBar.classList.remove("controlsFadeOut");
       } else {
-        controlsBar.classList.remove("controlsFadeIn");
       }
       if (
         scrollPosition < previousScrollPositionRef.current &&
-        scrollPosition < 800
+        scrollPosition < 800 &&
+        controlsBar.classList.contains("controlsFadeIn")
       ) {
         controlsBar.classList.add("controlsFadeOut");
+        controlsBar.classList.remove("controlsFadeIn");
       } else {
-        controlsBar.classList.remove("controlsFadeOut");
       }
 
       previousScrollPositionRef.current = scrollPosition;

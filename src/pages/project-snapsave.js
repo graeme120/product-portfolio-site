@@ -629,8 +629,6 @@ export default function Work() {
               ></iframe>
             </div>
           </div>
-        </div>
-        <div className="content--block">
           <div className="content--section-title">STYLE GUIDE</div>
           <div className="content--main">
             <div class="image-container">
@@ -641,17 +639,6 @@ export default function Work() {
                 title="Style Guide"
               ></img>
             </div>
-          </div>
-        </div>
-        <div id="grey" className="content--block">
-          <div className="content--section-title">HYPOTHETICAL NEXT STEPS</div>
-          <div className="content--main">
-            <p className="  ">
-              In designing, iterating, testing and building this platform, I
-              gained so much valuble insight into the process of product design-
-              from start to finish (but are we ever really finished?). Here are
-              a few of the most valuble notes I took from the experience:
-            </p>
           </div>
         </div>
 
@@ -723,13 +710,13 @@ export default function Work() {
         <div id="grey">
           <div className="content--block content--next-project fade-in ">
             <div className="content--main footer">
-              <h2>
+              {/* <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>
                 <a className="explicit-link" href="">
                   <u>slide-deck.</u>
                 </a>
-              </h2>
+              </h2> */}
               <h3 id="nextProject">
                 Next Project →{" "}
                 <Link className="explicit-link" to="/project-firebird">

@@ -42,6 +42,16 @@ body {
   scrollbar-width: none;
 }
 
+h3 {
+  font-family: calibre medium;
+  font-weight: 500;
+}
+
+strong {
+  font-family: calibre semibold;
+  font-weight: 500;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -167,7 +177,7 @@ i {
 }
 
 .content--subdivision-big {
-  width: 30%;
+  width: 36%;
 }
 
 .content--subdivision-medium {
@@ -328,6 +338,8 @@ u {
 .figma-iframe {
   display: flex;
   height: 45vw;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .big-quote {
@@ -405,6 +417,101 @@ h2.snapsave-h2-style span {
   z-index: 999;
   color: white;
   cursor: pointer;
+}
+
+/* New CSS From Firebird Project */
+
+.image-container {
+  height: auto;
+  width: 100%;
+}
+
+.column {
+  width: 75%;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.smalll {
+  width: 45%;
+}
+
+.statistic-number {
+  font-size: 3.75vw;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.25em;
+}
+
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+}
+
+.version-container.horizontal {
+  display: block;
+}
+
+.version.horizontal {
+  width: 100%;
+}
+
+.pro-con.horizontal {
+  display: flex;
+  padding-left: 3%;
+  flex-direction: row;
+}
+
+.pros > h5,
+.cons > h5 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-bottom: 5%;
+}
+
+.pro-con {
+  padding-left: 7.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.version-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7.5%;
+}
+
+.double-image {
+  display: flex;
+  align-items: center;
+}
+
+.three-statistics {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 7.5%;
+}
+
+.statistic {
+  width: 30%;
+  padding: 0% 2.5% 0 2.5%;
+}
+
+.content-point {
+  opacity: 1;
+}
+
+.statistic:nth-child(1) {
+  width: 30%;
+  padding: 0% 2.5% 0 0;
 }
 
 /* Responsive design stuff */

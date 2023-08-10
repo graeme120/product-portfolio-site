@@ -103,7 +103,7 @@ export default function Home() {
               <div className="project-image">
                 <img
                   className="image"
-                  src="https://www.datocms-assets.com/103104/1690941942-ff_thumbnail.png"
+                  src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
                   alt="Firebird thumbnail  "
                   title="Firebird thumbnail  "
                 />
