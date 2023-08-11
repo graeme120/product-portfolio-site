@@ -31,15 +31,17 @@ export default function Work() {
             id="image-header"
             src="https://www.datocms-assets.com/103104/1691451322-ff_feature.png"
           ></img>
-          <div className="content--block fade-in">
+          <div className="content--block fade-in nope">
             <div className="content--main">
               <h1>Firebird Delivery</h1>
               <h2>Order Tracking for a Cannabis Delivery Platform</h2>
               <p className="project-writeup-description">
                 In Summer 2022 I interned at Hifyre, an e-commerce company
-                powering Canada’s largest cannabis retailers. There, I designed
-                the order-tracking interface for their beta-stage cannabis
-                delivery platform: Firebird Delivery.
+                powering Canada’s largest cannabis retailers. As a UX intern, I
+                was responsible for reviewing our early-stage consumer metrics,
+                identifying and prioritizing product goals, and then iterating
+                on potential design approaches to our beta-stage delivery
+                platform, Firebird Delivery.
               </p>
               <div className="content--subdivide">
                 <div className="content--subdivision-big">
@@ -69,39 +71,50 @@ export default function Work() {
             </div>
           </div>
         </div>
-
-        <div className="content--block ">
-          <div className="content--section-title">OVERVIEW</div>
-          <div className="content--main ">
+        <div className=" section-divider">
+          <div className="sequence-number">01</div>
+          <div className="section">OVERVIEW</div>
+        </div>
+        <div className="content--block nope double-image">
+          <div
+            className="content--main"
+            style={{ paddingRight: 5 + "%", width: 60 + "%" }}
+          >
+            <div className="content--section-title-firebird">
+              First things first...
+            </div>
             <h2>What is Firebird Delivery?</h2>
             <p>
-              Fire & Flower is one of the largest recreational cannabis
-              retailers in Canada. Hifyre is Fire & Flower’s technology
-              development subsidiary, responsible for e-commerce across Fire &
-              Flower stores, as well as their 3 subsidiary brands.
+              Hifyre is an e-commerce company specializing in cannabis and
+              controlled substances. They manage the e-commerce for Fire &
+              Flower, a major Canadian cannabis retailer, and its subsidiaries.
             </p>
+
             <p>
               In Q2 of 2022, Hifyre launched the beta version of Firebird
               Delivery- Canada’s first online cannabis delivery service. The
-              service was launched in a few select regions across Canada,
-              allowing Hifyre to gather consumer data and refine the platform
-              before its nationwide release.
+              beta release allowed Hifyre to gather consumer data and refine the
+              platform before its nationwide release.
             </p>
-            <p>
-              As a UX intern, I was responsible for reviewing our early-stage
-              consumer metrics, identifying and prioritizing product goals, and
-              then iterating on potential design approaches to our
-              order-tracking page.
-            </p>
+          </div>
+          <div className="image-container version" style={{ width: 65 + "%" }}>
+            <img
+              className=" content--image-wrapper-full bump-2point5 bb"
+              src="https://www.datocms-assets.com/103104/1691705605-ff_example.png"
+              alt="Screen from Firebirddelivery.ca"
+              title="Screen from Firebirddelivery.ca"
+            ></img>
           </div>
         </div>
 
         <div className="content--block ">
-          <div className="content--section-title">The Initial Problem</div>
+          <div className="content--section-title-firebird">
+            The Initial Problem
+          </div>
           <div className="content--main ">
             <h2>Our Order Tracking Feature wasn’t… Delivering. </h2>
             <div className="double-image">
-              <div className="image-container ">
+              <div className="image-container version ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
                   src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
@@ -109,7 +122,7 @@ export default function Work() {
                   title="Original design of Firebird's order-tracking screen"
                 ></img>
               </div>
-              <div className="image-container ">
+              <div className="image-container version ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
                   src="https://www.datocms-assets.com/103104/1691510386-ff_old-delivery-2.png"
@@ -121,16 +134,19 @@ export default function Work() {
 
             <p>
               Since Firebird was in its beta-release stage, many core features
-              lacked refinement and, in some cases, any design consideration at
-              all. Our order-tracking page was arguably the worst offender-
-              focus on the product team had been on shopping functionality,
-              leaving the order-tracking page as essentially a debug screen for
-              our back-end team to reference.
+              lacked refinement. Our order-tracking page was arguably the worst
+              offender- focus on the product team had been on shopping
+              functionality, leaving the order-tracking page as essentially a
+              debug screen for our back-end team to reference.
             </p>
           </div>
         </div>
+
+        <div></div>
         <div className="content--block" id="grey">
-          <div className="content--section-title">Stakeholder Meeting</div>
+          <div className="content--section-title-firebird">
+            Stakeholder Meeting
+          </div>
           <div className="content--main">
             <h2 className=" ">Getting the Platform from Beta → Gold</h2>
             <p className=" ">
@@ -141,12 +157,11 @@ export default function Work() {
             </p>
             <div className="  content--point-section">
               <img
-                className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1689702002-finding_1.svg"
-                alt="Receipt icon"
-                title="Receipt icon"
+                className="content--point-icon-gif"
+                src="https://www.datocms-assets.com/103104/1691687612-ff_principle1.gif"
+                alt="One of our most reliable delivery guys"
+                title="One of our most reliable delivery guys"
               ></img>
-
               <div className="content--point">
                 <h3 className="content--point-title">
                   End-to-end Customer Journey
@@ -210,55 +225,66 @@ export default function Work() {
             </p>
           </div>
         </div>
-        <div>
-          <div className="content--block ">
-            <div className="content--section-title">
-              Reviewing Firebird Metrics
-            </div>
-            <div className="content--main ">
-              <h2>
-                People Like the Convenience of Delivery- Our Job is Simply to
-                Make it More Convenient
-              </h2>
-              <p>
-                Hifyre IQ , our consumer analytics platform, had been gathering
-                data since Firebird’s beta launch. Here are some of the most
-                relevant findings:
-              </p>
-              <div className="three-statistics">
-                <div className="statistic">
-                  <h3 className="statistic-number">23%</h3>
-                  <p>of total revenue generated from delivery</p>
-                </div>
-                <div className="statistic">
-                  <h3 className="statistic-number">42%</h3>
-                  <p>customer retention rate for delivery</p>
-                </div>
-                <div className="statistic">
-                  <h3 className="statistic-number">+$12.27</h3>
-                  <p>
-                    more spent on average per delivery{" "}
-                    <i>(compared to in-store)</i>
-                  </p>
-                </div>
+
+        <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
+          <div className="sequence-number">02</div>
+          <div className="section">RESEARCH</div>
+        </div>
+
+        <div className="content--block nope">
+          <div className="content--section-title-firebird">
+            Reviewing Firebird Metrics
+          </div>
+          <div className="content--main ">
+            <h2>
+              Consumers are Into Delivery- Our Job is Simply to Make it More
+              Convenient
+            </h2>
+
+            <div className="three-statistics">
+              <div className="statistic">
+                <h3 className="statistic-number">23%</h3>
+                <p>
+                  <i>
+                    of total revenue generated
+                    <br /> from delivery
+                  </i>
+                </p>
               </div>
-              <p>
-                These metrics confirmed that our customers were clear on
-                Firebird’s value proposition, meaning that our focus should be{" "}
-                <strong>improving</strong> the experience for our existing
-                users, rather than searching for new markets.<br></br>
-                <br /> Data from Hifyre IQ, along with qualitative feedback left
-                on item review pages helped identify pain points that needed our
-                attention the most:
-              </p>
+              <div className="statistic">
+                <h3 className="statistic-number">42%</h3>
+                <p>
+                  <i>
+                    customer retention rate <br />
+                    for delivery
+                  </i>
+                </p>
+              </div>
+              <div className="statistic">
+                <h3 className="statistic-number">+$12.27</h3>
+                <p>
+                  <i>
+                    spent on average per delivery <br />
+                    (compared to in-store)
+                  </i>
+                </p>
+              </div>
             </div>
+            <p>
+              Metrics from, Hifyre IQ, our consumer analytics platform,
+              confirmed that our customers were clear on Firebird’s value
+              proposition, meaning that our focus should be{" "}
+              <strong>improving the experience</strong> for our existing users,
+              rather than searching for new markets. User data, along with
+              qualitative feedback left on item review pages helped identify
+              pain points that needed our attention the most:
+            </p>
           </div>
         </div>
 
         <div className="content--block ">
-          <div className="content--section-title for-h3">Pain Point 1</div>
-
           <div className="content--main ">
+            <div className="content--section-title-firebird">Problem #1</div>
             <h3>Lack of Awareness about Order-Tracking</h3>
             <p>
               Research also revealed a <strong>48% drop-off</strong> between
@@ -267,9 +293,9 @@ export default function Work() {
               order-tracking.. a feature we already had😭
             </p>
             <div className="double-image bump-2point5">
-              <div className="image-container">
+              <div className="image-container bump-2point5">
                 <img
-                  className=" content--image-wrapper-full "
+                  className=" content--image-wrapper-full bump-2point5 "
                   src="https://www.datocms-assets.com/103104/1691593455-ff_insights.png"
                   alt="Chart of Firebird Delivery Orders vs Tracked Orders"
                   title="Chart of Firebird Delivery Orders vs Tracked Orders"
@@ -279,7 +305,7 @@ export default function Work() {
                 <div className="image-container ">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691591513-ff_comments1.png"
+                    src="https://www.datocms-assets.com/103104/1691690941-ff_comments1.png"
                     alt="User feedback from Firebird item reviews"
                     title="User feedback from Firebird item reviews"
                   ></img>
@@ -287,7 +313,7 @@ export default function Work() {
                 <div className="image-container ">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691591518-ff_comments2.png"
+                    src="https://www.datocms-assets.com/103104/1691690947-ff_comments2.png"
                     alt="User feedback from Firebird item reviews"
                     title="User feedback from Firebird item reviews"
                   ></img>
@@ -295,9 +321,9 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div className="content--section-title  for-h3">Pain Point 2</div>
 
           <div className="content--main ">
+            <div className="content--section-title-firebird">Problem #2</div>
             <h3>Confusion about Delivery Confirmation</h3>
             <p>
               We also noticed a number of reviews that expressed frustration
@@ -306,10 +332,13 @@ export default function Work() {
               be given to the user.
             </p>
             <div className="double-image">
-              <div className="image-container">
+              <div
+                className="image-container"
+                style={{ marginRight: 2.5 + "vw" }}
+              >
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691591523-ff_comments3.png"
+                  src="https://www.datocms-assets.com/103104/1691690952-ff_comments3.png"
                   alt="User feedback from Firebird item reviews"
                   title="User feedback from Firebird item reviews"
                 ></img>
@@ -317,7 +346,7 @@ export default function Work() {
               <div className="image-container">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691591528-ff_comments4.png"
+                  src="https://www.datocms-assets.com/103104/1691690957-ff_comments4.png"
                   alt="User feedback from Firebird item reviews"
                   title="User feedback from Firebird item reviews"
                 ></img>
@@ -325,17 +354,19 @@ export default function Work() {
             </div>
           </div>
         </div>
+
         <div className="content--block " id="grey">
           <div className="content--section-title">How might we...</div>
           <div className="content--main">
-            <h2 className="  no-padding">
+            <h1 className="  no-padding">
               Make order-tracking for deliveries obvious, transparent and
               straightforward?
-            </h2>
+            </h1>
           </div>
         </div>
-        <div className="content--block ">
-          <div className="content--section-title">
+
+        <div className="content--block nope ">
+          <div className="content--section-title-firebird">
             Insights from Relevant UXR Studies
           </div>
           <div className="content--main ">
@@ -343,26 +374,23 @@ export default function Work() {
             <p>
               To understand the current landscape of existing order-tracking
               interfaces, I read through a number of UXR studies around
-              food-delivery apps (closest product market to cannabis /
-              controlled substances), and conducted a competitive audit of four
-              popular delivery platforms with order-tracking functionality.
-              Multiple sources highlighted the importance of transparent
-              communication when designing for service-related interfaces such
-              as delivery. These were my key takeaways:
+              food-delivery apps. These studies highlighted the importance of
+              transparent communication when designing for service-related
+              interfaces such as delivery, here were my key takeaways:
             </p>
 
             <div className="content--sub-block">
               <div className="three-statistics">
-                <div className="statistic">
-                  <h3>Comprehensive Progress Updates</h3>
+                <div className="statistic" style={{ paddingRight: 5 + "%" }}>
+                  <h3>1 / Comprehensive Progress Updates</h3>
                   <p>
                     Order tracking platforms should clearly communicate all
                     order updates to users, but ensure the most recent update is
                     prioritized.
                   </p>
                 </div>
-                <div className="statistic">
-                  <h3>Consistency Across Update Messages</h3>
+                <div className="statistic" style={{ paddingRight: 5 + "%" }}>
+                  <h3>2 / Consistency Across Update Messages</h3>
                   <p>
                     Update messages sent across multiple channels should present
                     both the same information and amount of information, refrain
@@ -371,24 +399,24 @@ export default function Work() {
                 </div>
 
                 <div className="statistic">
-                  <h3>Keep the User in Control</h3>
+                  <h3>3 / Keep the User in Control</h3>
                   <p>
                     Any screen pertaining to user’s order and delivery should
                     include options to manage/modify delivery details, in order
                     to keep user in control of the delivery at every stage.
                   </p>
                 </div>
-              </div>{" "}
+              </div>
             </div>
             <div className="content--sub-block">
-              <div className="content--section-title  for-h3">
+              <div className="content--section-title-firebird for-h3">
                 Competitive Analysis
               </div>
               <h3>Different Approaches + Use Cases for Order-Tracking</h3>
               <p>
-                I conducted a competitive analysis of four delivery platforms to
-                understand how they approached order-tracking. Each platform
-                provides delivery for a different kind of product, and
+                I also conducted a competitive analysis of four delivery
+                platforms to understand how they approached order-tracking. Each
+                platform provides delivery for a different kind of product, and
                 emphasizes platform usage through different value propositions.
                 To start, I broke down these differences and compared them to
                 our goals for Firebird.
@@ -410,8 +438,11 @@ export default function Work() {
                 platforms supported the company’s product values, taking note of
                 solutions that could be applied to Firebird.{" "}
               </p>
-              <div className="double-image">
-                <div className="image-container">
+              <div
+                className="double-image"
+                style={{ paddingBottom: 2.5 + "%" }}
+              >
+                <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
                     src="https://www.datocms-assets.com/103104/1691591507-ff_audit-4.png"
@@ -419,7 +450,7 @@ export default function Work() {
                     title="Domino's web-based order-tracking screen"
                   ></img>
                 </div>
-                <div className="image-container">
+                <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
                     src="https://www.datocms-assets.com/103104/1691591495-ff_audit-2.png"
@@ -427,7 +458,8 @@ export default function Work() {
                     title="Uber Eat's web-based order-tracking screen"
                   ></img>
                 </div>
-                <div className="image-container ">
+
+                <div className="image-container version ">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
                     src="https://www.datocms-assets.com/103104/1691591486-ff_audit-1.png"
@@ -435,7 +467,7 @@ export default function Work() {
                     title="Amazon Prime's web-based order-tracking screen"
                   ></img>
                 </div>
-                <div className="image-container ">
+                <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
                     src="https://www.datocms-assets.com/103104/1691591502-ff_audit-3.png"
@@ -450,18 +482,54 @@ export default function Work() {
                 design strategy
               </h4>
             </div>
-            <h3>We found that...</h3>
-            <h2>
-              All major delivery platforms utilize mobile notifications to
-              inform users of progress. Since Firebird is web-based, we must
-              leverage email updates to keep users up to date about the status
-              of their delivery.{" "}
+          </div>
+        </div>
+
+        <div className="content--block">
+          <h3>We found that...</h3>
+          <div className="double-image">
+            <h2
+              style={{
+                width: 40 + "%",
+                paddingRight: 2.5 + "%",
+                paddingBottom: 0 + "%",
+                fontFamily: "Calibre Regular",
+              }}
+            >
+              All major delivery platforms rely on mobile notifications to
+              update users on delivery progress
+            </h2>
+            <img
+              style={{
+                paddingBottom: 2.5 + "%",
+                width: 5 + "%",
+                paddingRight: 5 + "%",
+              }}
+              className="arrow"
+              src="https://www.datocms-assets.com/103104/1691702469-right-arrow.svg"
+              alt="arrow"
+              title="arrow"
+            ></img>
+            <h2
+              style={{
+                width: 40 + "%",
+                paddingBottom: 0 + "%",
+                fontFamily: "Calibre Regular",
+              }}
+            >
+              Since Firebird is web-based, we must{" "}
+              <strong> leverage email updates </strong> to keep users in the
+              loop.
             </h2>
           </div>
         </div>
+        <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
+          <div className="sequence-number">03</div>
+          <div className="section">SYNTHESIZE</div>
+        </div>
         <div>
-          <div className="content--block " id="grey">
-            <div className="content--section-title">
+          <div className="content--block" id="grey">
+            <div className="content--section-title-firebird">
               Reflecting on Research{" "}
             </div>
             <div className="content--main ">
@@ -474,40 +542,59 @@ export default function Work() {
                 aligned well with the project’s goals, as well as our
                 big-picture product strategy.
               </p>
-              <p>
-                👀 What can I learn by scanning the order-tracking page? EASE OF
-                USE
-              </p>
-              <p>
-                ‼️ How do I receive progress updates about my order?
-                TRANSPARENCY
-              </p>
-              <p>
-                ✅ How am I informed that my order has been delivered? AWARENESS
-                , SECURITY
-              </p>
-              <p>
-                Based on these questions, I generated ideas in three separate
-                ‘buckets’, exploring a range of approaches to answer each
-                question.
-              </p>
+              <div className="double-image">
+                <div>
+                  <p className="guiding-question">
+                    What can I learn by scanning the order-tracking page?
+                  </p>
+                  <p>✅ EASE OF USE </p>
+                </div>
+                <div>
+                  <p className="guiding-question">
+                    How do I receive progress updates about my order?
+                  </p>
+                  <p>🧿 TRANSPARENCY</p>
+                </div>
+                <div>
+                  <p className="guiding-question">
+                    How am I informed that my order has been delivered?
+                  </p>
+                  <p>🔒 AWARENESS , SECURITY </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
+          <div className="sequence-number">04</div>
+          <div className="section">IDEATION</div>
+        </div>
         <div>
-          <div className="content--block ">
+          <div className="content--block  nope">
+            <div className="content--section-title-firebird">
+              Iterating + Prototyping
+            </div>
             <div className="content--main ">
-              <h2>Bucket 1- Main Screen Display</h2>
               <p>
-                Keeping the first guiding question in mind, I iterated on a
-                number of order-tracking displays that put emphasis on different
+                Based on these questions, I generated ideas in three separate
+                ‘buckets’, exploring a range of approaches to answer each
+                question. For the first bucket, I iterated on a number of
+                order-tracking displays that put emphasis on different
                 information we could provide the user, evaluating each version’s
                 pros and cons.
               </p>
+              <h2
+                style={{
+                  fontFamily: "Calibre Regular",
+                }}
+              >
+                Bucket 1- Main Screen Display
+              </h2>
+
               <div className="version-pro-con">
                 <h3>V1 - Map dominant</h3>
 
-                <div className="version-container horizontal">
+                <div className="version-container">
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
@@ -516,7 +603,7 @@ export default function Work() {
                       title="V1 - Map dominant"
                     ></img>
                   </div>
-                  <div className="pro-con horizontal">
+                  <div className="pro-con">
                     {" "}
                     <div className="pros">
                       <h5>PROS</h5>
@@ -547,7 +634,7 @@ export default function Work() {
               </div>
               <div className="version-pro-con">
                 <h3>✅ V2 - No map, modular approach</h3>
-                <div className="version-container horizontal">
+                <div className="version-container">
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
@@ -556,7 +643,7 @@ export default function Work() {
                       title="V2 - No map, modular approach"
                     ></img>
                   </div>
-                  <div className="pro-con horizontal">
+                  <div className="pro-con">
                     {" "}
                     <div className="pros">
                       <h5>PROS</h5>
@@ -582,9 +669,10 @@ export default function Work() {
                   </div>
                 </div>
               </div>
+
               <div className="version-pro-con ">
                 <h3>V3 - Map with info modules</h3>
-                <div className="version-container horizontal">
+                <div className="version-container">
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
@@ -593,7 +681,7 @@ export default function Work() {
                       title="V3 - Map with info modules"
                     ></img>
                   </div>
-                  <div className="pro-con horizontal">
+                  <div className="pro-con">
                     {" "}
                     <div className="pros">
                       <h5>PROS</h5>
@@ -619,6 +707,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
+
               <div className="version-pro-con">
                 <h3>V4 - Map / status dominant</h3>
                 <div className="version-container ">
@@ -667,14 +756,16 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="content--block ">
+        <div className="content--block addition nope ">
           <div className="content--main ">
-            <h2>Bucket 2- Status Updates </h2>
-            <p>
-              Since emails proved to be our most reliable way to update the
-              user, I iterated on potential content arrangements that worked
-              within our existing email template.
-            </p>
+            <h2
+              style={{
+                fontFamily: "Calibre Regular",
+              }}
+            >
+              Bucket 2- Status Updates{" "}
+            </h2>
+
             <div className="version-pro-con">
               <h3>V1</h3>
               <div className="version-container">
@@ -809,25 +900,28 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="content--block ">
+        <div className="content--block addition nope">
           <div className="content--main ">
-            <h2>Bucket 3- Delivery Confirmation </h2>
-            <p>
-              I iterated on a few different ways we could confirm to the user
-              that their order was delivered and evaluated
-            </p>
+            <h2
+              style={{
+                fontFamily: "Calibre Regular",
+              }}
+            >
+              Bucket 3- Delivery Confirmation{" "}
+            </h2>
+
             <div className="version-pro-con ">
-              <h3>V1 - Tracking page visual cues</h3>
-              <div className="version-container horizontal">
+              <h3>✅ V1 - Tracking page visual cues</h3>
+              <div className="version-container ">
                 <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full "
-                    src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                    alt="Original design of Firebird's order-tracking screen"
-                    title="Original design of Firebird's order-tracking screen"
+                    src="https://www.datocms-assets.com/103104/1691595590-bucket3_1.png"
+                    alt="V1 - Tracking page visual cues"
+                    title="V1 - Tracking page visual cues"
                   ></img>
                 </div>
-                <div className="pro-con horizontal">
+                <div className="pro-con  ">
                   {" "}
                   <div className="pros">
                     <h5>PROS</h5>
@@ -848,19 +942,17 @@ export default function Work() {
             </div>
             <div className="version-pro-con ">
               <h3>V2 - Past orders redirection</h3>
-              <div className="version-container horizontal">
-                <div clasNames="image-container version">
-                  <div clasNames="image-container version">
-                    <img
-                      className=" content--image-wrapper-full bump-2point5"
-                      src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                      alt="Original design of Firebird's order-tracking screen"
-                      title="Original design of Firebird's order-tracking screen"
-                    ></img>
-                  </div>
+              <div className="version-container">
+                <div className="image-container version">
+                  <img
+                    className=" content--image-wrapper-full"
+                    src="https://www.datocms-assets.com/103104/1691595595-bucket3_2.png"
+                    alt="V2 - Past orders redirection"
+                    title="V2 - Past orders redirection"
+                  ></img>
                 </div>
-                <div className="pro-con horizontal">
-                  {" "}
+
+                <div className="pro-con ">
                   <div className="pros">
                     <h5>PROS</h5>
                     <ul>
@@ -884,7 +976,7 @@ export default function Work() {
               <div className="version-container">
                 <div clasNames="image-container version">
                   <img
-                    className=" content--image-wrapper-full bump-2point5"
+                    className=" content--image-wrapper-full"
                     src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
                     alt="Original design of Firebird's order-tracking screen"
                     title="Original design of Firebird's order-tracking screen"
@@ -908,17 +1000,17 @@ export default function Work() {
                 </div>
               </div>
               <div className="version-pro-con">
-                <h3>✅ V4 - Visual cues + photo evidence</h3>
-                <div className="version-container  horizontal">
-                  <div clasNames="image-container version">
+                <h3>V4 - Visual cues + photo evidence</h3>
+                <div className="version-container ">
+                  <div className="image-container version">
                     <img
-                      className=" content--image-wrapper-full bump-2point5"
-                      src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                      alt="Original design of Firebird's order-tracking screen"
-                      title="Original design of Firebird's order-tracking screen"
+                      className=" content--image-wrapper-full "
+                      src="https://www.datocms-assets.com/103104/1691595601-bucket3_3.png"
+                      alt="V4 - Visual cues + photo evidence"
+                      title="V4 - Visual cues + photo evidence"
                     ></img>
                   </div>
-                  <div className="pro-con horizontal">
+                  <div className="pro-con">
                     {" "}
                     <div className="pros">
                       <h5>PROS</h5>
@@ -957,33 +1049,63 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="content--block ">
+        <div className="content--block  ">
           <div className="content--main ">
             <h2>The Final Product</h2>
           </div>
         </div>
-        <div className="content--block ">
-          <div className="content--section-title">
+        <div className="content--block nope ">
+          <div className="content--section-title-firebird">
             Impact of my Improvements
           </div>
           <div className="content--main ">
-            <h2>92% of Users now Track Their Orders</h2>
-
+            <h2>92% of Users now Track Their Orders!</h2>
             <p>
               Firebird’s order-tracking page, along with other 2.0 updates, were
               launched at the end of Q2. Since then, we’ve seen a massive
-              increase in average delivery basket size and price (+23% and +25%
-              respectively).
+              increase in average delivery basket size and price (
+              <strong>+23%</strong> and <strong>+25% </strong>
+              respectively). As for order tracking usage,{" "}
+              <strong>92% of delivery users</strong> now track their orders, a
+              77% increase from our beta launch.
             </p>
-            <p>
-              As for order tracking usage, 92% of delivery users now track their
-              orders, a 77% increase from our beta launch.
-            </p>
+            <div className="double-image">
+              <div
+                className="image-container"
+                style={{ width: 40 + "%", paddingRight: 5 + "%" }}
+              >
+                <img
+                  className=" content--image-wrapper-full "
+                  src="https://www.datocms-assets.com/103104/1691593375-ff_results1.png"
+                  alt="via Hifyre IQ"
+                  title="via Hifyre IQ"
+                ></img>
+              </div>
+              <div
+                className="image-container"
+                style={{ width: 40 + "%", paddingRight: 5 + "%" }}
+              >
+                <img
+                  className=" content--image-wrapper-full "
+                  src="https://www.datocms-assets.com/103104/1691591541-ff_results2.png"
+                  alt="via Hifyre IQ"
+                  title="via Hifyre IQ"
+                ></img>
+              </div>
+              <div className="image-container" style={{ width: 48.1 + "%" }}>
+                <img
+                  className=" content--image-wrapper-full "
+                  src="https://www.datocms-assets.com/103104/1691591545-ff_results3.png"
+                  alt="via Hifyre IQ"
+                  title="via Hifyre IQ"
+                ></img>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="content--block ">
-          <div className="content--section-title">Conclusions</div>
+          <div className="content--section-title-firebird">Conclusions</div>
           <div className="content--main ">
             <h2>Next Steps + Takeaways</h2>
 

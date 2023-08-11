@@ -87,6 +87,7 @@ const ImageGallery = () => {
 
     imageContainers.forEach((container, index) => {
       const image = container.querySelector("img");
+      image.style.cursor = "pointer";
       image.addEventListener("click", () => handleImageClick(index));
     });
 

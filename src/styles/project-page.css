@@ -45,6 +45,7 @@ body {
 h3 {
   font-family: calibre medium;
   font-weight: 500;
+  margin-block-start: 0em;
 }
 
 strong {
@@ -122,7 +123,7 @@ h4 {
 
 p {
   font-family: "Calibre Regular";
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   line-height: 1.5em;
   margin: 0;
   padding-bottom: 5%;
@@ -140,9 +141,8 @@ i {
 .content--block {
   padding-top: 5%;
   padding-bottom: 5%;
-  display: grid;
-  grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 1fr;
+  width: 70%;
+  padding: 5% 15% 5% 15%;
 }
 
 .addition {
@@ -156,12 +156,14 @@ i {
 }
 
 .content--section-title {
-  display: flex;
-  justify-content: flex-start;
-  grid-column-start: 2;
-  grid-column-end: 3;
   font-family: Calibre Regular, sans-serif;
   font-size: 1vw;
+  padding-bottom: 2.5%;
+}
+
+.content--section-title-firebird {
+  font-family: Calibre Regular Italic, sans-serif;
+  font-size: 1.25vw;
   padding-bottom: 2.5%;
 }
 
@@ -232,6 +234,11 @@ i {
   background-color: rgb(245, 245, 245);
 }
 
+#pink {
+  background-color: #fff5f9;
+  color: #f20155;
+}
+
 .content--two-columns.content--text-and-image {
   align-items: center;
 }
@@ -268,6 +275,11 @@ i {
 .content--point-icon {
   width: 15%;
   padding: 2.5% 5% 2.5% 0;
+}
+
+.content--point-icon-gif {
+  width: 20%;
+  padding: 0% 5% 0% 0%;
 }
 
 #nextProject {
@@ -421,13 +433,43 @@ h2.snapsave-h2-style span {
 
 /* New CSS From Firebird Project */
 
+.bb {
+  transform: translate(1vw, 2.5vw);
+}
+
+.section-divider {
+  margin-top: 5%;
+  width: 70%;
+  padding: 1.25% 15% 1.25% 15%;
+  border: 1px solid black;
+  border-style: solid none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  align-items: center;
+}
+
+.nope {
+  padding-bottom: 0%;
+}
+
+.guiding-question {
+  font-size: 1.5vw;
+  font-family: calibre medium;
+  width: 85%;
+}
+
 .image-container {
   height: auto;
   width: 100%;
+  cursor: pointer;
 }
 
 .column {
-  width: 75%;
+  width: 61.25%;
   padding-left: 5%;
   display: flex;
   flex-direction: column;
@@ -443,30 +485,14 @@ h2.snapsave-h2-style span {
   width: 45%;
 }
 
-.statistic-number {
-  font-size: 3.75vw;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.25em;
-}
-
 ul {
   margin-block-start: 0em;
   margin-block-end: 0em;
   padding-inline-start: 0px;
 }
 
-.version-container.horizontal {
-  display: block;
-}
-
-.version.horizontal {
-  width: 100%;
-}
-
-.pro-con.horizontal {
-  display: flex;
-  padding-left: 3%;
-  flex-direction: row;
+.pros {
+  padding-bottom: 7.5%;
 }
 
 .pros > h5,
@@ -474,6 +500,7 @@ ul {
   margin-block-start: 0em;
   margin-block-end: 0em;
   padding-bottom: 5%;
+  font-size: 1vw;
 }
 
 .pro-con {
@@ -481,37 +508,58 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 45%;
 }
 
 .version-container {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 7.5%;
+}
+
+.version {
+  transform: translate(-2.5%, -2.5%);
 }
 
 .double-image {
   display: flex;
-  align-items: center;
 }
 
 .three-statistics {
+  padding-top: 2.5%;
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 7.5%;
+  padding-bottom: 5%;
+}
+
+.statistic-number {
+  display: inline;
+  font-size: 4vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 10% 7.5% 2.5% 7.5%;
+  background-color: #ffe9ee;
+  color: #f20155;
+  border-radius: 7.5% / 12%;
 }
 
 .statistic {
-  width: 30%;
-  padding: 0% 2.5% 0 2.5%;
+  display: inline-block;
+  width: 25%;
+}
+.statistic > p {
+  padding-top: 10%;
+  font-size: 1.15vw;
 }
 
 .content-point {
   opacity: 1;
 }
 
-.statistic:nth-child(1) {
-  width: 30%;
-  padding: 0% 2.5% 0 0;
+.mini-file {
+  width: 15%;
+}
+
+.statistic:nth-child(3) {
+  padding: 0% 0% 0% 0%;
 }
 
 /* Responsive design stuff */
@@ -577,7 +625,8 @@ ul {
     font-size: 18px;
   }
   .content--block {
-    grid-template-columns: 10% 80% 10%;
+    width: 80%;
+    margin: auto;
   }
   .content--subdivide {
     display: block;
