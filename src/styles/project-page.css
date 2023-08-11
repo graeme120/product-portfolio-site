@@ -433,6 +433,15 @@ h2.snapsave-h2-style span {
 
 /* New CSS From Firebird Project */
 
+.image-container-long {
+  width: 45%;
+}
+
+.too-long {
+  width: 100%;
+  padding-right: 10%;
+}
+
 .bb {
   transform: translate(1vw, 2.5vw);
 }
@@ -440,7 +449,7 @@ h2.snapsave-h2-style span {
 .section-divider {
   margin-top: 5%;
   width: 70%;
-  padding: 1.25% 15% 1.25% 15%;
+  padding: 1.35% 15% 1% 15%;
   border: 1px solid black;
   border-style: solid none;
   display: flex;

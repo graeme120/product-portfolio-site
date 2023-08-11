@@ -523,10 +523,7 @@ export default function Work() {
             </h2>
           </div>
         </div>
-        <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
-          <div className="sequence-number">03</div>
-          <div className="section">SYNTHESIZE</div>
-        </div>
+
         <div>
           <div className="content--block" id="grey">
             <div className="content--section-title-firebird">
@@ -566,7 +563,7 @@ export default function Work() {
           </div>
         </div>
         <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
-          <div className="sequence-number">04</div>
+          <div className="sequence-number">03</div>
           <div className="section">IDEATION</div>
         </div>
         <div>
@@ -765,130 +762,149 @@ export default function Work() {
             >
               Bucket 2- Status Updates{" "}
             </h2>
-
-            <div className="version-pro-con">
-              <h3>V1</h3>
-              <div className="version-container">
-                <div className="image-container version">
-                  <img
-                    className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                    alt="Original design of Firebird's order-tracking screen"
-                    title="Original design of Firebird's order-tracking screen"
-                  ></img>
-                </div>
-                <div className="pro-con">
-                  <div className="pros">
-                    <h5>PROS</h5>
-                    <ul>
-                      <li>Expected delivery date is emphasized</li>
-                      <li>Information mirrors order tracking page</li>
-                    </ul>
+            <div className="double-image">
+              <div
+                className="version-pro-con"
+                style={{ paddingRight: 5 + "%" }}
+              >
+                <h3>V1</h3>
+                <div className="version-container">
+                  <div className="double-image">
+                    <div className="image-container-long version">
+                      <img
+                        className="too-long"
+                        src="https://www.datocms-assets.com/103104/1691720729-bucket2_1png.png"
+                        alt="Original design of Firebird's order-tracking screen"
+                        title="Original design of Firebird's order-tracking screen"
+                      ></img>
+                    </div>
+                    <div className="pro-con">
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>Expected delivery date is emphasized</li>
+                          <li>Information mirrors order tracking page</li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>
+                            No link to tracker, customers may not learn about
+                            that feature
+                          </li>
+                          <li>No central CTA of the email</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-                  <div className="cons">
-                    <h5>CONS</h5>
-                    <ul>
-                      <li>
-                        No link to tracker, customers may not learn about that
-                        feature
-                      </li>
-                      <li>No central CTA of the email</li>
-                    </ul>
+                </div>
+              </div>
+              <div className="version-pro-con">
+                <h3>V2</h3>
+                <div className="version-container">
+                  <div className="double-image">
+                    <div className="image-container-long version">
+                      <img
+                        className="too-long"
+                        src="https://www.datocms-assets.com/103104/1691720738-bucket2_2.png"
+                        alt="Original design of Firebird's order-tracking screen"
+                        title="Original design of Firebird's order-tracking screen"
+                      ></img>
+                    </div>
+                    <div className="pro-con">
+                      {" "}
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>
+                            Delivery date and track order CTA are prioritized
+                          </li>
+                          <li>Information matches order tracking page</li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>Manage delivery button is somewhat hidden</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="version-pro-con">
-              <h3>V2</h3>
-              <div className="version-container">
-                <div className="image-container version">
-                  <img
-                    className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                    alt="Original design of Firebird's order-tracking screen"
-                    title="Original design of Firebird's order-tracking screen"
-                  ></img>
-                </div>
-                <div className="pro-con">
-                  {" "}
-                  <div className="pros">
-                    <h5>PROS</h5>
-                    <ul>
-                      <li>Delivery date and track order CTA are prioritized</li>
-                      <li>Information matches order tracking page</li>
-                    </ul>
-                  </div>
-                  <div className="cons">
-                    <h5>CONS</h5>
-                    <ul>
-                      <li>Manage delivery button is somewhat hidden</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="version-pro-con">
-              <h3>V3</h3>
-              <div className="version-container">
-                <div className="image-container version version">
-                  <img
-                    className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                    alt="Original design of Firebird's order-tracking screen"
-                    title="Original design of Firebird's order-tracking screen"
-                  ></img>
-                </div>
-                <div className="pro-con">
-                  {" "}
-                  <div className="pros">
-                    <h5>PROS</h5>
-                    <ul>
-                      <li>Delivery date and track order CTA are prioritized</li>
-                      <li>
-                        Manage delivery button is viewable just by scanning
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="cons">
-                    <h5>CONS</h5>
-                    <ul>
-                      <li>Item(s) ordered aren’t immediately visible</li>
-                    </ul>
+            <div className="double-image bump-2point5">
+              <div
+                className="version-pro-con"
+                style={{ marginRight: 7.5 + "%" }}
+              >
+                <h3>V3</h3>
+                <div className="version-container">
+                  <div className="double-image">
+                    <div className="image-container-long version">
+                      <img
+                        className="too-long"
+                        src="https://www.datocms-assets.com/103104/1691720746-bucket2_3.png"
+                        alt="Original design of Firebird's order-tracking screen"
+                        title="Original design of Firebird's order-tracking screen"
+                      ></img>
+                    </div>
+                    <div className="pro-con">
+                      {" "}
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>
+                            Delivery date and track order CTA are prioritized
+                          </li>
+                          <li>Information matches order tracking page</li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>Manage delivery button is somewhat hidden</li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="version-pro-con">
-              <h3>V4</h3>
-              <div className="version-container">
-                <div className="image-container version">
-                  <img
-                    className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                    alt="Original design of Firebird's order-tracking screen"
-                    title="Original design of Firebird's order-tracking screen"
-                  ></img>
-                </div>
-                <div className="pro-con">
-                  {" "}
-                  <div className="pros">
-                    <h5>PROS</h5>
-                    <ul>
-                      <li>Expected arrival date is clearly visible</li>
-                      <li>
-                        User incentivized to scan / confirm order before leaving
-                        the page
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="cons">
-                    <h5>CONS</h5>
-                    <ul>
-                      <li>
-                        Order buttons take priority over delivery details + call
-                        to action buttons
-                      </li>
-                    </ul>
+              <div className="version-pro-con">
+                <h3>V4</h3>
+                <div className="version-container">
+                  <div className="double-image">
+                    <div className="image-container-long version bump-2point5">
+                      <img
+                        className="too-long"
+                        src="https://www.datocms-assets.com/103104/1691720755-bucket2_4.png"
+                        alt="Original design of Firebird's order-tracking screen"
+                        title="Original design of Firebird's order-tracking screen"
+                      ></img>
+                    </div>
+                    <div className="pro-con">
+                      {" "}
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>Expected arrival date is clearly visible</li>
+                          <li>
+                            User incentivized to scan / confirm order before
+                            leaving the page
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>
+                            Order buttons take priority over delivery details +
+                            call to action buttons
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -974,7 +990,7 @@ export default function Work() {
             <div className="version-pro-con">
               <h3>✅ V3 - Email Alert with photo evidence</h3>
               <div className="version-container">
-                <div clasNames="image-container version">
+                <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full"
                     src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
@@ -1015,7 +1031,7 @@ export default function Work() {
                     <div className="pros">
                       <h5>PROS</h5>
                       <ul>
-                        <li>Visual communicates order delivery</li>
+                        <li>Visually communicates order delivery</li>
                         <li>Tangible proof of delivery</li>
                       </ul>
                     </div>
@@ -1038,20 +1054,61 @@ export default function Work() {
           </div>
         </div>
         <div className="content--block ">
-          <div className="content--main ">
-            <h2>Mobile Prototyping</h2>
-
-            <p>
-              Since our solution depended so heavily on email updates, it was
-              clear that the tracking page had to be responsive to mobile
-              devices, for users who opened email updates from their phones.
-            </p>
+          <div className="content--main double-image ">
+            <div
+              className="double-image"
+              style={{ width: 90 + "%", paddingRight: 5 + "%" }}
+            >
+              <div className="image-container version ">
+                <img
+                  className=" content--image-wrapper-full bump-2point5 version"
+                  src="https://www.datocms-assets.com/103104/1691718210-ff_mobile1.png"
+                  alt="Mobile view of tracking page"
+                  title="Mobile view of tracking page"
+                ></img>
+              </div>
+              <div className="image-container version ">
+                <img
+                  className=" content--image-wrapper-full bump-2point5 version"
+                  src="https://www.datocms-assets.com/103104/1691718218-ff_mobile2.png"
+                  alt="Email update on mobile"
+                  title="Email update on mobile"
+                ></img>
+              </div>
+            </div>
+            <div style={{ width: 65 + "%", paddingRight: 5 + "%" }}>
+              <h2>Mobile Prototyping</h2>
+              <p>
+                Since our solution depended so heavily on email updates, it was
+                clear that the tracking page had to be responsive to mobile
+                devices, for users who opened email updates from their phones.
+              </p>
+            </div>
           </div>
         </div>
-
+        <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
+          <div className="sequence-number">05</div>
+          <div className="section">EXECUTION</div>
+        </div>
         <div className="content--block  ">
           <div className="content--main ">
             <h2>The Final Product</h2>
+            <div className="image-container">
+              <img
+                className=" content--image-wrapper-full "
+                src="https://www.datocms-assets.com/103104/1691713659-ff_final1.png"
+                alt="Final order-tracking screen"
+                title="Final order-tracking screen"
+              ></img>
+            </div>
+            <div className="image-container">
+              <img
+                className=" content--image-wrapper-full "
+                src="https://www.datocms-assets.com/103104/1691720401-ff_final2.png"
+                alt="Final email alert"
+                title="Final email alert"
+              ></img>
+            </div>
           </div>
         </div>
         <div className="content--block nope ">
@@ -1113,21 +1170,22 @@ export default function Work() {
               It was an incredible experience to work on my first real-world UX
               project. Here are a few of my key takeaways from the experience-
             </p>
-            <p>
-              <h3>Design is a balancing act:</h3>
+
+            <p style={{ width: 75 + "%" }}>
+              <h3>Design is a balancing act</h3>
               Working on a real-world project means you're no longer designing
               in a vacuum. Every design decision must account for both
               stakeholder demands and technological restraints, it is in your
               best interest to keep these factors in mind as you iterate.
             </p>
-            <p>
-              <h3>Be mindful of your engineers:</h3>
+            <p style={{ width: 75 + "%" }}>
+              <h3>Be mindful of your engineers</h3>
                providing detailed notes for the engineers relating to the
               platform's front-end development was critical in getting a final
               product that mirrored my initial designs.ㅤ
             </p>
-            <p>
-              <h3>Be mindful of your engineers:</h3>
+            <p style={{ width: 75 + "%" }}>
+              <h3>Be mindful of your engineers</h3>
               Providing detailed notes for the engineers relating to the
               platform's front-end development was critical in getting a final
               product that mirrored my initial designs.ㅤ
@@ -1143,13 +1201,13 @@ export default function Work() {
               <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>
-                <a href="">
+                <a className="explicit-link" href="">
                   <u>slide-deck.</u>
                 </a>
               </h2>
               <h3 id="nextProject">
                 Next Project →{" "}
-                <Link to="">
+                <Link className="explicit-link" to="">
                   <u>Project Project</u>
                 </Link>
               </h3>
@@ -1192,6 +1250,7 @@ window.onbeforeunload = function () {
           }}
         />
       </motion.main>
+      <Footer />
       <Overlay />
       <div className="overlay" id="overlay">
         <button id="closeButton">Close</button>
@@ -1199,7 +1258,6 @@ window.onbeforeunload = function () {
           <img src="" alt="Enlarged Image" id="enlargedImage"></img>
           <div className="image-focus-subtitle" id="imageSubtitle"></div>
         </div>
-        <Footer />
       </div>
     </div>
   );

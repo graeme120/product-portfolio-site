@@ -764,9 +764,9 @@ window.onbeforeunload = function () {
 }`,
           }}
         />
+        <Footer />
         <Overlay />
       </motion.main>
-      <Footer />
     </div>
   );
 }
