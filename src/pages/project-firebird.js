@@ -39,9 +39,9 @@ export default function Work() {
                 In Summer 2022 I interned at Hifyre, an e-commerce company
                 powering Canada’s largest cannabis retailers. As a UX intern, I
                 was responsible for reviewing our early-stage consumer metrics,
-                identifying and prioritizing product goals, and then iterating
-                on potential design approaches to our beta-stage delivery
-                platform, Firebird Delivery.
+                identifying and prioritizing product goals, and iterating on
+                potential design approaches to our beta-stage delivery platform,
+                Firebird Delivery.
               </p>
               <div className="content--subdivide">
                 <div className="content--subdivision-big">
@@ -75,35 +75,43 @@ export default function Work() {
           <div className="sequence-number">01</div>
           <div className="section">OVERVIEW</div>
         </div>
-        <div className="content--block nope double-image">
-          <div
-            className="content--main"
-            style={{ paddingRight: 5 + "%", width: 60 + "%" }}
-          >
-            <div className="content--section-title-firebird">
-              First things first...
-            </div>
-            <h2>What is Firebird Delivery?</h2>
-            <p>
-              Hifyre is an e-commerce company specializing in cannabis and
-              controlled substances. They manage the e-commerce for Fire &
-              Flower, a major Canadian cannabis retailer, and its subsidiaries.
-            </p>
 
-            <p>
-              In Q2 of 2022, Hifyre launched the beta version of Firebird
-              Delivery- Canada’s first online cannabis delivery service. The
-              beta release allowed Hifyre to gather consumer data and refine the
-              platform before its nationwide release.
-            </p>
+        <div className="content--block nope ">
+          <div className="content--section-title-firebird">
+            First things first...
           </div>
-          <div className="image-container version" style={{ width: 65 + "%" }}>
-            <img
-              className=" content--image-wrapper-full bump-2point5 bb"
-              src="https://www.datocms-assets.com/103104/1691705605-ff_example.png"
-              alt="Screen from Firebirddelivery.ca"
-              title="Screen from Firebirddelivery.ca"
-            ></img>
+          <div className="double-image">
+            {" "}
+            <div
+              className="content--main"
+              style={{ paddingRight: 5 + "%", width: 60 + "%" }}
+            >
+              <h2>What is Firebird Delivery?</h2>
+              <p>
+                Hifyre is an e-commerce company specializing in cannabis and
+                controlled substances. They manage the e-commerce for Fire &
+                Flower, a major Canadian cannabis retailer, and its
+                subsidiaries.
+              </p>
+
+              <p>
+                In Q2 of 2022, Hifyre launched the beta version of Firebird
+                Delivery- Canada’s first online cannabis delivery service. The
+                beta release allowed Hifyre to gather consumer data and refine
+                the platform before its nationwide release.
+              </p>
+            </div>
+            <div
+              className="image-container version"
+              style={{ width: 65 + "%" }}
+            >
+              <img
+                className=" content--image-wrapper-full bump-2point5 bb"
+                src="https://www.datocms-assets.com/103104/1691705605-ff_example.png"
+                alt="Screen from Firebirddelivery.ca"
+                title="Screen from Firebirddelivery.ca"
+              ></img>
+            </div>
           </div>
         </div>
 
@@ -136,8 +144,8 @@ export default function Work() {
               Since Firebird was in its beta-release stage, many core features
               lacked refinement. Our order-tracking page was arguably the worst
               offender- focus on the product team had been on shopping
-              functionality, leaving the order-tracking page as essentially a
-              debug screen for our back-end team to reference.
+              functionality, leaving the order-tracking page as a debug-looking
+              screen for our back-end team to reference.
             </p>
           </div>
         </div>
@@ -158,28 +166,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon-gif"
-                src="https://www.datocms-assets.com/103104/1691687612-ff_principle1.gif"
-                alt="One of our most reliable delivery guys"
-                title="One of our most reliable delivery guys"
-              ></img>
-              <div className="content--point">
-                <h3 className="content--point-title">
-                  End-to-end Customer Journey
-                </h3>
-                <p>
-                  Our stakeholders’ highest priority was fully developing the
-                  core user journey from end-to-end, which meant our priority
-                  was in building out <strong>new features</strong> over
-                  refining existing ones. For the product team, this meant a
-                  focus on checkout, payment processing, delivery and user
-                  feedback functionality.
-                </p>
-              </div>
-            </div>
-            <div className="  content--point-section">
-              <img
-                className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1689702004-finding_2.svg"
+                src="https://www.datocms-assets.com/103104/1691774835-principle2.gif"
                 alt="Iphone icon"
                 title="Iphone icon"
               ></img>
@@ -195,10 +182,11 @@ export default function Work() {
                 </p>
               </div>
             </div>
+
             <div className="  content--point-section">
               <img
-                className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688665448-finding_3.svg"
+                className="content--point-icon-gif"
+                src="https://www.datocms-assets.com/103104/1691792679-principle3.gif"
                 alt="Coins icon"
                 title="Coins icon"
               ></img>
@@ -214,6 +202,27 @@ export default function Work() {
                   mindful of consumer concerns over safe handling, and wherever
                   possible, default to giving the user
                   <strong> more information</strong> than necessary.
+                </p>
+              </div>
+            </div>
+            <div className="  content--point-section">
+              <img
+                className="content--point-icon-gif"
+                src="https://www.datocms-assets.com/103104/1691687612-ff_principle1.gif"
+                alt="One of our most reliable delivery guys"
+                title="One of our most reliable delivery guys"
+              ></img>
+              <div className="content--point">
+                <h3 className="content--point-title">
+                  End-to-end Customer Journey
+                </h3>
+                <p>
+                  Our stakeholders’ highest priority was fully developing the
+                  core user journey from end-to-end, which meant our priority
+                  was in building out <strong>new features</strong> over
+                  refining existing ones. For the product team, this meant a
+                  focus on checkout, payment processing, delivery and user
+                  feedback functionality.
                 </p>
               </div>
             </div>
@@ -380,32 +389,124 @@ export default function Work() {
             </p>
 
             <div className="content--sub-block">
-              <div className="three-statistics">
-                <div className="statistic" style={{ paddingRight: 5 + "%" }}>
-                  <h3>1 / Comprehensive Progress Updates</h3>
-                  <p>
-                    Order tracking platforms should clearly communicate all
-                    order updates to users, but ensure the most recent update is
-                    prioritized.
-                  </p>
-                </div>
-                <div className="statistic" style={{ paddingRight: 5 + "%" }}>
-                  <h3>2 / Consistency Across Update Messages</h3>
-                  <p>
-                    Update messages sent across multiple channels should present
-                    both the same information and amount of information, refrain
-                    from making one source more reliable than another.
-                  </p>
+              <div
+                className="three-statistics"
+                style={{ boxSizing: "border-box" }}
+              >
+                <div className="double-image stats">
+                  <div className="image-container-stats">
+                    <a
+                      href="https://baymard.com/research/online-food-delivery"
+                      target="_blank"
+                    >
+                      <img
+                        className="icon-img"
+                        src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                      ></img>
+                    </a>
+                  </div>
+                  <div className="text-container">
+                    <h3>1 / Comprehensive Progress Updates</h3>
+                    <p>
+                      Order tracking platforms should clearly communicate all
+                      order updates to users, but ensure the most recent update
+                      is prioritized.
+                    </p>
+                  </div>
                 </div>
 
-                <div className="statistic">
-                  <h3>3 / Keep the User in Control</h3>
-                  <p>
-                    Any screen pertaining to user’s order and delivery should
-                    include options to manage/modify delivery details, in order
-                    to keep user in control of the delivery at every stage.
-                  </p>
+                <div className="double-image stats">
+                  <div className="image-container-stats">
+                    <a
+                      href="https://www.nngroup.com/articles/status-tracker-progress-update/"
+                      target="_blank"
+                    >
+                      <img
+                        className="icon-img"
+                        src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                      ></img>
+                    </a>
+                  </div>
+                  <div className="text-container">
+                    <h3>2 / Consistency Across Update Messages</h3>
+                    <p>
+                      Update messages sent across multiple channels should
+                      present both the same information and amount of
+                      information, refrain from making one source more reliable
+                      than another.
+                    </p>
+                  </div>
                 </div>
+                <div className="double-image stats">
+                  <div className="image-container-stats">
+                    <a
+                      href="https://www.businesswire.com/news/home/20220420005141/en/Verte-Research-Reveals-Consumers-Are-Obsessed-With-Order-Tracking-Visibility"
+                      target="_blank"
+                    >
+                      <img
+                        className="icon-img"
+                        src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                      ></img>
+                    </a>
+                  </div>
+                  <div className="text-container">
+                    <h3>3 / Keep the User in Control</h3>
+                    <p>
+                      Any screen pertaining to user’s order and delivery should
+                      include options to manage/modify delivery details, in
+                      order to keep user in control of the delivery at every
+                      stage.
+                    </p>
+                  </div>
+                </div>
+                {/* <div
+                  className=" double-image"
+                  style={{ width: 100 + "%", marginRight: 2.5 + "%" }}
+                >
+                  <div
+                    className="image-container"
+                    style={{ width: 35 + "%", marginRight: 1.25 + "vw" }}
+                  >
+                    <img
+                      src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                      style={{ width: 100 + "%" }}
+                    ></img>
+                  </div>
+                  <div>
+                    <h3 style={{ width: 100 + "%" }}>
+                      2 / Consistency Across Update Messages
+                    </h3>
+                    <p>
+                      Update messages sent across multiple channels should
+                      present both the same information and amount of
+                      information, refrain from making one source more reliable
+                      than another.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className=" double-image"
+                  style={{ width: 100 + "%", marginRight: 2.5 + "%" }}
+                >
+                  <div
+                    className="image-container"
+                    style={{ width: 35 + "%", marginRight: 1.25 + "vw" }}
+                  >
+                    <img
+                      src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                      style={{ width: 100 + "%" }}
+                    ></img>
+                  </div>
+                  <div>
+                    <h3></h3>
+                    <p>
+                      Any screen pertaining to user’s order and delivery should
+                      include options to manage/modify delivery details, in
+                      order to keep user in control of the delivery at every
+                      stage.
+                    </p>
+                  </div>
+                </div> */}
               </div>
             </div>
             <div className="content--sub-block">
@@ -430,7 +531,6 @@ export default function Work() {
                 ></img>
               </div>
               <h3>Competitive Audit</h3>
-              {/* 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥I'm just gonna put this here for now but it will have to be nicely formatted in round two!!!!!!!!!!!!!!!!!! */}
               <p>
                 With the platform differences outlined, I began auditing the
                 order-tracking functionality of each platform.* My goal with
@@ -487,7 +587,10 @@ export default function Work() {
 
         <div className="content--block">
           <h3>We found that...</h3>
-          <div className="double-image">
+          <div
+            className="double-image"
+            style={{ justifyContent: "space-between" }}
+          >
             <h2
               style={{
                 width: 40 + "%",
@@ -571,8 +674,8 @@ export default function Work() {
             <div className="content--section-title-firebird">
               Iterating + Prototyping
             </div>
-            <div className="content--main ">
-              <p>
+            <div className="content--main">
+              <p className="final-sentence">
                 Based on these questions, I generated ideas in three separate
                 ‘buckets’, exploring a range of approaches to answer each
                 question. For the first bucket, I iterated on a number of
@@ -744,7 +847,7 @@ export default function Work() {
                   </div>
                 </div>
               </div>
-              <p>
+              <p className="final-sentence">
                 V2 gave the user the most information possible from a quick
                 scan, which aligned best with our goals of speed and
                 transparency.
@@ -790,10 +893,10 @@ export default function Work() {
                         <h5>CONS</h5>
                         <ul>
                           <li>
-                            No link to tracker, customers may not learn about
-                            that feature
+                            Track order button isn't immediately viewable on
+                            mobile
                           </li>
-                          <li>No central CTA of the email</li>
+                          <li>Menu bar is prioritized more than central CTA</li>
                         </ul>
                       </div>
                     </div>
@@ -826,7 +929,10 @@ export default function Work() {
                       <div className="cons">
                         <h5>CONS</h5>
                         <ul>
-                          <li>Manage delivery button is somewhat hidden</li>
+                          <li>
+                            Top section is cluttered with both menu and track
+                            order button
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -839,7 +945,7 @@ export default function Work() {
                 className="version-pro-con"
                 style={{ marginRight: 7.5 + "%" }}
               >
-                <h3>V3</h3>
+                <h3>✅V3</h3>
                 <div className="version-container">
                   <div className="double-image">
                     <div className="image-container-long version">
@@ -864,7 +970,7 @@ export default function Work() {
                       <div className="cons">
                         <h5>CONS</h5>
                         <ul>
-                          <li>Manage delivery button is somewhat hidden</li>
+                          <li>Manage order button is somewhat hidden</li>
                         </ul>
                       </div>
                     </div>
@@ -899,8 +1005,8 @@ export default function Work() {
                         <h5>CONS</h5>
                         <ul>
                           <li>
-                            Order buttons take priority over delivery details +
-                            call to action buttons
+                            Prioritizing delivery details over order details
+                            could potentially be less helpful
                           </li>
                         </ul>
                       </div>
@@ -909,9 +1015,9 @@ export default function Work() {
                 </div>
               </div>
             </div>
-            <p>
-              V3 was chosen because it best highlighted the order controls
-              available to the user.
+            <p className="final-sentence">
+              V3 was chosen because it best highlighted both the CTA and order
+              information most relevant to the user.
             </p>
           </div>
         </div>
@@ -989,13 +1095,16 @@ export default function Work() {
             </div>
             <div className="version-pro-con">
               <h3>✅ V3 - Email Alert with photo evidence</h3>
-              <div className="version-container">
-                <div className="image-container version">
+              <div
+                className="double-image"
+                style={{ paddingBottom: 2.5 + "%", paddingTop: 2.5 + "%" }}
+              >
+                <div style={{ width: 25 + "%" }}>
                   <img
-                    className=" content--image-wrapper-full"
-                    src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
-                    alt="Original design of Firebird's order-tracking screen"
-                    title="Original design of Firebird's order-tracking screen"
+                    className="content--image-wrapper-full version"
+                    src="https://www.datocms-assets.com/103104/1691770386-bucket3_3.png"
+                    alt="Email Alert with photo evidence"
+                    title="Email Alert with photo evidence"
                   ></img>
                 </div>
                 <div className="pro-con">
@@ -1057,32 +1166,46 @@ export default function Work() {
           <div className="content--main double-image ">
             <div
               className="double-image"
-              style={{ width: 90 + "%", paddingRight: 5 + "%" }}
+              style={{ width: 100 + "%", paddingRight: 5 + "%" }}
             >
-              <div className="image-container version ">
+              <div style={{ paddingRight: 7.5 + "%" }}>
+                <h2>Mobile Prototyping</h2>
+                <p>
+                  Since our solution depended so heavily on email updates, it
+                  was clear that the tracking page had to be responsive to
+                  mobile devices, for users who opened email updates from their
+                  phones.
+                </p>
+              </div>
+
+              <div className="image-container ">
                 <img
-                  className=" content--image-wrapper-full bump-2point5 version"
+                  className=" content--image-wrapper-full bump-2point5 "
+                  src="https://www.datocms-assets.com/103104/1691788899-ff_mobile2.png"
+                  alt="Email update on mobile"
+                  title="Email update on mobile"
+                ></img>
+              </div>
+              <img
+                style={{
+                  paddingBottom: 2.5 + "%",
+                  width: 5 + "%",
+                  marginRight: 2.5 + "%",
+                  marginLeft: 2.5 + "%",
+                }}
+                className="arrow"
+                src="https://www.datocms-assets.com/103104/1691702469-right-arrow.svg"
+                alt="arrow"
+                title="arrow"
+              ></img>
+              <div className="image-container ">
+                <img
+                  className=" content--image-wrapper-full bump-2point5"
                   src="https://www.datocms-assets.com/103104/1691718210-ff_mobile1.png"
                   alt="Mobile view of tracking page"
                   title="Mobile view of tracking page"
                 ></img>
               </div>
-              <div className="image-container version ">
-                <img
-                  className=" content--image-wrapper-full bump-2point5 version"
-                  src="https://www.datocms-assets.com/103104/1691718218-ff_mobile2.png"
-                  alt="Email update on mobile"
-                  title="Email update on mobile"
-                ></img>
-              </div>
-            </div>
-            <div style={{ width: 65 + "%", paddingRight: 5 + "%" }}>
-              <h2>Mobile Prototyping</h2>
-              <p>
-                Since our solution depended so heavily on email updates, it was
-                clear that the tracking page had to be responsive to mobile
-                devices, for users who opened email updates from their phones.
-              </p>
             </div>
           </div>
         </div>
@@ -1090,7 +1213,7 @@ export default function Work() {
           <div className="sequence-number">05</div>
           <div className="section">EXECUTION</div>
         </div>
-        <div className="content--block  ">
+        <div className="content--block nope  ">
           <div className="content--main ">
             <h2>The Final Product</h2>
             <div className="image-container">
@@ -1167,28 +1290,34 @@ export default function Work() {
             <h2>Next Steps + Takeaways</h2>
 
             <p>
-              It was an incredible experience to work on my first real-world UX
-              project. Here are a few of my key takeaways from the experience-
+              Overall, it was an incredible experience to work on my first
+              real-world UX project. After the V2 updates had shipped, I stayed
+              on with Hifyre through Fall 2022, helping the product team
+              incorporate our subsidiary brands into SparkPerks, our membership
+              platform,. Here are a few of the things I learned during the
+              internship-
             </p>
 
             <p style={{ width: 75 + "%" }}>
-              <h3>Design is a balancing act</h3>
+              <h3>⚖️ Design is a balancing act</h3>
               Working on a real-world project means you're no longer designing
               in a vacuum. Every design decision must account for both
               stakeholder demands and technological restraints, it is in your
               best interest to keep these factors in mind as you iterate.
             </p>
             <p style={{ width: 75 + "%" }}>
-              <h3>Be mindful of your engineers</h3>
-               providing detailed notes for the engineers relating to the
-              platform's front-end development was critical in getting a final
-              product that mirrored my initial designs.ㅤ
+              <h3>🔥🐦 Align your work with the greater product strategy </h3>
+              For a product this large, it was important that every design
+              decision was in sync with the rest of the platform. Repeatedly
+              returning to our product goals as my North star helped me stay
+              focused in my design work.
             </p>
             <p style={{ width: 75 + "%" }}>
-              <h3>Be mindful of your engineers</h3>
-              Providing detailed notes for the engineers relating to the
-              platform's front-end development was critical in getting a final
-              product that mirrored my initial designs.ㅤ
+              <h3>🧑‍💻 Be mindful of your engineers</h3>
+              Without engineers, our product would just be a Figma file!
+              Providing detailed notes relating to the feature's front-end
+              development was much appreciated by the dev team, and was critical
+              in getting a final product that mirrored my initial designs.
             </p>
           </div>
         </div>
@@ -1198,17 +1327,17 @@ export default function Work() {
         <div id="grey">
           <div className="content--block content--next-project">
             <div className="fade-in content--main footer">
-              <h2>
+              {/* <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>
                 <a className="explicit-link" href="">
                   <u>slide-deck.</u>
                 </a>
-              </h2>
+              </h2> */}
               <h3 id="nextProject">
                 Next Project →{" "}
                 <Link className="explicit-link" to="">
-                  <u>Project Project</u>
+                  <u>SwitchPitch</u>
                 </Link>
               </h3>
             </div>

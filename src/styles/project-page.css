@@ -433,6 +433,17 @@ h2.snapsave-h2-style span {
 
 /* New CSS From Firebird Project */
 
+.icon-img {
+  width: 100%;
+  height: auto;
+}
+
+.stats {
+  display: flex;
+  width: 100%;
+  margin-right: 2.5%;
+}
+
 .image-container-long {
   width: 45%;
 }
@@ -443,7 +454,7 @@ h2.snapsave-h2-style span {
 }
 
 .bb {
-  transform: translate(1vw, 2.5vw);
+  transform: translate(1vw, 0vw);
 }
 
 .section-divider {
@@ -465,6 +476,10 @@ h2.snapsave-h2-style span {
   padding-bottom: 0%;
 }
 
+.final-sentence {
+  padding: 0 0 12% 0;
+}
+
 .guiding-question {
   font-size: 1.5vw;
   font-family: calibre medium;
@@ -475,6 +490,19 @@ h2.snapsave-h2-style span {
   height: auto;
   width: 100%;
   cursor: pointer;
+}
+
+.image-container-stats {
+  width: 10%; /* Adjust as needed */
+  margin-right: 1.75vw;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.consistency {
+  width: 90%;
 }
 
 .column {
