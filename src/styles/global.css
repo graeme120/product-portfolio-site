@@ -8,8 +8,14 @@
   }
 }
 
+body,
+main {
+  margin: 0 !important;
+}
+
 body {
   margin: 0;
+  padding: 0;
   float: none !important;
   overflow-y: scroll;
 }
