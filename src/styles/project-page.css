@@ -603,7 +603,8 @@ ul {
 
 @media screen and (min-width: 1780px) {
   .content--block {
-    grid-template-columns: 15% 70% 15%;
+    width: 70%;
+    margin: auto;
   }
   h1 {
     font-size: 64px;

@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: auto !important;
+  margin: 0;
   float: none !important;
   overflow-y: scroll;
 }
