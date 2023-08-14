@@ -317,7 +317,9 @@ i {
 
 .broad {
   width: 100%;
-  max-width: 1412px;
+  /* max-width: 1412px; */
+  max-width: 1200px;
+  margin: auto;
 }
 
 .footer {
