@@ -17,7 +17,7 @@ body {
   font-family: Calibre Regular, sans-serif;
 }
 
-main {
+.skinny {
   max-width: 1412px;
   width: 80%;
   margin: auto;
