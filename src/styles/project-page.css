@@ -317,8 +317,8 @@ i {
 
 .broad {
   width: 100%;
-  /* max-width: 1412px; */
-  max-width: 1200px;
+  max-width: 1500px;
+  /* was originally 1412 but i think it needs to be bigger */
   margin: auto;
 }
 
