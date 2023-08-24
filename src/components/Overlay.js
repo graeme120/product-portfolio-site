@@ -92,6 +92,7 @@ const ImageGallery = () => {
     });
 
     closeButton.addEventListener("click", () => closeOverlay());
+    enlargedImage.addEventListener("click", () => closeOverlay());
 
     overlay.addEventListener("click", (event) => {
       if (event.target === overlay) {

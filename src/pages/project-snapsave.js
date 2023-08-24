@@ -384,7 +384,7 @@ export default function Work() {
           <div className="content--block">
             <div className="content--section-title">DESIGN GOALS</div>
             <div className="content--main">
-              <h2 className=" ">
+              <h2 className="bump-2point5">
                 I set 3 main design goals for my project, based on my research
                 (and limited timeframe)
               </h2>
@@ -609,7 +609,9 @@ export default function Work() {
           </div>
         </div>
         <div id="grey" className="content--block">
-          <div className="content--section-title">FINAL PRODUCT</div>
+          <div className="content--section-title bump-2point5">
+            FINAL PRODUCT
+          </div>
           <div className="content--main">
             <div class="image-container">
               <img
@@ -629,7 +631,7 @@ export default function Work() {
               ></iframe>
             </div>
           </div>
-          <div className="content--section-title">STYLE GUIDE</div>
+          <div className="content--section-title bump-2point5">STYLE GUIDE</div>
           <div className="content--main">
             <div class="image-container">
               <img
@@ -646,7 +648,9 @@ export default function Work() {
           <div className="content--block">
             <div className="content--section-title">CONCLUSION</div>
             <div className="content--main">
-              <h2 className="">Takeaways + What I'd Do Differently</h2>
+              <h2 className="bump-2point5">
+                Takeaways + What I'd Do Differently
+              </h2>
               <p className="  ">
                 In designing, iterating, testing and building this platform, I
                 gained so much valuble insight into the process of product
@@ -761,6 +765,7 @@ faders.forEach((fader) => {
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
+
 }`,
           }}
         />

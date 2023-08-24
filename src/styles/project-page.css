@@ -47,6 +47,7 @@ h3 {
   font-family: calibre medium;
   font-weight: 500;
   margin-block-start: 0em;
+  margin-block-end: 1%;
 }
 
 strong {
@@ -105,7 +106,7 @@ h2 {
   font-size: 2.4vw;
   font-weight: 500;
   margin: 0;
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
 }
 
 h3 {
@@ -158,14 +159,23 @@ i {
 
 .content--section-title {
   font-family: Calibre Regular, sans-serif;
-  font-size: 1vw;
-  padding-bottom: 2.5%;
+  font-size: 1.25vw;
+  padding-bottom: 0.75%;
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.visible {
+  opacity: 1;
 }
 
 .content--section-title-firebird {
   font-family: Calibre Regular Italic, sans-serif;
   font-size: 1.25vw;
-  padding-bottom: 2.5%;
+  padding-bottom: 0.5%;
 }
 
 .content--main {
@@ -246,7 +256,12 @@ i {
 
 .content--point-title {
   margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin-bottom: 1%;
+}
+
+.bigger {
+  font-size: 2vw;
+  padding-bottom: 1%;
 }
 
 .content--point-section {
@@ -372,6 +387,7 @@ u {
   border: 0.25vw solid #75f9a2;
   border-style: none none none solid;
   background-color: #f1fef6;
+  margin-bottom: 7.5%;
 }
 
 h2.snapsave-h2-style span {

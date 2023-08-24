@@ -365,7 +365,7 @@ export default function Work() {
         </div>
 
         <div className="content--block " id="grey">
-          <div className="content--section-title">How might we...</div>
+          <div className="content--section-title bigger">How might we...</div>
           <div className="content--main">
             <h1 className="  no-padding">
               Make order-tracking for deliveries obvious, transparent and
@@ -856,7 +856,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="content--block addition nope ">
+        <div className="content--block addition nope " id="grey">
           <div className="content--main ">
             <h2
               style={{
@@ -1298,21 +1298,30 @@ export default function Work() {
               internship-
             </p>
 
-            <p style={{ width: 75 + "%" }}>
+            <p
+              style={{ width: 75 + "%" }}
+              className="project-writeup-description"
+            >
               <h3>⚖️ Design is a balancing act</h3>
               Working on a real-world project means you're no longer designing
               in a vacuum. Every design decision must account for both
               stakeholder demands and technological restraints, it is in your
               best interest to keep these factors in mind as you iterate.
             </p>
-            <p style={{ width: 75 + "%" }}>
+            <p
+              style={{ width: 75 + "%" }}
+              className="project-writeup-description"
+            >
               <h3>🔥🐦 Align your work with the greater product strategy </h3>
               For a product this large, it was important that every design
               decision was in sync with the rest of the platform. Repeatedly
               returning to our product goals as my North star helped me stay
               focused in my design work.
             </p>
-            <p style={{ width: 75 + "%" }}>
+            <p
+              style={{ width: 75 + "%" }}
+              className="project-writeup-description"
+            >
               <h3>🧑‍💻 Be mindful of your engineers</h3>
               Without engineers, our product would just be a Figma file!
               Providing detailed notes relating to the feature's front-end
