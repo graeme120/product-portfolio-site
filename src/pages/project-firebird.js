@@ -1383,6 +1383,10 @@ faders.forEach((fader) => {
   appearOnScroll.observe(fader);
 });
 
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+
 
 }`,
           }}
