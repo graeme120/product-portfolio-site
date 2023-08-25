@@ -734,7 +734,18 @@ export default function Work() {
         <Script
           dangerouslySetInnerHTML={{
             __html: `
-         
+            document.addEventListener('DOMContentLoaded', function() {
+              const imageHeader = document.getElementById('image-header');
+      
+              if (imageHeader) {
+                imageHeader.onload = function() {
+                  // Once the image has loaded, remove any initial scroll behavior and display the page.
+                  window.scrollTo(0, 0);
+                  const mainContent = document.querySelector('.broad');
+                  mainContent.style.opacity = 1;
+                };
+              }
+            });
          
 
           if (typeof faders === 'undefined') {
@@ -763,9 +774,6 @@ faders.forEach((fader) => {
   appearOnScroll.observe(fader);
 });
 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
 
 }`,
           }}

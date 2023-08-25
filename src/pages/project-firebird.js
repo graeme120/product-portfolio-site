@@ -1383,9 +1383,7 @@ faders.forEach((fader) => {
   appearOnScroll.observe(fader);
 });
 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-};
+
 }`,
           }}
         />
