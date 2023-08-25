@@ -33,6 +33,12 @@ export default function Nav() {
           <a href="https://www.instagram.com/graemeswork/">
             <img className="social-links--icon bump-left" src={Instagram}></img>
           </a>
+          <a href="https://read.cv/graeme_mounsey">
+            <img
+              className="social-links--icon"
+              src="https://www.datocms-assets.com/99382/1692993497-627012ff5aca2e86fb271203_read-cv.svg"
+            ></img>
+          </a>
           <a href="https://www.linkedin.com/in/graeme-mounsey/">
             <img className="social-links--icon" src={Linkedin}></img>
           </a>

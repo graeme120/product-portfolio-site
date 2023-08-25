@@ -740,7 +740,7 @@ export default function Work() {
               if (imageHeader) {
                 imageHeader.onload = function() {
                   // Once the image has loaded, remove any initial scroll behavior and display the page.
-                  window.scrollTo(0, 0);
+               
                   const mainContent = document.querySelector('.broad');
                   mainContent.style.opacity = 1;
                 };
