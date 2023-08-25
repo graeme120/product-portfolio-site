@@ -735,7 +735,10 @@ export default function Work() {
           dangerouslySetInnerHTML={{
             __html: `
          
-
+            window.onload = function() {
+              window.scrollTo(0, 0);
+            };
+            
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
 
