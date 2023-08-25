@@ -18,7 +18,6 @@ export function Head() {
 export default function Work() {
   return (
     <div className="scroll-container">
-      <Navbar />
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -26,6 +25,7 @@ export default function Work() {
         exit={{ opacity: 0 }}
         className="broad"
       >
+        <Navbar />
         <div className="project-writeup">
           <img
             id="image-header"

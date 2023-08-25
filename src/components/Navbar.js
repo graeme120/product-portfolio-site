@@ -10,6 +10,11 @@ const Nav = () => {
   const controlsBarRef = useRef(null);
   const previousScrollPositionRef = useRef(0);
 
+  const backToTop = () => {
+    // Perform your desired function here
+    window.scrollTo(0, -50);
+  };
+
   useEffect(() => {
     const controlsBar = controlsBarRef.current;
 

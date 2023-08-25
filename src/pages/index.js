@@ -14,152 +14,155 @@ export function Head() {
 export default function Home() {
   return (
     <div className="scroll-container main-page">
-      <Navbar />
-      <motion.main
-        className="skinny"
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
         exit={{ opacity: 0 }}
       >
-        <section className="hero">
-          <div id="phonetic-spelling">( gray-um )</div>
-          <div className="intro1">
-            <div id="bump">
-              Hi, I’m <span id="intro">Graeme.</span>
+        <Navbar />
+        <main className="skinny">
+          <section className="hero">
+            <div id="phonetic-spelling">( gray-um )</div>
+            <div className="intro1">
+              <div id="bump">
+                Hi, I’m <span id="intro">Graeme.</span>
+              </div>
+              <div>
+                I bring human-centered design to emerging technologies &
+                industries.
+              </div>
             </div>
-            <div>
-              I bring human-centered design to emerging technologies &
-              industries.
+            <div className="intro2">
+              I’m currently a product design intern at<span> </span>
+              <a
+                href="https://switchpitch.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="explicit-link"
+              >
+                SwitchPitch,
+              </a>
+              <span> </span>
+              and a Senior at<span> </span>
+              <br className="mobile-gone" />
+              <a
+                href="https://www.newschool.edu/parsons/"
+                target="_blank"
+                rel="noreferrer"
+                className="explicit-link"
+              >
+                Parsons School of Design.
+              </a>
             </div>
-          </div>
-          <div className="intro2">
-            I’m currently a product design intern at<span> </span>
-            <a
-              href="https://switchpitch.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="explicit-link"
-            >
-              SwitchPitch,
-            </a>
-            <span> </span>
-            and a Senior at<span> </span>
-            <br className="mobile-gone" />
-            <a
-              href="https://www.newschool.edu/parsons/"
-              target="_blank"
-              rel="noreferrer"
-              className="explicit-link"
-            >
-              Parsons School of Design.
-            </a>
-          </div>
-        </section>
-        <section>
-          <div class="riverSketch">
-            <div>
-              ────────────────────────────────────────────────────────────────────
+          </section>
+          <section>
+            <div class="riverSketch">
+              <div>
+                ────────────────────────────────────────────────────────────────────
+              </div>
+              <RiverComponent />
             </div>
-            <RiverComponent />
-          </div>
-        </section>
-        <section className="work" id="work">
-          {/* These should / could be replaced by a forEach datoCMS algo */}
-          <div className="project-wrapper fade-in">
-            <Link className="project-content" to="/project-snapsave">
-              <div className="project-image">
-                <img
-                  className="image"
-                  src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
-                  alt="SnapSave thumbnail "
-                  title="SnapSave thumbnail "
-                />
-              </div>
-              <div className="project-text">
-                <div className="project-title">
-                  A Spending Tool Designed for College Students
+          </section>
+          <section className="work" id="work">
+            {/* These should / could be replaced by a forEach datoCMS algo */}
+            <div className="project-wrapper fade-in">
+              <Link className="project-content" to="/project-snapsave">
+                <div className="project-image">
+                  <img
+                    className="image"
+                    src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
+                    alt="SnapSave thumbnail "
+                    title="SnapSave thumbnail "
+                  />
                 </div>
-                <div className="project-subtitle">SnapSave, 2023</div>
-                <div className="project-description module line-clamp">
-                  Mobile app designed to help college students visualize their
-                  purchase histories and improve spending patterns.
+                <div className="project-text">
+                  <div className="project-title">
+                    A Spending Tool Designed for College Students
+                  </div>
+                  <div className="project-subtitle">SnapSave, 2023</div>
+                  <div className="project-description module line-clamp">
+                    Mobile app designed to help college students visualize their
+                    purchase histories and improve spending patterns.
+                  </div>
+                  <div className="project-skills">
+                    user research, wireframing, usability testing, prototyping,
+                    interface design
+                  </div>
+                  <button className="project-button mobile-gone">
+                    View Project
+                  </button>
                 </div>
-                <div className="project-skills">
-                  user research, wireframing, usability testing, prototyping,
-                  interface design
-                </div>
-                <button className="project-button mobile-gone">
-                  View Project
-                </button>
-              </div>
-            </Link>
-          </div>
+              </Link>
+            </div>
 
-          {/* These should / could be replaced by a forEach datoCMS algo */}
+            {/* These should / could be replaced by a forEach datoCMS algo */}
 
-          <div className="project-wrapper fade-in">
-            <Link className="project-content" to="/project-firebird">
-              <div className="project-image">
-                <img
-                  className="image"
-                  src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
-                  alt="Firebird thumbnail  "
-                  title="Firebird thumbnail  "
-                />
-              </div>
-              <div className="project-text">
-                <div className="project-title">
-                  Order-Tracking for a Cannabis Delivery Platform
+            <div className="project-wrapper fade-in">
+              <Link className="project-content" to="/project-firebird">
+                <div className="project-image">
+                  <img
+                    className="image"
+                    src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
+                    alt="Firebird thumbnail  "
+                    title="Firebird thumbnail  "
+                  />
                 </div>
-                <div className="project-subtitle">Firebird Delivery, 2022</div>
-                <div className="project-description module line-clamp">
-                  Designing the order-tracking interface for Canada's first
-                  online cannabis delivery service.
+                <div className="project-text">
+                  <div className="project-title">
+                    Order-Tracking for a Cannabis Delivery Platform
+                  </div>
+                  <div className="project-subtitle">
+                    Firebird Delivery, 2022
+                  </div>
+                  <div className="project-description module line-clamp">
+                    Designing the order-tracking interface for Canada's first
+                    online cannabis delivery service.
+                  </div>
+                  <div className="project-skills">
+                    user research, wireframing, design strategy, prototyping,
+                    interface design
+                  </div>
+                  <button className="project-button mobile-gone">
+                    View Project
+                  </button>
                 </div>
-                <div className="project-skills">
-                  user research, wireframing, design strategy, prototyping,
-                  interface design
-                </div>
-                <button className="project-button mobile-gone">
-                  View Project
-                </button>
-              </div>
-            </Link>
-          </div>
+              </Link>
+            </div>
 
-          {/* These should / could be replaced by a forEach datoCMS algo */}
+            {/* These should / could be replaced by a forEach datoCMS algo */}
 
-          <div className="project-wrapper fade-in">
-            <Link className="project-content" to="/template">
-              <div className="project-image">
-                <img
-                  className="image"
-                  src="https://www.datocms-assets.com/103104/1689703250-default.png"
-                  alt="SwitchPitch thumbnail "
-                  title="SwitchPitch thumbnail "
-                />
-              </div>
-              <div className="project-text">
-                <div className="project-title">
-                  Connecting Investors to Relevant Startups, VC Funds
+            <div className="project-wrapper fade-in">
+              <Link className="project-content" to="/project-switchpitch">
+                <div className="project-image">
+                  <img
+                    className="image"
+                    src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                    alt="SwitchPitch thumbnail "
+                    title="SwitchPitch thumbnail "
+                  />
                 </div>
-                <div className="project-subtitle">SwitchPitch, 2023</div>
-                <div className="project-description module line-clamp">
-                  Mobile app designed to help college students visualize their
-                  purchase histories and improve spending patterns.
+                <div className="project-text">
+                  <div className="project-title">
+                    Connecting Investors to Relevant Startups, VC Funds
+                  </div>
+                  <div className="project-subtitle">SwitchPitch, 2023</div>
+                  <div className="project-description module line-clamp">
+                    Mobile app designed to help college students visualize their
+                    purchase histories and improve spending patterns.
+                  </div>
+                  <div className="project-skills">
+                    user research, wireframing, usability testing, prototyping,
+                    interface design
+                  </div>
+                  <button className="project-button mobile-gone">
+                    View Project
+                  </button>
                 </div>
-                <div className="project-skills">
-                  user research, wireframing, usability testing, prototyping,
-                  interface design
-                </div>
-                <button className="project-button mobile-gone">
-                  View Project
-                </button>
-              </div>
-            </Link>
-          </div>
-        </section>
+              </Link>
+            </div>
+          </section>
+        </main>
 
         <Script
           dangerouslySetInnerHTML={{
@@ -270,7 +273,7 @@ faders.forEach((fader) => {
 `,
           }}
         />
-      </motion.main>
+      </motion.div>
       <Footer />
     </div>
   );
