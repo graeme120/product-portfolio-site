@@ -59,7 +59,7 @@ body {
 
 @font-face {
   font-family: "TT Commons Regular Italic";
-  font-style: Italic;
+  font-style: italic;
   font-weight: 400;
   src: url("/fonts/TTCommons/TT-Commons-Italic.woff2") format("woff2"),
     url("/fonts/TTCommons/TT-Commons-Italic.woff") format("woff");
@@ -99,7 +99,7 @@ body {
 
 @font-face {
   font-family: "Calibre Regular Italic";
-  font-style: Italic;
+  font-style: italic;
   font-weight: 400;
   src: url("/fonts/Calibre/Calibre-RegularItalic.woff2") format("woff2"),
     url("/fonts/Calibre/Calibre-RegularItalic.woff") format("woff");

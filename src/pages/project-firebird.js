@@ -31,7 +31,7 @@ export default function Work() {
             id="image-header"
             src="https://www.datocms-assets.com/103104/1691451322-ff_feature.png"
           ></img>
-          <div className="content--block fade-in nope">
+          <div className="content--block nope">
             <div className="content--main">
               <h1>Firebird Delivery</h1>
               <h2>Order Tracking for a Cannabis Delivery Platform</h2>
@@ -1356,9 +1356,7 @@ export default function Work() {
           dangerouslySetInnerHTML={{
             __html: `
 
-            window.onload = function() {
-              window.scrollTo(0, 0);
-            };
+        
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
 

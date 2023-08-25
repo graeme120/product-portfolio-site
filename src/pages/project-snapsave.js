@@ -34,7 +34,7 @@ export default function Work() {
               title="Various screens of the mobile app SnapSave"
             ></img>
           </div>
-          <div className="content--block fade-in">
+          <div className="content--block">
             <div className="content--main">
               <h1>SnapSave</h1>
               <h2>A Spending Tracker Designed for College Students</h2>
@@ -735,10 +735,8 @@ export default function Work() {
           dangerouslySetInnerHTML={{
             __html: `
          
-            window.onload = function() {
-              window.scrollTo(0, 0);
-            };
-            
+         
+
           if (typeof faders === 'undefined') {
               const faders = document.querySelectorAll(".fade-in");
 
