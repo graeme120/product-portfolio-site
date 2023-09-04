@@ -28,46 +28,45 @@ export default function Work() {
         <div className="project-writeup">
           <img
             id="image-header"
-            src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
+            src="https://www.datocms-assets.com/103104/1693852021-sp_tentative-web-feature.png"
             alt="Various screens of the mobile app SnapSave"
             title="Various screens of the mobile app SnapSave"
           ></img>
           <div className="content--block fade-in">
             <div className="content--main">
-              <h1>SnapSave</h1>
-              <h2>A Spending Tracker Designed for College Students</h2>
+              <h1>SwitchPitch</h1>
+              <h2>
+                Improving Platform Onboarding for Large-Scale Enterprises{" "}
+              </h2>
               <p className="project-writeup-description">
-                As college students, my peers and I are managing our finances
-                for the very first time which.. comes with a learning curve. One
-                of the biggest issues we face in this pursuit is an unawareness
-                of our spending patterns. To solve this, I designed a mobile app
-                that makes sorting your past purchases simple and painless,
-                which helps to remind students of their purchases, and foster
-                long-term insights about their spending patterns. This project
-                was completed as a final project for my Brainstation UX design
-                bootcamp.
+                SwitchPitch is a platform designed to connect enterprises with
+                startups and ecosystems. This summer, i'm working as a product
+                design intern, helping SwitchPitch to refresh their platform
+                onboarding to better suit the needs of large-scale enterprises,
+                who make up the majority of SwitchPitch's client base.
+                <br /> <br /> As it is currently under development, please
+                contact me directly for more information about the project.
               </p>
               <div className="content--subdivide">
                 <div className="content--subdivision-big">
                   <p>TEAM</p>
                   <p>
-                    Graeme Mounsey - UX Designer
+                    Graeme Mounsey - Product Design Intern
                     <br />
-                    Emma Grunebaum- Mentor
-                    <br /> Lawrence Lee- Mentor
+                    Coren Feldman - Head of Product
                   </p>
                 </div>
                 <div id="intro" className="content--subdivision-medium">
                   <p>SKILLS</p>
                   <p>
-                    user research, wireframing, usability testing, prototyping,
-                    interface design
+                    user research, systems design, content design, copywriting,
+                    prototyping, interface design
                   </p>
                 </div>
                 <div className="content--subdivision-small">
                   <p>TIMELINE</p>
                   <p>
-                    February - April 2022 <br /> <i>10 Weeks</i>
+                    June - September 2023 <br /> <i>16 Weeks</i>
                   </p>
                 </div>
               </div>
@@ -86,8 +85,8 @@ export default function Work() {
               </h2>
               <h3 id="nextProject">
                 Next Project →{" "}
-                <Link className="explicit-link" to="/project-firebird">
-                  <u>Firebird Delivery</u>
+                <Link className="explicit-link" to="/project-snapsave">
+                  <u>SnapSave</u>
                 </Link>
               </h3>
             </div>

@@ -137,23 +137,23 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1689703250-default.png"
+                    src="https://www.datocms-assets.com/103104/1693852028-sp_tentative-web-thumbnail.png"
                     alt="SwitchPitch thumbnail "
                     title="SwitchPitch thumbnail "
                   />
                 </div>
                 <div className="project-text">
                   <div className="project-title">
-                    Connecting Investors to Relevant Startups, VC Funds
+                    Improving Platform Onboarding for Large-Scale Enterprises
                   </div>
                   <div className="project-subtitle">SwitchPitch, 2023</div>
                   <div className="project-description module line-clamp">
-                    Mobile app designed to help college students visualize their
-                    purchase histories and improve spending patterns.
+                    Refreshing the onboarding for SwitchPitch, a platform
+                    connecting enterprises to relevant startups and ecosystems.
                   </div>
                   <div className="project-skills">
-                    user research, wireframing, usability testing, prototyping,
-                    interface design
+                    user research, systems design, content design, copywriting,
+                    prototyping, interface design
                   </div>
                   <button className="project-button mobile-gone">
                     View Project

@@ -1345,7 +1345,7 @@ export default function Work() {
               </h2> */}
               <h3 id="nextProject">
                 Next Project →{" "}
-                <Link className="explicit-link" to="">
+                <Link className="explicit-link" to="/project-switcpitch">
                   <u>SwitchPitch</u>
                 </Link>
               </h3>
