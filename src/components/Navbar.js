@@ -10,6 +10,13 @@ const Nav = () => {
   const controlsBarRef = useRef(null);
   const previousScrollPositionRef = useRef(0);
 
+  const scrollToY800 = () => {
+    window.scrollTo({
+      top: 800,
+      behavior: "smooth",
+    });
+  };
+
   const backToTop = () => {
     // Perform your desired function here
     window.scrollTo(0, -50);
@@ -79,9 +86,13 @@ const Nav = () => {
             <Link to="/">Graeme Mounsey</Link>
           </div>
           <div className="nav">
-            <Link className="navbar-link bump-left" to="/#work">
+            <div
+              id="pointer"
+              className="navbar-link bump-left"
+              onClick={scrollToY800}
+            >
               Work
-            </Link>
+            </div>
 
             <a
               className="navbar-link"

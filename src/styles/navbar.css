@@ -134,6 +134,10 @@
   color: #464646 !important;
 }
 
+#pointer {
+  cursor: pointer !important;
+}
+
 .navbar-link :nth-child(1) {
   margin-right: 15%;
 }
