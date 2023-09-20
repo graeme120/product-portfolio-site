@@ -861,6 +861,7 @@ export default function Work() {
             <h2
               style={{
                 fontFamily: "Calibre Regular",
+                paddingTop: 2.5 + "%",
               }}
             >
               Bucket 2- Status Updates{" "}
@@ -1027,6 +1028,7 @@ export default function Work() {
             <h2
               style={{
                 fontFamily: "Calibre Regular",
+                paddingTop: 2.5 + "%",
               }}
             >
               Bucket 3- Delivery Confirmation{" "}
@@ -1186,7 +1188,7 @@ export default function Work() {
                   title="Email update on mobile"
                 ></img>
               </div>
-              <img
+              {/* <img
                 style={{
                   paddingBottom: 2.5 + "%",
                   width: 5 + "%",
@@ -1197,7 +1199,7 @@ export default function Work() {
                 src="https://www.datocms-assets.com/103104/1691702469-right-arrow.svg"
                 alt="arrow"
                 title="arrow"
-              ></img>
+              ></img> */}
               <div className="image-container ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
