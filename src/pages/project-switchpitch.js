@@ -76,13 +76,13 @@ export default function Work() {
         <div id="grey">
           <div className="content--block content--next-project fade-in ">
             <div className="content--main footer">
-              <h2>
+              {/* <h2>
                 Thank you for reading about my project!<br></br> Here it is
                 again as a<span> </span>
                 <a className="explicit-link" href="">
                   <u>slide-deck.</u>
                 </a>
-              </h2>
+              </h2> */}
               <h3 id="nextProject">
                 Next Project →{" "}
                 <Link className="explicit-link" to="/project-snapsave">

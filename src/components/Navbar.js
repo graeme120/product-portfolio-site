@@ -93,6 +93,9 @@ const Nav = () => {
             >
               Work
             </div>
+            <Link to="/about" id="pointer" className="navbar-link bump-left">
+              About
+            </Link>
 
             <a
               className="navbar-link"

@@ -66,37 +66,6 @@ export default function Home() {
           </section>
           <section className="work" id="work">
             {/* These should / could be replaced by a forEach datoCMS algo */}
-            <div className="project-wrapper fade-in">
-              <Link className="project-content" to="/project-snapsave">
-                <div className="project-image">
-                  <img
-                    className="image"
-                    src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
-                    alt="SnapSave thumbnail "
-                    title="SnapSave thumbnail "
-                  />
-                </div>
-                <div className="project-text">
-                  <div className="project-title">
-                    A Spending Tool Designed for College Students
-                  </div>
-                  <div className="project-subtitle">SnapSave, 2023</div>
-                  <div className="project-description module line-clamp">
-                    Mobile app designed to help college students visualize their
-                    purchase histories and improve spending patterns.
-                  </div>
-                  <div className="project-skills">
-                    user research, wireframing, usability testing, prototyping,
-                    interface design
-                  </div>
-                  <button className="project-button mobile-gone">
-                    View Project
-                  </button>
-                </div>
-              </Link>
-            </div>
-
-            {/* These should / could be replaced by a forEach datoCMS algo */}
 
             <div className="project-wrapper fade-in">
               <Link className="project-content" to="/project-firebird">
@@ -109,23 +78,27 @@ export default function Home() {
                   />
                 </div>
                 <div className="project-text">
-                  <div className="project-title">
-                    Order-Tracking for a Cannabis Delivery Platform
+                  <div>
+                    <div className="project-title">
+                      Order-Tracking for a Cannabis Delivery Platform
+                    </div>
+                    <div className="project-subtitle">
+                      Firebird Delivery, 2022
+                    </div>
                   </div>
-                  <div className="project-subtitle">
-                    Firebird Delivery, 2022
+                  <div>
+                    <div className="project-description module line-clamp">
+                      Designing the order-tracking interface for Canada's first
+                      online cannabis delivery service.
+                    </div>
+                    <div className="project-skills">
+                      user research, wireframing, design strategy, prototyping,
+                      interface design
+                    </div>
+                    <button className="project-button mobile-gone">
+                      View Project
+                    </button>
                   </div>
-                  <div className="project-description module line-clamp">
-                    Designing the order-tracking interface for Canada's first
-                    online cannabis delivery service.
-                  </div>
-                  <div className="project-skills">
-                    user research, wireframing, design strategy, prototyping,
-                    interface design
-                  </div>
-                  <button className="project-button mobile-gone">
-                    View Project
-                  </button>
                 </div>
               </Link>
             </div>
@@ -143,21 +116,140 @@ export default function Home() {
                   />
                 </div>
                 <div className="project-text">
-                  <div className="project-title">
-                    Improving Platform Onboarding for Large-Scale Enterprises
+                  <div>
+                    <div className="project-title">
+                      Improving Platform Onboarding for Large-Scale Enterprises
+                    </div>
+                    <div className="project-subtitle">SwitchPitch, 2023</div>
                   </div>
-                  <div className="project-subtitle">SwitchPitch, 2023</div>
-                  <div className="project-description module line-clamp">
-                    Refreshing the onboarding for SwitchPitch, a platform
-                    connecting enterprises to relevant startups and ecosystems.
+                  <div>
+                    <div className="project-description module line-clamp">
+                      Refreshing the onboarding for SwitchPitch, a platform
+                      connecting enterprises to relevant startups and
+                      ecosystems.
+                    </div>
+                    <div className="project-skills">
+                      user research, systems design, content design,
+                      copywriting, prototyping, interface design
+                    </div>
+                    <button className="project-button mobile-gone">
+                      View Project
+                    </button>
                   </div>
-                  <div className="project-skills">
-                    user research, systems design, content design, copywriting,
-                    prototyping, interface design
+                </div>
+              </Link>
+            </div>
+
+            {/* These should / could be replaced by a forEach datoCMS algo */}
+            <div className="project-wrapper fade-in">
+              <Link className="project-content" to="/project-snapsave">
+                <div className="project-image">
+                  <img
+                    className="image"
+                    src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
+                    alt="SnapSave thumbnail "
+                    title="SnapSave thumbnail "
+                  />
+                </div>
+                <div className="project-text">
+                  <div>
+                    <div className="project-title">
+                      A Spending Tool Designed for College Students
+                    </div>
+                    <div className="project-subtitle">SnapSave, 2023</div>
                   </div>
-                  <button className="project-button mobile-gone">
-                    View Project
-                  </button>
+                  <div>
+                    <div className="project-description module line-clamp">
+                      Mobile app designed to help college students visualize
+                      their purchase histories and improve spending patterns.
+                    </div>
+                    <div className="project-skills">
+                      user research, wireframing, usability testing,
+                      prototyping, interface design
+                    </div>
+                    <button className="project-button mobile-gone">
+                      View Project
+                    </button>
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            <h2>Upcoming Projects...</h2>
+
+            {/* These should / could be replaced by a forEach datoCMS algo */}
+
+            <div className="project-wrapper fade-in">
+              <Link className="project-content">
+                <div className="project-image">
+                  <img
+                    className="image"
+                    src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
+                    alt="Firebird thumbnail  "
+                    title="Firebird thumbnail  "
+                  />
+                </div>
+                <div className="project-text">
+                  <div>
+                    <div className="project-title">
+                      [WIP]
+                      <br />
+                      Improving the Interconnectivity of Blockchain-based
+                      Financial Networks
+                    </div>
+                    <div className="project-subtitle">Deloitte, 2023</div>
+                  </div>
+                  <div>
+                    <div className="project-description module line-clamp temporary">
+                      I'm participating in Cornell Tech's product studio course,
+                      where we're solving real-world problems for partnering
+                      enterprises. Stay tuned for more..
+                    </div>
+
+                    <button className=" what-if project-button mobile-gone">
+                      View Project
+                    </button>
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            {/* These should / could be replaced by a forEach datoCMS algo */}
+
+            <div className="project-wrapper fade-in">
+              <Link className="project-content">
+                <div className="project-image">
+                  <img
+                    className="image"
+                    src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
+                    alt="Firebird thumbnail  "
+                    title="Firebird thumbnail  "
+                  />
+                </div>
+
+                <div className="project-text">
+                  <div>
+                    <div className="project-title">
+                      [WIP] <br /> ChatGPT + Design + Code
+                    </div>
+                    <div className="project-subtitle">Thesis Project, 2023</div>
+                  </div>
+                  <div>
+                    <div className="project-description module line-clamp temporary">
+                      For my Senior thesis, i'm building a tool that harnesses
+                      ChatGPT to bridge the gap between designers and code. You
+                      can follow the journey on my X.. account? ..profile? idk
+                      @graemeswork
+                    </div>
+                    {/* <div className="project-skills">
+                      user research, systems design, content design,
+                      copywriting, prototyping, interface design
+                    </div> */}
+
+                    <button className="what-if project-button mobile-gone">
+                      View Project
+                    </button>
+                  </div>
                 </div>
               </Link>
             </div>

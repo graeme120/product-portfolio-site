@@ -1,0 +1,19 @@
+.about-container {
+  padding-top: 7.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-profile {
+  width: 80%;
+}
+
+.about-headshot {
+  width: 30%;
+  padding-left: 45%;
+  transform: rotate(1.8deg);
+}
