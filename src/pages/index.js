@@ -14,13 +14,13 @@ export function Head() {
 export default function Home() {
   return (
     <div className="scroll-container main-page">
+      <Navbar />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
         exit={{ opacity: 0 }}
       >
-        <Navbar />
         <main className="skinny">
           <section className="hero">
             <div id="phonetic-spelling">( gray-um )</div>
@@ -365,8 +365,8 @@ faders.forEach((fader) => {
 `,
           }}
         />
+        <Footer />
       </motion.div>
-      <Footer />
     </div>
   );
 }

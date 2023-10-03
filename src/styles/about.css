@@ -2,18 +2,48 @@
   padding-top: 7.5%;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+#tape1 {
+  width: 4%;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(30deg);
+  margin-top: 1%;
+  margin-left: 7%;
+}
+
+#tape2 {
+  width: 4%;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(220deg);
+  margin-top: 22%;
+  margin-left: 20%;
 }
 
 .about-text {
-  width: 60%;
+  width: 85%;
+  line-height: 2.15em;
 }
 
 .about-profile {
-  width: 80%;
+  width: 50%;
 }
 
 .about-headshot {
-  width: 30%;
-  padding-left: 45%;
-  transform: rotate(1.8deg);
+  width: 55%;
+  padding-left: 27%;
+  transform: rotate(2.5deg) translateY(15%);
+}
+
+.explicit-link {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.075em;
+}
+
+.explicit-link:hover {
+  color: #0000ff;
 }

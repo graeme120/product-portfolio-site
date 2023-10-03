@@ -4,8 +4,9 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import { easeInOut, motion } from "framer-motion";
-import "../styles/global.css";
 import "../styles/about.css";
+import "../styles/global.css";
+
 import { Link, Script } from "gatsby";
 
 export function Head() {
@@ -15,33 +16,62 @@ export function Head() {
 export default function Home() {
   return (
     <div className="scroll-container main-page">
+      <Navbar />
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
         exit={{ opacity: 0 }}
       >
-        <Navbar />
         <main className="skinny">
           <div className="about-container">
             <div className="about-text">
-              <h3>Hi! My name is Graeme</h3>
+              <h3>Let me introduce myself...</h3>
               <br />
               <h3>
-                I'm a product designer passionate about building tools that
-                improve peoples lives. I've held product design roles
+                I'm Graeme (gray-um) , a Senior at Parsons studying digital
+                product design. I'm also a proud Canadian (Toronto native),
+                lefty and breakfast fanatic. If you're looking for the{" "}
+                <a
+                  className="explicit-link"
+                  href="https://www.instagram.com/eggsbenedictreview/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  best eggs benedict in NYC,
+                </a>{" "}
+                i'm your guy.
               </h3>
               <br />
               <h3>
-                I also run{" "}
-                <a href="https://ddap.xyz/">Digital Design @ Parsons</a>, a
-                student-led group for designers interested in emerging areas of
-                digital design. Founded on the core principle of community-led
-                design education, we host weekly student-led demos and guest
-                speakers.
+                My design practice is rooted in product design, creative coding
+                and visual communication. I believe that the interplay of these
+                disciplines is the key to a more humane internet ❀‧₊˚❁ ‧₊ ✿༉{" "}
+              </h3>
+              <br />
+              <h3>
+                I also run the student group,{" "}
+                <a
+                  className="explicit-link"
+                  href="https://ddap.xyz/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Digital Design @ Parsons.
+                </a>{" "}
+                Founded on the core principle of community-led design education,
+                we host weekly student-led demos and guest speakers.
               </h3>
             </div>
             <div className="about-profile">
+              <img
+                id="tape1"
+                src="https://www.datocms-assets.com/99382/1696356808-tape1.png"
+              ></img>
+              <img
+                id="tape2"
+                src="https://www.datocms-assets.com/99382/1696356808-tape1.png"
+              ></img>
               <img
                 className="about-headshot"
                 src="https://www.datocms-assets.com/99382/1696258250-2023_01.jpg"
@@ -50,7 +80,7 @@ export default function Home() {
           </div>
         </main>
 
-        <Script
+        {/* <Script
           dangerouslySetInnerHTML={{
             __html: `
             if (typeof projectWrapperArray === 'undefined') {
@@ -158,9 +188,9 @@ faders.forEach((fader) => {
 }}
 `,
           }}
-        />
+        /> */}
+        <Footer />
       </motion.div>
-      <Footer />
     </div>
   );
 }
