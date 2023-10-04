@@ -31,7 +31,7 @@ export default function Home() {
               <h3>
                 I'm Graeme (gray-um) , a Senior at Parsons studying digital
                 product design. I'm also a proud Canadian (Toronto native),
-                lefty and breakfast fanatic. If you're looking for the{" "}
+                lefty, and breakfast fanatic. If you're looking for the{" "}
                 <a
                   className="explicit-link"
                   href="https://www.instagram.com/eggsbenedictreview/"
@@ -59,8 +59,8 @@ export default function Home() {
                 >
                   Digital Design @ Parsons.
                 </a>{" "}
-                Founded on the core principle of community-led design education,
-                we host weekly student-led demos and guest speakers.
+                Founded on the core principle of community-driven design
+                education, we host weekly student-led demos and guest speakers.
               </h3>
             </div>
             <div className="about-profile">

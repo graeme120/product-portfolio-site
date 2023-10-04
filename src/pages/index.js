@@ -184,9 +184,9 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
-                    alt="Firebird thumbnail  "
-                    title="Firebird thumbnail  "
+                    src="https://www.datocms-assets.com/103104/1696427224-cornell-tech-thumbnail.png"
+                    alt="Cornell Tech Product Studio Thumbnail"
+                    title="Cornell Tech Product Studio Thumbnail"
                   />
                 </div>
                 <div className="project-text">
@@ -194,7 +194,7 @@ export default function Home() {
                     <div className="project-title">
                       [WIP]
                       <br />
-                      Improving the Interconnectivity of Blockchain-based
+                      Improving the Interoperability of Blockchain-based
                       Financial Networks
                     </div>
                     <div className="project-subtitle">Deloitte, 2023</div>
@@ -221,9 +221,9 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
-                    alt="Firebird thumbnail  "
-                    title="Firebird thumbnail  "
+                    src="https://www.datocms-assets.com/103104/1696445827-thumbnail.gif"
+                    alt="Thesis project thumbnail"
+                    title="Thesis project thumbnail"
                   />
                 </div>
 
