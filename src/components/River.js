@@ -96,27 +96,27 @@ const RiverComponent = () => {
         return (
           <img
             className="inline-emoji"
-            src="https://www.datocms-assets.com/103104/1690581320-txt.svg"
+            src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/txt.svg"
           ></img>
         );
       case 1:
         return (
           <img
-            src="https://www.datocms-assets.com/103104/1690581652-ae.svg"
+            src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/ae.svg"
             className="inline-emoji"
           ></img>
         );
       case 2:
         return (
           <img
-            src="https://www.datocms-assets.com/103104/1690581310-psd.svg"
+            src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/psd.svg"
             className="inline-emoji"
           ></img>
         ); // Replace '...' with the SVG code for the third string
       case 3:
         return (
           <img
-            src="https://www.datocms-assets.com/103104/1690581665-fig.svg"
+            src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/fig.svg"
             className="inline-emoji"
           ></img>
         );

@@ -66,15 +66,15 @@ export default function Home() {
             <div className="about-profile">
               <img
                 id="tape1"
-                src="https://www.datocms-assets.com/99382/1696356808-tape1.png"
+                src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/tape1.png"
               ></img>
               <img
                 id="tape2"
-                src="https://www.datocms-assets.com/99382/1696356808-tape1.png"
+                src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/tape1.png"
               ></img>
               <img
                 className="about-headshot"
-                src="https://www.datocms-assets.com/99382/1696258250-2023_01.jpg"
+                src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/2023_01.jpg"
               ></img>
             </div>
           </div>

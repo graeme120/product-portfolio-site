@@ -29,7 +29,7 @@ export default function Work() {
           <div class="image-container">
             <img
               id="image-header"
-              src="https://www.datocms-assets.com/103104/1689701912-ss_cover.png"
+              src="https://image-gosting.s3.amazonaws.com/ss_images/SS_cover.png"
               alt="Various screens of the mobile app SnapSave"
               title="Various screens of the mobile app SnapSave"
             ></img>
@@ -95,7 +95,7 @@ export default function Work() {
             <div className="content--half-2">
               <video
                 className="content--image-wrapper-full content--iphone-video"
-                src="https://www.datocms-assets.com/103104/1687810847-ss_solution1.mov"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS_Solution1.mov"
                 alt="Iphone screen showcasing the sorting functionality of SnapSave"
                 title="Iphone screen showcasing the sorting functionality of SnapSave"
                 playsInline
@@ -111,7 +111,7 @@ export default function Work() {
             <div className="content--half-2">
               <video
                 className="content--image-wrapper-full content--iphone-video"
-                src="https://www.datocms-assets.com/103104/1687810863-ss_solution2.mov"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS_Solution2.mov"
                 alt="Iphone screen showcasing the spending-visualization function of SnapSave"
                 title="Iphone screen showcasing the spending-visualization function of SnapSave"
                 playsInline
@@ -156,7 +156,7 @@ export default function Work() {
               <div class="image-container">
                 <img
                   className="content--image-wrapper-full "
-                  src="https://www.datocms-assets.com/103104/1687811430-ss_solution3.png"
+                  src="https://image-gosting.s3.amazonaws.com/ss_images/SS_Solution3.png"
                   alt="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
                   title="Iphone screen showcasing the multi-wallet compatibility of SnapSave"
                 ></img>
@@ -172,7 +172,7 @@ export default function Work() {
               <div class="image-container">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1687461295-ss_tiktok.png"
+                  src="https://image-gosting.s3.amazonaws.com/ss_images/SS_tiktok.png"
                   alt="Tiktok screenshots of students who've spent more than they planned"
                   title="Tiktok screenshots of students who've spent more than they planned"
                 ></img>
@@ -233,7 +233,7 @@ export default function Work() {
             <div class="image-container">
               <img
                 className="content--image-wrapper-full"
-                src="https://www.datocms-assets.com/103104/1687462021-ss_user-interviews.png"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS_user-interviews.png"
                 alt="Compilation of screenshots from my user interview Zoom calls"
                 title="Compilation of screenshots from my user interview Zoom calls"
               ></img>
@@ -266,7 +266,7 @@ export default function Work() {
             <div class="image-container">
               <img
                 className="  content--image-wrapper-full no-padding bump-2point5"
-                src="https://www.datocms-assets.com/103104/1687461908-ss.gif"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS.gif"
                 alt="Animated GIF of my findings from user interviews"
                 title="Animated GIF of my findings from user interviews"
               ></img>
@@ -292,7 +292,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1689702002-finding_1.svg"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/finding_1.svg"
                 alt="Receipt icon"
                 title="Receipt icon"
               ></img>
@@ -314,7 +314,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1689702004-finding_2.svg"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/finding_2.svg"
                 alt="Iphone icon"
                 title="Iphone icon"
               ></img>
@@ -334,7 +334,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon"
-                src="https://www.datocms-assets.com/103104/1688665448-finding_3.svg"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/finding_3.svg"
                 alt="Coins icon"
                 title="Coins icon"
               ></img>
@@ -361,7 +361,7 @@ export default function Work() {
             <div class="image-container">
               <img
                 className="  content--image-wrapper-full bump-2point5"
-                src="https://www.datocms-assets.com/103104/1687463496-ss_competitors.png"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS_competitors.png"
                 alt="Five existing platforms examined during my competitive audit"
                 title="Five existing platforms examined during my competitive audit"
               ></img>
@@ -397,7 +397,7 @@ export default function Work() {
                   <div className="content--half ">
                     <video
                       className="content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1687899230-ss_wireframe1-1.mov"
+                      src="https://image-gosting.s3.amazonaws.com/ss_images/SS_wireframe1.1.mov"
                       alt="Wireframe of sorting mechanism"
                       title="Wireframe of sorting mechanism"
                       playsInline
@@ -413,7 +413,7 @@ export default function Work() {
                   <div className="content--half">
                     <video
                       className="content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1687899237-ss_wireframe1-2.mov"
+                      src="https://image-gosting.s3.amazonaws.com/ss_images/SS_wireframe1.2.mov"
                       alt="Wireframe of spending visualization"
                       title="Wireframe of spending visualization"
                       playsInline
@@ -436,7 +436,7 @@ export default function Work() {
                   <div className="content--half">
                     <video
                       className="content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1687899432-ss_wireframe2-1.mov"
+                      src="https://image-gosting.s3.amazonaws.com/ss_images/SS_wireframe2.1.mov"
                       alt="Wireframe of platform onboarding"
                       title="Wireframe of platform onboarding"
                       playsInline
@@ -452,7 +452,7 @@ export default function Work() {
                   <div className="content--half">
                     <video
                       className="content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1687899435-ss_wireframe2-2.mov"
+                      src="https://image-gosting.s3.amazonaws.com/ss_images/SS_wireframe2.2.mov"
                       alt="Wireframe of purchase cards"
                       title="Wireframe of purchase cards"
                       playsInline
@@ -475,7 +475,7 @@ export default function Work() {
                   <div className="content--half">
                     <video
                       className="content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1687899447-ss_wireframe3-1.mov"
+                      src="https://image-gosting.s3.amazonaws.com/ss_images/SS_wireframe3.1.mov"
                       alt="Wireframe of streak system functionality"
                       title="Wireframe of streak system functionality"
                       playsInline
@@ -491,7 +491,7 @@ export default function Work() {
                   <div className="content--half">
                     <video
                       className="content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1687899454-ss_wireframe3-2.mov"
+                      src="https://image-gosting.s3.amazonaws.com/ss_images/SS_wireframe3.2.mov"
                       alt="Wireframe of trophy system functionality"
                       title="Wireframe of trophy system functionality"
                       playsInline
@@ -545,7 +545,7 @@ export default function Work() {
               <div class="image-container">
                 <img
                   className="content--image-wrapper-full"
-                  src="https://www.datocms-assets.com/103104/1687807337-ss_improvement1.png"
+                  src="https://image-gosting.s3.amazonaws.com/ss_images/SS_improvement1.png"
                   alt="First major improvement"
                   title="First major improvement"
                 ></img>
@@ -559,7 +559,7 @@ export default function Work() {
               <div class="image-container">
                 <img
                   className="content--image-wrapper-full"
-                  src="https://www.datocms-assets.com/103104/1687807349-ss_improvement2.png"
+                  src="https://image-gosting.s3.amazonaws.com/ss_images/SS_improvement2.png"
                   alt="Second major improvement"
                   title="Second major improvement"
                 ></img>
@@ -600,7 +600,7 @@ export default function Work() {
               <div class="image-container">
                 <img
                   className="content--image-wrapper-full"
-                  src="https://www.datocms-assets.com/103104/1687807376-ss_improvement3.png"
+                  src="https://image-gosting.s3.amazonaws.com/ss_images/SS_improvement3.png"
                   alt="third major improvement"
                   title="third major improvement"
                 ></img>
@@ -616,7 +616,7 @@ export default function Work() {
             <div class="image-container">
               <img
                 className="content--image-wrapper-full"
-                src="https://www.datocms-assets.com/103104/1687461270-ss_final-product.png"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS_Final+Product.png"
                 alt="Screenshots of the platform's final version"
                 title="Screenshots of the platform's final version"
               ></img>
@@ -636,7 +636,7 @@ export default function Work() {
             <div class="image-container">
               <img
                 className="content--image-wrapper-full black-border"
-                src="https://www.datocms-assets.com/103104/1687807638-ss_style-guide.png"
+                src="https://image-gosting.s3.amazonaws.com/ss_images/SS_style-guide.png"
                 alt="Style Guide"
                 title="Style Guide"
               ></img>

@@ -72,7 +72,7 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1691451054-ff_thumbnail.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_thumbnail.png"
                     alt="Firebird thumbnail  "
                     title="Firebird thumbnail  "
                   />
@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1693852028-sp_tentative-web-thumbnail.png"
+                    src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/SP_tentative-web-thumbnail.png"
                     alt="SwitchPitch thumbnail "
                     title="SwitchPitch thumbnail "
                   />
@@ -146,7 +146,7 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1688000309-ss_thumbnail.png"
+                    src="https://image-gosting.s3.amazonaws.com/ss_images/SS_thumbnail.png"
                     alt="SnapSave thumbnail "
                     title="SnapSave thumbnail "
                   />
@@ -184,7 +184,7 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1696427224-cornell-tech-thumbnail.png"
+                    src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/cornell-tech-thumbnail.png"
                     alt="Cornell Tech Product Studio Thumbnail"
                     title="Cornell Tech Product Studio Thumbnail"
                   />
@@ -221,7 +221,7 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://www.datocms-assets.com/103104/1696445827-thumbnail.gif"
+                    src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/thumbnail.gif"
                     alt="Thesis project thumbnail"
                     title="Thesis project thumbnail"
                   />

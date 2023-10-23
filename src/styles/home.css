@@ -190,12 +190,12 @@ footer {
   text-decoration-thickness: 0.075em;
 }
 
-.what-if {
-  display: none;
-}
-
 .explicit-link:hover {
   color: #0000ff;
+}
+
+.what-if {
+  display: none;
 }
 
 .main-page .controls-bar {

@@ -28,7 +28,7 @@ export default function Work() {
         <div className="project-writeup">
           <img
             id="image-header"
-            src="https://www.datocms-assets.com/103104/1693852021-sp_tentative-web-feature.png"
+            src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/SP_tentative-web-feature.png"
             alt="Various screens of the mobile app SnapSave"
             title="Various screens of the mobile app SnapSave"
           ></img>

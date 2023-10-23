@@ -29,7 +29,7 @@ export default function Work() {
         <div className="project-writeup">
           <img
             id="image-header"
-            src="https://www.datocms-assets.com/103104/1691451322-ff_feature.png"
+            src="https://image-gosting.s3.amazonaws.com/ff_images/FF_feature.png"
           ></img>
           <div className="content--block nope">
             <div className="content--main">
@@ -107,7 +107,7 @@ export default function Work() {
             >
               <img
                 className=" content--image-wrapper-full bump-2point5 bb"
-                src="https://www.datocms-assets.com/103104/1691705605-ff_example.png"
+                src="https://image-gosting.s3.amazonaws.com/ff_images/FF_example.png"
                 alt="Screen from Firebirddelivery.ca"
                 title="Screen from Firebirddelivery.ca"
               ></img>
@@ -125,7 +125,7 @@ export default function Work() {
               <div className="image-container version ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691510369-ff_old-delivery-1.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_old-delivery-1.png"
                   alt="Original design of Firebird's order-tracking screen"
                   title="Original design of Firebird's order-tracking screen"
                 ></img>
@@ -133,7 +133,7 @@ export default function Work() {
               <div className="image-container version ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691510386-ff_old-delivery-2.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_old-delivery-2.png"
                   alt="Original design of Firebird's order-tracking screen"
                   title="Original design of Firebird's order-tracking screen"
                 ></img>
@@ -166,7 +166,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon-gif"
-                src="https://www.datocms-assets.com/103104/1691774835-principle2.gif"
+                src="https://image-gosting.s3.amazonaws.com/ff_images/Principle2.gif"
                 alt="Iphone icon"
                 title="Iphone icon"
               ></img>
@@ -186,7 +186,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon-gif"
-                src="https://www.datocms-assets.com/103104/1691792679-principle3.gif"
+                src="https://image-gosting.s3.amazonaws.com/ff_images/Principle3.gif"
                 alt="Coins icon"
                 title="Coins icon"
               ></img>
@@ -208,7 +208,7 @@ export default function Work() {
             <div className="  content--point-section">
               <img
                 className="content--point-icon-gif"
-                src="https://www.datocms-assets.com/103104/1691687612-ff_principle1.gif"
+                src="https://image-gosting.s3.amazonaws.com/ff_images/Principle1.gif"
                 alt="One of our most reliable delivery guys"
                 title="One of our most reliable delivery guys"
               ></img>
@@ -305,7 +305,7 @@ export default function Work() {
               <div className="image-container bump-2point5">
                 <img
                   className=" content--image-wrapper-full bump-2point5 "
-                  src="https://www.datocms-assets.com/103104/1691593455-ff_insights.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_insights.png"
                   alt="Chart of Firebird Delivery Orders vs Tracked Orders"
                   title="Chart of Firebird Delivery Orders vs Tracked Orders"
                 ></img>
@@ -314,7 +314,7 @@ export default function Work() {
                 <div className="image-container ">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691690941-ff_comments1.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_comments1.png"
                     alt="User feedback from Firebird item reviews"
                     title="User feedback from Firebird item reviews"
                   ></img>
@@ -322,7 +322,7 @@ export default function Work() {
                 <div className="image-container ">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691690947-ff_comments2.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_comments2.png"
                     alt="User feedback from Firebird item reviews"
                     title="User feedback from Firebird item reviews"
                   ></img>
@@ -347,7 +347,7 @@ export default function Work() {
               >
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691690952-ff_comments3.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_comments3.png"
                   alt="User feedback from Firebird item reviews"
                   title="User feedback from Firebird item reviews"
                 ></img>
@@ -355,7 +355,7 @@ export default function Work() {
               <div className="image-container">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691690957-ff_comments4.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_comments4.png"
                   alt="User feedback from Firebird item reviews"
                   title="User feedback from Firebird item reviews"
                 ></img>
@@ -401,7 +401,7 @@ export default function Work() {
                     >
                       <img
                         className="icon-img"
-                        src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/file2.svg"
                       ></img>
                     </a>
                   </div>
@@ -423,7 +423,7 @@ export default function Work() {
                     >
                       <img
                         className="icon-img"
-                        src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/file2.svg"
                       ></img>
                     </a>
                   </div>
@@ -445,7 +445,7 @@ export default function Work() {
                     >
                       <img
                         className="icon-img"
-                        src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/file2.svg"
                       ></img>
                     </a>
                   </div>
@@ -525,7 +525,7 @@ export default function Work() {
               <div className="image-container ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691591532-ff_competitive-analysis.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_competitive-analysis.png"
                   alt="Competitive analysis of similar delivery platforms"
                   title="Competitive analysis of similar delivery platforms"
                 ></img>
@@ -545,7 +545,7 @@ export default function Work() {
                 <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691591507-ff_audit-4.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_audit-4.png"
                     alt="Domino's web-based order-tracking screen"
                     title="Domino's web-based order-tracking screen"
                   ></img>
@@ -553,7 +553,7 @@ export default function Work() {
                 <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691591495-ff_audit-2.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_audit-2.png"
                     alt="Uber Eat's web-based order-tracking screen"
                     title="Uber Eat's web-based order-tracking screen"
                   ></img>
@@ -562,7 +562,7 @@ export default function Work() {
                 <div className="image-container version ">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691591486-ff_audit-1.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_audit-1.png"
                     alt="Amazon Prime's web-based order-tracking screen"
                     title="Amazon Prime's web-based order-tracking screen"
                   ></img>
@@ -570,7 +570,7 @@ export default function Work() {
                 <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full bump-2point5"
-                    src="https://www.datocms-assets.com/103104/1691591502-ff_audit-3.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/FF_audit-3.png"
                     alt="Drizly's web-based order-tracking screen"
                     title="Drizly's web-based order-tracking screen"
                   ></img>
@@ -609,7 +609,7 @@ export default function Work() {
                 paddingRight: 5 + "%",
               }}
               className="arrow"
-              src="https://www.datocms-assets.com/103104/1691702469-right-arrow.svg"
+              src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/right-arrow.svg"
               alt="arrow"
               title="arrow"
             ></img>
@@ -698,7 +698,7 @@ export default function Work() {
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
-                      src="https://www.datocms-assets.com/103104/1691595572-bucket1_2.png"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_2.png"
                       alt="V1 - Map dominant"
                       title="V1 - Map dominant"
                     ></img>
@@ -738,7 +738,7 @@ export default function Work() {
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
-                      src="https://www.datocms-assets.com/103104/1691595584-bucket1_4.png"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_4.png"
                       alt="V2 - No map, modular approach"
                       title="V2 - No map, modular approach"
                     ></img>
@@ -776,7 +776,7 @@ export default function Work() {
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
-                      src="https://www.datocms-assets.com/103104/1691595578-bucket1_3.png"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_3.png"
                       alt="V3 - Map with info modules"
                       title="V3 - Map with info modules"
                     ></img>
@@ -814,7 +814,7 @@ export default function Work() {
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full bump-2point5"
-                      src="https://www.datocms-assets.com/103104/1691595563-bucket1_1.png"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_1.png"
                       alt="V4 - Map / status dominant"
                       title="V4 - Map / status dominant"
                     ></img>
@@ -877,7 +877,7 @@ export default function Work() {
                     <div className="image-container-long version">
                       <img
                         className="too-long"
-                        src="https://www.datocms-assets.com/103104/1691720729-bucket2_1png.png"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_1.png"
                         alt="Original design of Firebird's order-tracking screen"
                         title="Original design of Firebird's order-tracking screen"
                       ></img>
@@ -911,7 +911,7 @@ export default function Work() {
                     <div className="image-container-long version">
                       <img
                         className="too-long"
-                        src="https://www.datocms-assets.com/103104/1691720738-bucket2_2.png"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_2.png"
                         alt="Original design of Firebird's order-tracking screen"
                         title="Original design of Firebird's order-tracking screen"
                       ></img>
@@ -952,7 +952,7 @@ export default function Work() {
                     <div className="image-container-long version">
                       <img
                         className="too-long"
-                        src="https://www.datocms-assets.com/103104/1691720746-bucket2_3.png"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_3.png"
                         alt="Original design of Firebird's order-tracking screen"
                         title="Original design of Firebird's order-tracking screen"
                       ></img>
@@ -985,7 +985,7 @@ export default function Work() {
                     <div className="image-container-long version bump-2point5">
                       <img
                         className="too-long"
-                        src="https://www.datocms-assets.com/103104/1691720755-bucket2_4.png"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_4.png"
                         alt="Original design of Firebird's order-tracking screen"
                         title="Original design of Firebird's order-tracking screen"
                       ></img>
@@ -1040,7 +1040,7 @@ export default function Work() {
                 <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full "
-                    src="https://www.datocms-assets.com/103104/1691595590-bucket3_1.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_1.png"
                     alt="V1 - Tracking page visual cues"
                     title="V1 - Tracking page visual cues"
                   ></img>
@@ -1070,7 +1070,7 @@ export default function Work() {
                 <div className="image-container version">
                   <img
                     className=" content--image-wrapper-full"
-                    src="https://www.datocms-assets.com/103104/1691595595-bucket3_2.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_2.png"
                     alt="V2 - Past orders redirection"
                     title="V2 - Past orders redirection"
                   ></img>
@@ -1104,7 +1104,7 @@ export default function Work() {
                 <div style={{ width: 25 + "%" }}>
                   <img
                     className="content--image-wrapper-full version"
-                    src="https://www.datocms-assets.com/103104/1691770386-bucket3_3.png"
+                    src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
                     alt="Email Alert with photo evidence"
                     title="Email Alert with photo evidence"
                   ></img>
@@ -1132,7 +1132,7 @@ export default function Work() {
                   <div className="image-container version">
                     <img
                       className=" content--image-wrapper-full "
-                      src="https://www.datocms-assets.com/103104/1691595601-bucket3_3.png"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
                       alt="V4 - Visual cues + photo evidence"
                       title="V4 - Visual cues + photo evidence"
                     ></img>
@@ -1183,7 +1183,7 @@ export default function Work() {
               <div className="image-container ">
                 <img
                   className=" content--image-wrapper-full bump-2point5 "
-                  src="https://www.datocms-assets.com/103104/1691788899-ff_mobile2.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_mobile2.png"
                   alt="Email update on mobile"
                   title="Email update on mobile"
                 ></img>
@@ -1203,7 +1203,7 @@ export default function Work() {
               <div className="image-container ">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
-                  src="https://www.datocms-assets.com/103104/1691718210-ff_mobile1.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_mobile1.png"
                   alt="Mobile view of tracking page"
                   title="Mobile view of tracking page"
                 ></img>
@@ -1221,7 +1221,7 @@ export default function Work() {
             <div className="image-container">
               <img
                 className=" content--image-wrapper-full "
-                src="https://www.datocms-assets.com/103104/1691713659-ff_final1.png"
+                src="https://image-gosting.s3.amazonaws.com/ff_images/FF_Final1.png"
                 alt="Final order-tracking screen"
                 title="Final order-tracking screen"
               ></img>
@@ -1229,7 +1229,7 @@ export default function Work() {
             <div className="image-container">
               <img
                 className=" content--image-wrapper-full "
-                src="https://www.datocms-assets.com/103104/1691720401-ff_final2.png"
+                src="https://image-gosting.s3.amazonaws.com/ff_images/FF_Final2.png"
                 alt="Final email alert"
                 title="Final email alert"
               ></img>
@@ -1258,7 +1258,7 @@ export default function Work() {
               >
                 <img
                   className=" content--image-wrapper-full "
-                  src="https://www.datocms-assets.com/103104/1691593375-ff_results1.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_results1.png"
                   alt="via Hifyre IQ"
                   title="via Hifyre IQ"
                 ></img>
@@ -1269,7 +1269,7 @@ export default function Work() {
               >
                 <img
                   className=" content--image-wrapper-full "
-                  src="https://www.datocms-assets.com/103104/1691591541-ff_results2.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_results2.png"
                   alt="via Hifyre IQ"
                   title="via Hifyre IQ"
                 ></img>
@@ -1277,7 +1277,7 @@ export default function Work() {
               <div className="image-container" style={{ width: 48.1 + "%" }}>
                 <img
                   className=" content--image-wrapper-full "
-                  src="https://www.datocms-assets.com/103104/1691591545-ff_results3.png"
+                  src="https://image-gosting.s3.amazonaws.com/ff_images/FF_results3.png"
                   alt="via Hifyre IQ"
                   title="via Hifyre IQ"
                 ></img>
