@@ -28,7 +28,7 @@ export default function Work() {
         <div className="project-writeup">
           <img
             id="image-header"
-            src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/SP_tentative-web-feature.png"
+            src="https://image-gosting.s3.amazonaws.com/sp_images/SP_tentative-web-feature.png"
             alt="Various screens of the mobile app SnapSave"
             title="Various screens of the mobile app SnapSave"
           ></img>
@@ -72,7 +72,34 @@ export default function Work() {
               </div>
             </div>
           </div>
+          <div className="content--block">
+            <div className="content--section-title-firebird for-h3">
+              Competitive Analysis
+            </div>
+            <h3>Different Approaches + Use Cases for Order-Tracking</h3>
+            <p>
+              I also conducted a competitive analysis of four delivery platforms
+              to understand how they approached order-tracking. Each platform
+              provides delivery for a different kind of product, and emphasizes
+              platform usage through different value propositions. To start, I
+              broke down these differences and compared them to our goals for
+              Firebird.
+            </p>
+            <div>
+              <video
+                className=" content--image-wrapper-full bump-2point5"
+                src="https://image-gosting.s3.amazonaws.com/sp_images/switchpitch-final-mockup.mp4"
+                alt="Competitive analysis of similar delivery platforms"
+                title="Competitive analysis of similar delivery platforms"
+                playsInline
+                muted
+                autoPlay
+                loop
+              ></video>
+            </div>
+          </div>
         </div>
+
         <div id="grey">
           <div className="content--block content--next-project fade-in ">
             <div className="content--main footer">
@@ -131,11 +158,11 @@ window.onbeforeunload = function () {
           }}
         />
         <Overlay />
-        <div class="overlay" id="overlay">
+        <div className="overlay" id="overlay">
           <button id="closeButton">Close</button>
-          <div class="modal">
+          <div className="modal">
             <img src="" alt="Enlarged Image" id="enlargedImage"></img>
-            <div class="image-focus-subtitle" id="imageSubtitle"></div>
+            <div className="image-focus-subtitle" id="imageSubtitle"></div>
           </div>
         </div>
       </motion.main>

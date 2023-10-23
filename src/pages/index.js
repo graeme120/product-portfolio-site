@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="project-image">
                   <img
                     className="image"
-                    src="https://image-gosting.s3.amazonaws.com/product-portfolio-site/SP_tentative-web-thumbnail.png"
+                    src="https://image-gosting.s3.amazonaws.com/sp_images/SP_tentative-web-thumbnail.png"
                     alt="SwitchPitch thumbnail "
                     title="SwitchPitch thumbnail "
                   />

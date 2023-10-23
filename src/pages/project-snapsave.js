@@ -26,7 +26,7 @@ export default function Work() {
       >
         <Navbar />
         <div className="project-writeup">
-          <div class="image-container">
+          <div className="image-container">
             <img
               id="image-header"
               src="https://image-gosting.s3.amazonaws.com/ss_images/SS_cover.png"
@@ -153,7 +153,7 @@ export default function Work() {
               </ul>
             </div>
             <div className="content--half-2">
-              <div class="image-container">
+              <div className="image-container">
                 <img
                   className="content--image-wrapper-full "
                   src="https://image-gosting.s3.amazonaws.com/ss_images/SS_Solution3.png"
@@ -169,7 +169,7 @@ export default function Work() {
             <div className="content--section-title">DEFINING THE PROBLEM</div>
             <div className="content--main ">
               <h2>Students Don’t Like to be Reminded of their Spending</h2>
-              <div class="image-container">
+              <div className="image-container">
                 <img
                   className=" content--image-wrapper-full bump-2point5"
                   src="https://image-gosting.s3.amazonaws.com/ss_images/SS_tiktok.png"
@@ -230,7 +230,7 @@ export default function Work() {
         <div className="content--block">
           <div className="content--section-title">INTERVIEWS</div>
           <div className="content--main">
-            <div class="image-container">
+            <div className="image-container">
               <img
                 className="content--image-wrapper-full"
                 src="https://image-gosting.s3.amazonaws.com/ss_images/SS_user-interviews.png"
@@ -263,7 +263,7 @@ export default function Work() {
               </li>
             </ol>
 
-            <div class="image-container">
+            <div className="image-container">
               <img
                 className="  content--image-wrapper-full no-padding bump-2point5"
                 src="https://image-gosting.s3.amazonaws.com/ss_images/SS.gif"
@@ -358,7 +358,7 @@ export default function Work() {
             <h2 className="bump-2point5">
               Existing Platforms Don’t Account for Student Needs
             </h2>
-            <div class="image-container">
+            <div className="image-container">
               <img
                 className="  content--image-wrapper-full bump-2point5"
                 src="https://image-gosting.s3.amazonaws.com/ss_images/SS_competitors.png"
@@ -542,7 +542,7 @@ export default function Work() {
               </ul>
             </div>
             <div className="content--half">
-              <div class="image-container">
+              <div className="image-container">
                 <img
                   className="content--image-wrapper-full"
                   src="https://image-gosting.s3.amazonaws.com/ss_images/SS_improvement1.png"
@@ -556,7 +556,7 @@ export default function Work() {
         <div className="content--block addition">
           <div className="fade-in content--main content--two-columns content--text-and-image">
             <div className="content--half">
-              <div class="image-container">
+              <div className="image-container">
                 <img
                   className="content--image-wrapper-full"
                   src="https://image-gosting.s3.amazonaws.com/ss_images/SS_improvement2.png"
@@ -597,7 +597,7 @@ export default function Work() {
               </ul>
             </div>
             <div className="content--half">
-              <div class="image-container">
+              <div className="image-container">
                 <img
                   className="content--image-wrapper-full"
                   src="https://image-gosting.s3.amazonaws.com/ss_images/SS_improvement3.png"
@@ -613,7 +613,7 @@ export default function Work() {
             FINAL PRODUCT
           </div>
           <div className="content--main">
-            <div class="image-container">
+            <div className="image-container">
               <img
                 className="content--image-wrapper-full"
                 src="https://image-gosting.s3.amazonaws.com/ss_images/SS_Final+Product.png"
@@ -633,7 +633,7 @@ export default function Work() {
           </div>
           <div className="content--section-title bump-2point5">STYLE GUIDE</div>
           <div className="content--main">
-            <div class="image-container">
+            <div className="image-container">
               <img
                 className="content--image-wrapper-full black-border"
                 src="https://image-gosting.s3.amazonaws.com/ss_images/SS_style-guide.png"

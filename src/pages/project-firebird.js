@@ -459,54 +459,6 @@ export default function Work() {
                     </p>
                   </div>
                 </div>
-                {/* <div
-                  className=" double-image"
-                  style={{ width: 100 + "%", marginRight: 2.5 + "%" }}
-                >
-                  <div
-                    className="image-container"
-                    style={{ width: 35 + "%", marginRight: 1.25 + "vw" }}
-                  >
-                    <img
-                      src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
-                      style={{ width: 100 + "%" }}
-                    ></img>
-                  </div>
-                  <div>
-                    <h3 style={{ width: 100 + "%" }}>
-                      2 / Consistency Across Update Messages
-                    </h3>
-                    <p>
-                      Update messages sent across multiple channels should
-                      present both the same information and amount of
-                      information, refrain from making one source more reliable
-                      than another.
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className=" double-image"
-                  style={{ width: 100 + "%", marginRight: 2.5 + "%" }}
-                >
-                  <div
-                    className="image-container"
-                    style={{ width: 35 + "%", marginRight: 1.25 + "vw" }}
-                  >
-                    <img
-                      src="https://www.datocms-assets.com/103104/1691705272-file2.svg"
-                      style={{ width: 100 + "%" }}
-                    ></img>
-                  </div>
-                  <div>
-                    <h3></h3>
-                    <p>
-                      Any screen pertaining to user’s order and delivery should
-                      include options to manage/modify delivery details, in
-                      order to keep user in control of the delivery at every
-                      stage.
-                    </p>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div className="content--sub-block">
@@ -1126,10 +1078,14 @@ export default function Work() {
                   </div>
                 </div>
               </div>
+
               <div className="version-pro-con">
                 <h3>V4 - Visual cues + photo evidence</h3>
-                <div className="version-container ">
-                  <div className="image-container version">
+                <div
+                  className="double-image"
+                  style={{ paddingBottom: 2.5 + "%", paddingTop: 2.5 + "%" }}
+                >
+                  <div style={{ width: 25 + "%" }}>
                     <img
                       className=" content--image-wrapper-full "
                       src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
