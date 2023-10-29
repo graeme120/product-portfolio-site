@@ -31,14 +31,6 @@ button {
   color: #242020;
 }
 
-footer {
-  font-size: 1vw;
-  padding-bottom: 5%;
-  line-height: 1.5em;
-  display: flex;
-  justify-content: space-between;
-}
-
 .hero {
   padding-top: 7.5%;
   padding-bottom: 7.5%;
@@ -154,10 +146,6 @@ footer {
   color: #242020;
 }
 
-.temporary {
-  margin-bottom: 20%;
-}
-
 .project-skills {
   font-family: Calibre Regular Italic, Calibre Regular;
   color: #464646;
@@ -207,6 +195,18 @@ footer {
   height: 1.5vw;
 }
 
+.mobile-only {
+  display: none;
+}
+
+.upcoming-one {
+  display: block;
+}
+
+.upcoming-two {
+  padding-top: 7.5%;
+}
+
 @media screen and (min-width: 1780px) {
   .intro1 {
     font-size: 64px;
@@ -252,12 +252,16 @@ footer {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   main {
     width: 90%;
+    padding-top: 20%;
   }
   .mobile-gone {
     display: none;
+  }
+  .mobile-only {
+    display: block;
   }
   .hero {
     width: 100%;
@@ -272,14 +276,37 @@ footer {
   .project-content {
     display: block;
   }
+
+  .project-text {
+    width: 100%;
+  }
   .project-wrapper {
-    font-size: 12px;
+    font-size: 14px;
+    padding-bottom: 10%;
   }
   .project-title {
-    font-size: 14px;
+    padding-top: 2.5%;
+    font-size: 18px;
+  }
+  .project-subtitle {
+    padding-top: 1.25%;
+  }
+
+  .project-description {
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    -webkit-line-clamp: 5;
   }
   .project-image {
     width: 100%;
     margin: 0;
+  }
+
+  .work {
+    padding-bottom: 0%;
+  }
+
+  .section-title {
+    padding-bottom: 5%;
   }
 }

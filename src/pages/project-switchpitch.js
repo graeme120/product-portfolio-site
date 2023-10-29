@@ -88,9 +88,9 @@ export default function Work() {
             <div>
               <video
                 className=" content--image-wrapper-full bump-2point5"
-                src="https://image-gosting.s3.amazonaws.com/sp_images/switchpitch-final-mockup.mp4"
-                alt="Competitive analysis of similar delivery platforms"
-                title="Competitive analysis of similar delivery platforms"
+                src="https://image-gosting.s3.amazonaws.com/sp_images/SwitchPitch-Final-Mockup.mp4"
+                alt="Walkthrough prototype of SwitchPitch's refreshed onboarding system"
+                title="Walkthrough prototype of SwitchPitch's refreshed onboarding system"
                 playsInline
                 muted
                 autoPlay

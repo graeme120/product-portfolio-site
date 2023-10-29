@@ -88,7 +88,7 @@ const Nav = () => {
           <div className="nav">
             <div
               id="pointer"
-              className="navbar-link bump-left"
+              className="navbar-link bump-left mobile-gone"
               onClick={scrollToY800}
             >
               Work

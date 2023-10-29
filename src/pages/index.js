@@ -56,17 +56,18 @@ export default function Home() {
               </a>
             </div>
           </section>
-          <section>
-            <div class="riverSketch">
+          <section className="mobile-gone">
+            <div className="riverSketch">
               <div>
                 ────────────────────────────────────────────────────────────────────
               </div>
               <RiverComponent />
             </div>
           </section>
+
           <section className="work" id="work">
             {/* These should / could be replaced by a forEach datoCMS algo */}
-
+            <h2 className="section-title">Selected product work...</h2>
             <div className="project-wrapper fade-in">
               <Link className="project-content" to="/project-firebird">
                 <div className="project-image">
@@ -91,7 +92,7 @@ export default function Home() {
                       Designing the order-tracking interface for Canada's first
                       online cannabis delivery service.
                     </div>
-                    <div className="project-skills">
+                    <div className="project-skills mobile-gone">
                       user research, wireframing, design strategy, prototyping,
                       interface design
                     </div>
@@ -128,7 +129,7 @@ export default function Home() {
                       connecting enterprises to relevant startups and
                       ecosystems.
                     </div>
-                    <div className="project-skills">
+                    <div className="project-skills mobile-gone">
                       user research, systems design, content design,
                       copywriting, prototyping, interface design
                     </div>
@@ -163,7 +164,7 @@ export default function Home() {
                       Mobile app designed to help college students visualize
                       their purchase histories and improve spending patterns.
                     </div>
-                    <div className="project-skills">
+                    <div className="project-skills mobile-gone">
                       user research, wireframing, usability testing,
                       prototyping, interface design
                     </div>
@@ -175,7 +176,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <h2>Upcoming Projects...</h2>
+            <h2 className="section-title">Upcoming Projects...</h2>
 
             {/* These should / could be replaced by a forEach datoCMS algo */}
 
@@ -189,18 +190,18 @@ export default function Home() {
                     title="Cornell Tech Product Studio Thumbnail"
                   />
                 </div>
-                <div className="project-text">
+                <div className="project-text upcoming-one">
                   <div>
                     <div className="project-title">
-                      [WIP]
-                      <br />
+                      [WIP]&nbsp;
+                      <br className="mobile-gone" />
                       Improving the Interoperability of Blockchain-based
                       Financial Networks
                     </div>
                     <div className="project-subtitle">Deloitte, 2023</div>
                   </div>
                   <div>
-                    <div className="project-description module line-clamp temporary">
+                    <div className="project-description module line-clamp upcoming-two">
                       I'm participating in Cornell Tech's product studio course,
                       where we're solving real-world problems for partnering
                       enterprises. Stay tuned for more..
@@ -227,15 +228,16 @@ export default function Home() {
                   />
                 </div>
 
-                <div className="project-text">
+                <div className="project-text upcoming-one">
                   <div>
                     <div className="project-title">
-                      [WIP] <br /> ChatGPT + Design + Code
+                      [WIP] <br className="mobile-gone" /> ChatGPT + Design +
+                      Code
                     </div>
                     <div className="project-subtitle">Thesis Project, 2023</div>
                   </div>
                   <div>
-                    <div className="project-description module line-clamp temporary">
+                    <div className="project-description module line-clamp upcoming-two">
                       For my Senior thesis, i'm building a tool that harnesses
                       ChatGPT to bridge the gap between designers and code. You
                       can follow the journey on my X.. account? ..profile? idk
