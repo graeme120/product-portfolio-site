@@ -40,7 +40,7 @@ export default function Work() {
               </h2>
               <p className="project-writeup-description">
                 SwitchPitch is a platform designed to connect enterprises with
-                startups and ecosystems. This summer, i'm working as a product
+                startups and ecosystems. This summer, I worked as a product
                 design intern, helping SwitchPitch to refresh their platform
                 onboarding to better suit the needs of large-scale enterprises,
                 who make up the majority of SwitchPitch's client base.
@@ -74,16 +74,21 @@ export default function Work() {
           </div>
           <div className="content--block">
             <div className="content--section-title-firebird for-h3">
-              Competitive Analysis
+              The Project
             </div>
-            <h3>Different Approaches + Use Cases for Order-Tracking</h3>
+            <h3>
+              I redesigned SwitchPitch's Onboarding Platform to Better Serve the
+              Needs of Enterprise Employees
+            </h3>
             <p>
-              I also conducted a competitive analysis of four delivery platforms
-              to understand how they approached order-tracking. Each platform
-              provides delivery for a different kind of product, and emphasizes
-              platform usage through different value propositions. To start, I
-              broke down these differences and compared them to our goals for
-              Firebird.
+              SwitchPitch, a platform designed to connect enterprises and
+              startups, noticed that very few users were taking the platform
+              onboarding lessons. What I discovered was that these lessons were
+              mirroring the live demo that enterprise execs receive, despite
+              their teams using SwitchPitch in different, much more specific
+              ways. My refresh centered around making onboarding lessons
+              engaging, frictionless, and more relevant to specifc employee use
+              cases. Here's a demo of the final product-
             </p>
             <div>
               <video
