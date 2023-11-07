@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../styles/global.css";
 
+import GoogleAnalytics from "./GoogleAnalytics";
+
 export default function Layout({ children }) {
   // const [playAnimation, setPlayAnimation] = useState(false);
 
@@ -23,6 +25,11 @@ export default function Layout({ children }) {
 
   return (
     <div className="layout">
+      <>
+        <GoogleAnalytics trackingId="G-NYVVEQZ4WP" />
+        {/* Rest of the layout */}
+        {children}
+      </>
       <Navbar />
       <motion.main
         initial={{ opacity: 0 }}
@@ -32,6 +39,7 @@ export default function Layout({ children }) {
       >
         <div>{children}</div>
       </motion.main>
+
       <Footer />
     </div>
   );
