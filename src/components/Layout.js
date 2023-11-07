@@ -24,24 +24,25 @@ export default function Layout({ children }) {
   // }, []);
 
   return (
-    <div className="layout">
-      <>
+    <>
+      <div className="layout">
         <GoogleAnalytics trackingId="G-NYVVEQZ4WP" />
         {/* Rest of the layout */}
         {children}
-      </>
-      <Navbar />
-      <motion.main
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
-        exit={{ opacity: 0 }}
-      >
-        <div>{children}</div>
-      </motion.main>
 
-      <Footer />
-    </div>
+        <Navbar />
+        <motion.main
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.1, duration: 0.45, ease: easeInOut }}
+          exit={{ opacity: 0 }}
+        >
+          <div>{children}</div>
+        </motion.main>
+
+        <Footer />
+      </div>
+    </>
   );
 }
 
