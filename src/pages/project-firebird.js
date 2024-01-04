@@ -95,7 +95,7 @@ export default function Work() {
                 className="content--main"
                 style={{ paddingRight: 5 + "%", width: 60 + "%" }}
               >
-                <h2>What is Firebird Delivery?</h2>
+                <h2>Firebird Delivery: Doordash for Cannabis</h2>
                 <p>
                   Hifyre is an e-commerce company specializing in cannabis and
                   controlled substances. They manage the e-commerce for Fire &
@@ -160,7 +160,7 @@ export default function Work() {
           </div>
 
           <div></div>
-          <div className="content--block" id="grey">
+          {/* <div className="content--block" id="grey">
             <div className="content--section-title-firebird">
               Stakeholder Meeting
             </div>
@@ -243,7 +243,7 @@ export default function Work() {
                 gathered from our beta release.
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className=" section-divider" style={{ marginTop: 0 + "%" }}>
             <div className="sequence-number">02</div>
@@ -256,8 +256,7 @@ export default function Work() {
             </div>
             <div className="content--main ">
               <h2>
-                Consumers are Into Delivery- Our Job is Simply to Make it More
-                Convenient
+                Customers are Into Delivery, But it Needed to be More Convenient
               </h2>
 
               <div className="three-statistics">
@@ -304,7 +303,7 @@ export default function Work() {
           <div className="content--block ">
             <div className="content--main ">
               <div className="content--section-title-firebird">Problem #1</div>
-              <h3>Lack of Awareness about Order-Tracking</h3>
+              <h3>Users Barely Knew About Order-Tracking</h3>
               <p>
                 Research also revealed a <strong>48% drop-off</strong> between
                 users who ordered delivery and those who actually used the
@@ -343,7 +342,7 @@ export default function Work() {
 
             <div className="content--main ">
               <div className="content--section-title-firebird">Problem #2</div>
-              <h3>Confusion about Delivery Confirmation</h3>
+              <h3>Delivery Confirmation Was Unreliable</h3>
               <p>
                 We also noticed a number of reviews that expressed frustration
                 over a lack of alert about their delivery arriving. Although our
@@ -401,7 +400,7 @@ export default function Work() {
               <div className="content--sub-block">
                 <div
                   className="three-statistics"
-                  style={{ boxSizing: "border-box" }}
+                  style={{ boxSizing: "border-box", paddingBottom: 7.5 + "%" }}
                 >
                   <div className="double-image stats">
                     <div className="image-container-stats">
@@ -416,12 +415,15 @@ export default function Work() {
                       </a>
                     </div>
                     <div className="text-container">
-                      <h3>1 / Comprehensive Progress Updates</h3>
-                      <p>
+                      <h3>
+                        1 / <u>All Delivery Updates</u> to Should be
+                        Communicated to Users
+                      </h3>
+                      {/* <p>
                         Order tracking platforms should clearly communicate all
                         order updates to users, but ensure the most recent
                         update is prioritized.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
 
@@ -438,13 +440,16 @@ export default function Work() {
                       </a>
                     </div>
                     <div className="text-container">
-                      <h3>2 / Consistency Across Update Messages</h3>
-                      <p>
+                      <h3>
+                        2 / Update Messages Should Present the{" "}
+                        <u>Same Information</u> Across All Channels
+                      </h3>
+                      {/* <p>
                         Update messages sent across multiple channels should
                         present both the same information and amount of
                         information, refrain from making one source more
                         reliable than another.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="double-image stats">
@@ -460,19 +465,22 @@ export default function Work() {
                       </a>
                     </div>
                     <div className="text-container">
-                      <h3>3 / Keep the User in Control</h3>
-                      <p>
+                      <h3>
+                        3 / 'Manage Delivery' Options Should be Provided to Keep
+                        the <u>User in Control</u>
+                      </h3>
+                      {/* <p>
                         Any screen pertaining to user’s order and delivery
                         should include options to manage/modify delivery
                         details, in order to keep user in control of the
                         delivery at every stage.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
               </div>
               <div className="content--sub-block">
-                <div className="content--section-title-firebird for-h3">
+                {/* <div className="content--section-title-firebird for-h3">
                   Competitive Analysis
                 </div>
                 <h3>Different Approaches + Use Cases for Order-Tracking</h3>
@@ -491,14 +499,14 @@ export default function Work() {
                     alt="Competitive analysis of similar delivery platforms"
                     title="Competitive analysis of similar delivery platforms"
                   ></img>
-                </div>
-                <h3>Competitive Audit</h3>
+                </div> */}
+                <h3>I Audited Similar Delivery-Based Platforms for Insight</h3>
                 <p>
-                  With the platform differences outlined, I began auditing the
-                  order-tracking functionality of each platform.* My goal with
-                  this audit was to understand how the UI of our competitor
-                  platforms supported the company’s product values, taking note
-                  of solutions that could be applied to Firebird.{" "}
+                  I audited order-tracking functionality of a number of
+                  competitor platforms.* My goal with this audit was to
+                  understand how the UI of our competitor platforms supported
+                  the company’s product values, taking note of solutions that
+                  could be applied to Firebird.{" "}
                 </p>
                 <div
                   className="double-image"
@@ -595,7 +603,9 @@ export default function Work() {
                 Reflecting on Research{" "}
               </div>
               <div className="content--main ">
-                <h2>Guiding Questions for Product Ideation</h2>
+                <h2>
+                  We Used 3 Guiding Questions to Define Success for this Feature
+                </h2>
                 <p>
                   In the competitive audit done during the research phase, I
                   kept the following questions in mind when reviewing each
@@ -650,7 +660,7 @@ export default function Work() {
                     fontFamily: "Calibre Regular",
                   }}
                 >
-                  Bucket 1- Main Screen Display
+                  Bucket 1: Main Screen Display
                 </h2>
 
                 <div className="version-pro-con">
@@ -826,7 +836,7 @@ export default function Work() {
                   paddingTop: 2.5 + "%",
                 }}
               >
-                Bucket 2- Status Updates{" "}
+                Bucket 2: Status Updates{" "}
               </h2>
               <div className="double-image">
                 <div
@@ -988,115 +998,122 @@ export default function Work() {
           </div>
 
           <div className="content--block addition nope">
-            <div className="content--main ">
+            <div className="content--main">
               <h2
                 style={{
                   fontFamily: "Calibre Regular",
                   paddingTop: 2.5 + "%",
                 }}
               >
-                Bucket 3- Delivery Confirmation{" "}
+                Bucket 3: Delivery Confirmation{" "}
               </h2>
-
-              <div className="version-pro-con ">
-                <h3>✅ V1 - Tracking page visual cues</h3>
-                <div className="version-container ">
-                  <div className="image-container version">
-                    <img
-                      className=" content--image-wrapper-full "
-                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_1.png"
-                      alt="V1 - Tracking page visual cues"
-                      title="V1 - Tracking page visual cues"
-                    ></img>
-                  </div>
-                  <div className="pro-con  ">
-                    {" "}
-                    <div className="pros">
-                      <h5>PROS</h5>
-                      <ul>
-                        <li>Headline clearly displays delivered status</li>
-                        <li>Colour palette communicates success in delivery</li>
-                      </ul>
+              <div className="twobytwo">
+                <div className="version-pro-con ">
+                  <h3>✅ V1 - Tracking page visual cues</h3>
+                  <div className="version-container ">
+                    <div className="image-container version">
+                      <img
+                        className=" content--image-wrapper-full "
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_1.png"
+                        alt="V1 - Tracking page visual cues"
+                        title="V1 - Tracking page visual cues"
+                      ></img>
                     </div>
-                    <div className="cons">
-                      <h5>CONS</h5>
-                      <ul>
-                        <li>No tangible proof (e.g. photo) of delivery</li>
-                        <li>User must revisit tracking page to see update</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="version-pro-con ">
-                <h3>V2 - Past orders redirection</h3>
-                <div className="version-container">
-                  <div className="image-container version">
-                    <img
-                      className=" content--image-wrapper-full"
-                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_2.png"
-                      alt="V2 - Past orders redirection"
-                      title="V2 - Past orders redirection"
-                    ></img>
-                  </div>
-
-                  <div className="pro-con ">
-                    <div className="pros">
-                      <h5>PROS</h5>
-                      <ul>
-                        <li>Implies delivery of the order to user</li>
-                      </ul>
-                    </div>
-                    <div className="cons">
-                      <h5>CONS</h5>
-                      <ul>
-                        <li>Could be confusing or misleading </li>
-                        <li>
-                          Doesn’t match the narrative built out by the status
-                          bar
-                        </li>
-                      </ul>
+                    <div className="pro-con  ">
+                      {" "}
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>Headline clearly displays delivered status</li>
+                          <li>
+                            Colour palette communicates success in delivery
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>No tangible proof (e.g. photo) of delivery</li>
+                          <li>User must revisit tracking page to see update</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="version-pro-con">
-                <h3>✅ V3 - Email Alert with photo evidence</h3>
-                <div
-                  className="double-image"
-                  style={{ paddingBottom: 2.5 + "%", paddingTop: 2.5 + "%" }}
-                >
-                  <div style={{ width: 25 + "%" }}>
-                    <img
-                      className="content--image-wrapper-full version"
-                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
-                      alt="Email Alert with photo evidence"
-                      title="Email Alert with photo evidence"
-                    ></img>
-                  </div>
-                  <div className="pro-con">
-                    {" "}
-                    <div className="pros">
-                      <h5>PROS</h5>
-                      <ul>
-                        <li>Explicitly alerts the user of order’s delivery</li>
-                        <li>Provides solid proof of delivery</li>
-                      </ul>
+                <div className="version-pro-con ">
+                  <h3>V2 - Past orders redirection</h3>
+                  <div className="version-container">
+                    <div className="image-container version">
+                      <img
+                        className=" content--image-wrapper-full"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_2.png"
+                        alt="V2 - Past orders redirection"
+                        title="V2 - Past orders redirection"
+                      ></img>
                     </div>
-                    <div className="cons">
-                      <h5>CONS</h5>
-                      <ul>
-                        <li>Track order button could be confusing here</li>
-                      </ul>
+
+                    <div className="pro-con ">
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>Implies delivery of the order to user</li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>Could be confusing or misleading </li>
+                          <li>
+                            Doesn’t match the narrative built out by the status
+                            bar
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
-
+                <div className="version-pro-con">
+                  <h3>✅ V3 - Email Alert with photo evidence</h3>
+                  <div
+                    className="double-image"
+                    style={{ paddingBottom: 2.5 + "%", paddingTop: 2.5 + "%" }}
+                  >
+                    <div style={{ width: 25 + "%" }}>
+                      <img
+                        className="content--image-wrapper-full version"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
+                        alt="Email Alert with photo evidence"
+                        title="Email Alert with photo evidence"
+                      ></img>
+                    </div>
+                    <div className="pro-con">
+                      {" "}
+                      <div className="pros">
+                        <h5>PROS</h5>
+                        <ul>
+                          <li>
+                            Explicitly alerts the user of order’s delivery
+                          </li>
+                          <li>Provides solid proof of delivery</li>
+                        </ul>
+                      </div>
+                      <div className="cons">
+                        <h5>CONS</h5>
+                        <ul>
+                          <li>Track order button could be confusing here</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="version-pro-con">
                   <h3>V4 - Visual cues + photo evidence</h3>
                   <div
                     className="double-image"
-                    style={{ paddingBottom: 2.5 + "%", paddingTop: 2.5 + "%" }}
+                    style={{
+                      paddingBottom: 2.5 + "%",
+                      paddingTop: 2.5 + "%",
+                    }}
                   >
                     <div style={{ width: 25 + "%" }}>
                       <img
