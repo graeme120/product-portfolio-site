@@ -1368,7 +1368,7 @@ document.getElementById('shareButton').addEventListener('click', async () => {
       await navigator.share({
         title: 'Graeme Mounsey | Digital Designer',
         text: 'Check out my portfolio',
-        url: https://product.graemeswork.com/
+        url: window.location.href
       });
       console.log('Page shared successfully');
     } catch (error) {
