@@ -1366,7 +1366,7 @@ document.getElementById('shareButton').addEventListener('click', async () => {
   if (navigator.share) {
     try {
       await navigator.share({
-        title: 'Graeme Mounsey | Digital Designer',
+        title: 'Graeme Mounsey | Digital Product Designer',
         text: 'Check out my portfolio',
         url: window.location.href
       });

@@ -72,35 +72,45 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div className="content--block">
-            <div className="content--section-title-firebird for-h3">
-              The Project
-            </div>
-            <h3>
-              I redesigned SwitchPitch's Onboarding Platform to Better Serve the
-              Needs of Enterprise Employees
-            </h3>
-            <p>
-              SwitchPitch, a platform designed to connect enterprises and
-              startups, noticed that very few users were taking the platform
-              onboarding lessons. What I discovered was that these lessons were
-              mirroring the live demo that enterprise execs receive, despite
-              their teams using SwitchPitch in different, much more specific
-              ways. My refresh centered around making onboarding lessons
-              engaging, frictionless, and more relevant to specifc employee use
-              cases. Here's a demo of the final product-
-            </p>
-            <div>
-              <video
-                className=" content--image-wrapper-full bump-2point5"
-                src="https://image-gosting.s3.amazonaws.com/sp_images/SwitchPitch-Final-Mockup.mp4"
-                alt="Walkthrough prototype of SwitchPitch's refreshed onboarding system"
-                title="Walkthrough prototype of SwitchPitch's refreshed onboarding system"
-                playsInline
-                muted
-                autoPlay
-                loop
-              ></video>
+          <div className="content--block desktop-gone">
+            <h2>
+              To read more about this project, please{" "}
+              <span id="shareButton" className="explicit-link">
+                open this site on desktop!
+              </span>
+            </h2>
+          </div>
+          <div className="mobile-gone">
+            <div className="content--block">
+              <div className="content--section-title-firebird for-h3">
+                The Project
+              </div>
+              <h3>
+                I redesigned SwitchPitch's Onboarding Platform to Better Serve
+                the Needs of Enterprise Employees
+              </h3>
+              <p>
+                SwitchPitch, a platform designed to connect enterprises and
+                startups, noticed that very few users were taking the platform
+                onboarding lessons. What I discovered was that these lessons
+                were mirroring the live demo that enterprise execs receive,
+                despite their teams using SwitchPitch in different, much more
+                specific ways. My refresh centered around making onboarding
+                lessons engaging, frictionless, and more relevant to specifc
+                employee use cases. Here's a demo of the final product-
+              </p>
+              <div>
+                <video
+                  className=" content--image-wrapper-full bump-2point5"
+                  src="https://image-gosting.s3.amazonaws.com/sp_images/SwitchPitch-Final-Mockup.mp4"
+                  alt="Walkthrough prototype of SwitchPitch's refreshed onboarding system"
+                  title="Walkthrough prototype of SwitchPitch's refreshed onboarding system"
+                  playsInline
+                  muted
+                  autoPlay
+                  loop
+                ></video>
+              </div>
             </div>
           </div>
         </div>
@@ -159,7 +169,23 @@ faders.forEach((fader) => {
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
-}`,
+} document.getElementById('shareButton').addEventListener('click', async () => {
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: 'Graeme Mounsey | Digital Product Designer',
+        text: 'Check out my portfolio',
+        url: window.location.href
+      });
+      console.log('Page shared successfully');
+    } catch (error) {
+      console.error('Error in sharing:', error);
+    }
+  } else {
+    // Fallback for browsers that do not support the Web Share API
+    console.log('Web Share not supported on this browser');
+  }
+});`,
           }}
         />
         <Overlay />
