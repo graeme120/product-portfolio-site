@@ -201,12 +201,11 @@ footer {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .header {
     padding-top: 5%;
-    width: 80%;
+    width: 100%;
     font-size: 14px;
-    margin-left: 10%;
     position: fixed;
     background-color: white;
     padding-bottom: 5%;
@@ -215,8 +214,8 @@ footer {
   }
 
   .header-content {
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     font-size: 18px;
   }
@@ -227,6 +226,8 @@ footer {
 
   footer {
     font-size: 14px;
+    padding-top: 5%;
+    padding-bottom: 150px;
   }
 
   .social-links {

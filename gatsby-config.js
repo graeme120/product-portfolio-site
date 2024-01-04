@@ -47,6 +47,7 @@ module.exports = {
     "react-p5-wrapper",
     "gatsby-transformer-remark",
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-anchor-links`,
   ],
   siteMetadata: {
     title: "Graeme Mounsey",

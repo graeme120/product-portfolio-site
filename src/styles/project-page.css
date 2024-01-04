@@ -618,6 +618,14 @@ ul {
   padding: 0% 0% 0% 0%;
 }
 
+.desktop-gone {
+  display: none;
+}
+
+#shareButton {
+  text-decoration: underline;
+}
+
 /* Responsive design stuff */
 
 @media screen and (min-width: 1780px) {
@@ -668,9 +676,11 @@ ul {
   }
   h1 {
     font-size: 32px;
+    padding-bottom: 2.5%;
   }
   h2 {
     font-size: 24px;
+    padding-bottom: 25px;
   }
   h3 {
     font-size: 24px;
@@ -682,11 +692,11 @@ ul {
     font-size: 18px;
   }
   .content--block {
-    width: 80%;
     margin: auto;
   }
   .content--subdivide {
     display: block;
+    padding-bottom: 25px;
   }
   .content--image-wrapper-full {
     display: block;
@@ -705,5 +715,21 @@ ul {
     padding-top: 0%;
     padding-bottom: 1.25%;
     font-size: 12px;
+  }
+  #image-header {
+    padding-top: 75px;
+  }
+  .mobile-gone {
+    display: none;
+  }
+  .desktop-gone {
+    display: block;
+  }
+  .project-writeup-description {
+    padding-bottom: 50px;
+  }
+  .content--next-project {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

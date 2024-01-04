@@ -86,13 +86,13 @@ const Nav = () => {
             <Link to="/">Graeme Mounsey</Link>
           </div>
           <div className="nav">
-            <div
+            <Link
+              to="/#work"
               id="pointer"
               className="navbar-link bump-left mobile-gone"
-              onClick={scrollToY800}
             >
               Work
-            </div>
+            </Link>
             <Link to="/about" id="pointer" className="navbar-link bump-left">
               About
             </Link>
