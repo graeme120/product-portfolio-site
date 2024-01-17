@@ -416,8 +416,8 @@ export default function Work() {
                     </div>
                     <div className="text-container">
                       <h3>
-                        1 / <u>All Delivery Updates</u> to Should be
-                        Communicated to Users
+                        1 / <u>All Delivery Updates</u>Should be Communicated to
+                        Users
                       </h3>
                       {/* <p>
                         Order tracking platforms should clearly communicate all

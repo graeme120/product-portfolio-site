@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </div>
             <div className="intro2">
-              I’m currently a product design intern at<span> </span>
+              I was most recently a product design intern at<span> </span>
               <a
                 href="https://switchpitch.com/"
                 target="_blank"
@@ -44,7 +44,7 @@ export default function Home() {
                 SwitchPitch,
               </a>
               <span> </span>
-              and a Senior at<span> </span>
+              and am currently a Senior at<span> </span>
               <br className="mobile-gone" />
               <a
                 href="https://www.newschool.edu/parsons/"
@@ -131,7 +131,7 @@ export default function Home() {
                     </div>
                     <div className="project-skills mobile-gone">
                       user research, systems design, content design,
-                      copywriting, prototyping, interface design
+                      prototyping, interface design
                     </div>
                     <button className="project-button mobile-gone">
                       View Project

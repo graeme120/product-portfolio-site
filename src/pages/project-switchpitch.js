@@ -44,8 +44,6 @@ export default function Work() {
                 design intern, helping SwitchPitch to refresh their platform
                 onboarding to better suit the needs of large-scale enterprises,
                 who make up the majority of SwitchPitch's client base.
-                <br /> <br /> As it is currently under development, please
-                contact me directly for more information about the project.
               </p>
               <div className="content--subdivide">
                 <div className="content--subdivision-big">
@@ -85,8 +83,8 @@ export default function Work() {
               <div className="content--section-title-firebird for-h3">
                 The Project
               </div>
-              <h3>
-                I redesigned SwitchPitch's Onboarding Platform to Better Serve
+              <h3 className="bump-2point5">
+                I Redesigned SwitchPitch's Onboarding Platform to Better Serve
                 the Needs of Enterprise Employees
               </h3>
               <p>
@@ -97,7 +95,9 @@ export default function Work() {
                 despite their teams using SwitchPitch in different, much more
                 specific ways. My refresh centered around making onboarding
                 lessons engaging, frictionless, and more relevant to specifc
-                employee use cases. Here's a demo of the final product-
+                employee use cases. <br />
+                <br />
+                Here's a demo of the final product:
               </p>
               <div>
                 <video
