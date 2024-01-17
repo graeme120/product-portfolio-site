@@ -45,24 +45,27 @@ body {
   font-family: "TT Commons Medium";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/TTCommons/TT-Commons-Medium.woff2") format("woff2"),
-    url("/fonts/TTCommons/TT-Commons-Medium.woff") format("woff");
+  src: url("../../static/fonts/TTCommons/TT-Commons-Medium.woff2")
+      format("woff2"),
+    url("../../static/fonts/TTCommons/TT-Commons-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "TT Commons Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/TTCommons/TT-Commons-Regular.woff2") format("woff2"),
-    url("/fonts/TTCommons/TT-Commons-Regular.woff") format("woff");
+  src: url("../../static/fonts/TTCommons/TT-Commons-Regular.woff2")
+      format("woff2"),
+    url("../../static/fonts/TTCommons/TT-Commons-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "TT Commons Regular Italic";
   font-style: italic;
   font-weight: 400;
-  src: url("/fonts/TTCommons/TT-Commons-Italic.woff2") format("woff2"),
-    url("/fonts/TTCommons/TT-Commons-Italic.woff") format("woff");
+  src: url("../../static/fonts/TTCommons/TT-Commons-Italic.woff2")
+      format("woff2"),
+    url("../../static/fonts/TTCommons/TT-Commons-Italic.woff") format("woff");
 }
 
 @font-face {
@@ -117,8 +120,26 @@ body {
   font-family: "Calibre Semibold Italic";
   font-style: normal;
   font-weight: bold;
-  src: url("/fonts/Calibre/Calibre-SemiboldItalic.woff2") format("woff2"),
-    url("/fonts/Calibre/Calibre-SemiboldItalic.woff") format("woff");
+  src: url("../../static/fonts/Calibre/Calibre-SemiboldItalic.woff2")
+      format("woff2"),
+    url("../../static/fonts/Calibre/Calibre-SemiboldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "BradfordLL Italic";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../static/fonts/BradfordLL/BradfordLL-Italic.woff2")
+      format("woff2"),
+    url("../../static/fonts/BradfordLL/BradfordLL-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "BradfordLL Regular";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../static/fonts/BradfordLL/BradfordLL-Regular.woff2")
+      format("woff2"),
+    url("../../static/fonts/BradfordLL/BradfordLL-Regular.woff") format("woff");
 }
 
 @keyframes fadeIn {
@@ -210,10 +231,6 @@ body {
 
 strong {
   font-family: Calibre Semibold;
-}
-
-i {
-  font-family: Calibre Regular Italic;
 }
 
 ol {

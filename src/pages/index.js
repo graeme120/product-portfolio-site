@@ -44,7 +44,7 @@ export default function Home() {
                 SwitchPitch,
               </a>
               <span> </span>
-              and am currently a Senior at<span> </span>
+              and currently a Senior at<span> </span>
               <br className="mobile-gone" />
               <a
                 href="https://www.newschool.edu/parsons/"

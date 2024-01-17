@@ -262,29 +262,23 @@ export default function Work() {
               <div className="three-statistics">
                 <div className="statistic">
                   <h3 className="statistic-number">23%</h3>
-                  <p>
-                    <i>
-                      of total revenue generated
-                      <br /> from delivery
-                    </i>
+                  <p className="stat-label">
+                    of total revenue generated
+                    <br /> from delivery
                   </p>
                 </div>
                 <div className="statistic">
                   <h3 className="statistic-number">42%</h3>
-                  <p>
-                    <i>
-                      customer retention rate <br />
-                      for delivery
-                    </i>
+                  <p className="stat-label">
+                    customer retention rate <br />
+                    for delivery
                   </p>
                 </div>
                 <div className="statistic">
                   <h3 className="statistic-number">+$12.27</h3>
-                  <p>
-                    <i>
-                      spent on average per delivery <br />
-                      (compared to in-store)
-                    </i>
+                  <p className="stat-label">
+                    spent on average per delivery <br />
+                    (compared to in-store)
                   </p>
                 </div>
               </div>
@@ -374,11 +368,20 @@ export default function Work() {
           </div>
 
           <div className="content--block " id="grey">
-            <div className="content--section-title bigger">How might we...</div>
+            <div className="content--section-title bigger">
+              <h3
+                style={{
+                  fontFamily: "BradfordLL Italic",
+                  fontSize: 1.5 + "vw",
+                }}
+              >
+                How might we...
+              </h3>
+            </div>
             <div className="content--main">
               <h1 className="  no-padding">
-                Make order-tracking for deliveries obvious, transparent and
-                straightforward?
+                Make order-tracking for deliveries
+                <br /> obvious, transparent and <mark>straightforward?</mark>
               </h1>
             </div>
           </div>
@@ -403,21 +406,16 @@ export default function Work() {
                   style={{ boxSizing: "border-box", paddingBottom: 7.5 + "%" }}
                 >
                   <div className="double-image stats">
-                    <div className="image-container-stats">
-                      <a
-                        href="https://baymard.com/research/online-food-delivery"
-                        target="_blank"
-                      >
-                        <img
-                          className="icon-img"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/file2.svg"
-                        ></img>
-                      </a>
-                    </div>
                     <div className="text-container">
-                      <h3>
-                        1 / <u>All Delivery Updates</u>Should be Communicated to
-                        Users
+                      <h3
+                        style={{
+                          paddingBottom: 0 + "%",
+                          fontFamily: "Calibre Regular",
+                          textAlign: "center",
+                        }}
+                      >
+                        <mark>All updates</mark> about delivery should be
+                        communicated to users
                       </h3>
                       {/* <p>
                         Order tracking platforms should clearly communicate all
@@ -428,21 +426,16 @@ export default function Work() {
                   </div>
 
                   <div className="double-image stats">
-                    <div className="image-container-stats">
-                      <a
-                        href="https://www.nngroup.com/articles/status-tracker-progress-update/"
-                        target="_blank"
-                      >
-                        <img
-                          className="icon-img"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/file2.svg"
-                        ></img>
-                      </a>
-                    </div>
                     <div className="text-container">
-                      <h3>
-                        2 / Update Messages Should Present the{" "}
-                        <u>Same Information</u> Across All Channels
+                      <h3
+                        style={{
+                          paddingBottom: 0 + "%",
+                          fontFamily: "Calibre Regular",
+                          textAlign: "center",
+                        }}
+                      >
+                        Update messages should present the{" "}
+                        <mark>same information</mark> across all channels
                       </h3>
                       {/* <p>
                         Update messages sent across multiple channels should
@@ -453,21 +446,16 @@ export default function Work() {
                     </div>
                   </div>
                   <div className="double-image stats">
-                    <div className="image-container-stats">
-                      <a
-                        href="https://www.businesswire.com/news/home/20220420005141/en/Verte-Research-Reveals-Consumers-Are-Obsessed-With-Order-Tracking-Visibility"
-                        target="_blank"
-                      >
-                        <img
-                          className="icon-img"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/file2.svg"
-                        ></img>
-                      </a>
-                    </div>
                     <div className="text-container">
-                      <h3>
-                        3 / 'Manage Delivery' Options Should be Provided to Keep
-                        the <u>User in Control</u>
+                      <h3
+                        style={{
+                          paddingBottom: 0 + "%",
+                          fontFamily: "Calibre Regular",
+                          textAlign: "center",
+                        }}
+                      >
+                        "Manage delivery" options should be provided to keep the{" "}
+                        <mark>user in control</mark>
                       </h3>
                       {/* <p>
                         Any screen pertaining to user’s order and delivery
@@ -556,7 +544,12 @@ export default function Work() {
           </div>
 
           <div className="content--block">
-            <h3>We found that...</h3>
+            <h3
+              className="bump-2point5"
+              style={{ fontFamily: "BradfordLL Italic", fontSize: 1.5 + "vw" }}
+            >
+              We found that...
+            </h3>
             <div
               className="double-image"
               style={{ justifyContent: "space-between" }}
@@ -591,8 +584,8 @@ export default function Work() {
                 }}
               >
                 Since Firebird is web-based, we must{" "}
-                <strong> leverage email updates </strong> to keep users in the
-                loop.
+                <mark>leverage email updates </mark>
+                to keep users in the loop.
               </h2>
             </div>
           </div>
@@ -600,7 +593,7 @@ export default function Work() {
           <div>
             <div className="content--block" id="grey">
               <div className="content--section-title-firebird">
-                Reflecting on Research{" "}
+                Synthesizing Research{" "}
               </div>
               <div className="content--main ">
                 <h2>
@@ -643,183 +636,182 @@ export default function Work() {
           </div>
           <div>
             <div className="content--block  nope">
-              <div className="content--section-title-firebird">
-                Iterating + Prototyping
-              </div>
               <div className="content--main">
-                <p className="final-sentence">
-                  Based on these questions, I generated ideas in three separate
-                  ‘buckets’, exploring a range of approaches to answer each
-                  question. For the first bucket, I iterated on a number of
-                  order-tracking displays that put emphasis on different
-                  information we could provide the user, evaluating each
-                  version’s pros and cons.
-                </p>
-                <h2
-                  style={{
-                    fontFamily: "Calibre Regular",
-                  }}
-                >
-                  Bucket 1: Main Screen Display
-                </h2>
-
-                <div className="version-pro-con">
-                  <h3>V1 - Map dominant</h3>
-
-                  <div className="version-container">
-                    <div className="image-container version">
-                      <img
-                        className=" content--image-wrapper-full bump-2point5"
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_2.png"
-                        alt="V1 - Map dominant"
-                        title="V1 - Map dominant"
-                      ></img>
-                    </div>
-                    <div className="pro-con">
-                      {" "}
-                      <div className="pros">
-                        <h5>PROS</h5>
-                        <ul>
-                          <li>
-                            Emphasizes delivery period and correct address
-                            confirmation
-                          </li>
-                          <li>Quickly scannable</li>
-                        </ul>
+                <div className="content--section-title-firebird">
+                  Bucket 1 / Main Screen Display
+                </div>
+                <h3 className="bump-5">
+                  A Modular Approach Communicated the Most Information Without a
+                  Live Map Feature
+                </h3>
+                <div className="content--subdivide bump-5">
+                  <div className="version-pro-con">
+                    <div className="version-container">
+                      <div className="image-container version">
+                        <img
+                          className=" content--image-wrapper-full bump-2point5"
+                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_2.png"
+                          alt="V1 - Map dominant"
+                          title="V1 - Map dominant"
+                        ></img>
                       </div>
-                      <div className="cons">
-                        <h5>CONS</h5>
-                        <ul>
-                          <li>
-                            Delivery management button and update history are
-                            not readily available
-                          </li>
-                          <li>
-                            Map feature doesn’t show distance between customer
-                            and delivery
-                          </li>
-                          <li>Lots of empty / unused space</li>
-                        </ul>
-                      </div>
+                      {/* <div className="pro-con">
+                        {" "}
+                        <div className="pros">
+                          <h5>PROS</h5>
+                          <ul>
+                            <li>
+                              Emphasizes delivery period and correct address
+                              confirmation
+                            </li>
+                            <li>Quickly scannable</li>
+                          </ul>
+                        </div>
+                        <div className="cons">
+                          <h5>CONS</h5>
+                          <ul>
+                            <li>
+                              Delivery management button and update history are
+                              not readily available
+                            </li>
+                            <li>
+                              Map feature doesn’t show distance between customer
+                              and delivery
+                            </li>
+                            <li>Lots of empty / unused space</li>
+                          </ul>
+                        </div>
+                      </div> */}
                     </div>
+                    <p className="iteration-title">V1 - Map dominant</p>
+                  </div>
+                  <div className="version-pro-con">
+                    <div className="version-container">
+                      <div className="image-container version">
+                        <img
+                          className=" content--image-wrapper-full bump-2point5"
+                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_4.png"
+                          alt="V2 - No map, modular approach"
+                          title="V2 - No map, modular approach"
+                        ></img>
+                      </div>
+                      {/* <div className="pro-con">
+                        {" "}
+                        <div className="pros">
+                          <h5>PROS</h5>
+                          <ul>
+                            <li>
+                              Delivery status & expected time are most explicit
+                            </li>
+                            <li>
+                              Order, delivery and status are scannable without
+                              any interaction{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="cons">
+                          <h5>CONS</h5>
+                          <ul>
+                            <li>
+                              No map functionality (extra confirmation of
+                              correct address)
+                            </li>
+                          </ul>
+                        </div>
+                      </div> */}
+                    </div>
+                    <p className="iteration-title">
+                      ✅ V2 - No map, modular approach
+                    </p>
+                  </div>
+
+                  <div className="version-pro-con ">
+                    <div className="version-container">
+                      <div className="image-container version">
+                        <img
+                          className=" content--image-wrapper-full bump-2point5"
+                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_3.png"
+                          alt="V3 - Map with info modules"
+                          title="V3 - Map with info modules"
+                        ></img>
+                      </div>
+                      {/* <div className="pro-con">
+                        {" "}
+                        <div className="pros">
+                          <h5>PROS</h5>
+                          <ul>
+                            <li>
+                              Emphasizes correct address confirmation and
+                              expected delivery period
+                            </li>
+                            <li>Status is clearly visible</li>
+                          </ul>
+                        </div>
+                        <div className="cons">
+                          <h5>CONS</h5>
+                          <ul>
+                            <li>Lots of space given to delivery map</li>
+                            <li>Provides the least amount of information</li>
+                            <li>
+                              Map feature doesn’t show distance between customer
+                              and delivery
+                            </li>
+                          </ul>
+                        </div>
+                      </div> */}
+                    </div>
+                    <p className="iteration-title">
+                      V3 - Map with info modules
+                    </p>
+                  </div>
+
+                  <div
+                    className="version-pro-con"
+                    style={{ marginRight: 2.5 + "%" }}
+                  >
+                    <div className="version-container ">
+                      <div className="image-container version">
+                        <img
+                          className=" content--image-wrapper-full bump-2point5"
+                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_1.png"
+                          alt="V4 - Map / status dominant"
+                          title="V4 - Map / status dominant"
+                        ></img>
+                      </div>
+
+                      {/* <div className="pro-con ">
+                        <div className="pros">
+                          <h5>PROS</h5>
+                          <ul>
+                            <li>
+                              Delivery status & expected time are most explicit
+                            </li>
+                            <li>
+                              Emphasizes correct delivery address confirmation
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="cons">
+                          <h5>CONS</h5>
+                          <ul>
+                            <li>
+                              No explicit link to order details or button to
+                              manage delivery
+                            </li>
+                            <li>
+                              Map feature doesn’t show distance between customer
+                              and delivery
+                            </li>
+                          </ul>
+                        </div>
+                      </div> */}
+                    </div>
+                    <p className="iteration-title">
+                      V4 - Map / status dominant
+                    </p>
                   </div>
                 </div>
-                <div className="version-pro-con">
-                  <h3>✅ V2 - No map, modular approach</h3>
-                  <div className="version-container">
-                    <div className="image-container version">
-                      <img
-                        className=" content--image-wrapper-full bump-2point5"
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_4.png"
-                        alt="V2 - No map, modular approach"
-                        title="V2 - No map, modular approach"
-                      ></img>
-                    </div>
-                    <div className="pro-con">
-                      {" "}
-                      <div className="pros">
-                        <h5>PROS</h5>
-                        <ul>
-                          <li>
-                            Delivery status & expected time are most explicit
-                          </li>
-                          <li>
-                            Order, delivery and status are scannable without any
-                            interaction{" "}
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="cons">
-                        <h5>CONS</h5>
-                        <ul>
-                          <li>
-                            No map functionality (extra confirmation of correct
-                            address)
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="version-pro-con ">
-                  <h3>V3 - Map with info modules</h3>
-                  <div className="version-container">
-                    <div className="image-container version">
-                      <img
-                        className=" content--image-wrapper-full bump-2point5"
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_3.png"
-                        alt="V3 - Map with info modules"
-                        title="V3 - Map with info modules"
-                      ></img>
-                    </div>
-                    <div className="pro-con">
-                      {" "}
-                      <div className="pros">
-                        <h5>PROS</h5>
-                        <ul>
-                          <li>
-                            Emphasizes correct address confirmation and expected
-                            delivery period
-                          </li>
-                          <li>Status is clearly visible</li>
-                        </ul>
-                      </div>
-                      <div className="cons">
-                        <h5>CONS</h5>
-                        <ul>
-                          <li>Lots of space given to delivery map</li>
-                          <li>Provides the least amount of information</li>
-                          <li>
-                            Map feature doesn’t show distance between customer
-                            and delivery
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="version-pro-con">
-                  <h3>V4 - Map / status dominant</h3>
-                  <div className="version-container ">
-                    <div className="image-container version">
-                      <img
-                        className=" content--image-wrapper-full bump-2point5"
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket1_1.png"
-                        alt="V4 - Map / status dominant"
-                        title="V4 - Map / status dominant"
-                      ></img>
-                    </div>
-                    <div className="pro-con ">
-                      <div className="pros">
-                        <h5>PROS</h5>
-                        <ul>
-                          <li>
-                            Delivery status & expected time are most explicit
-                          </li>
-                          <li>
-                            Emphasizes correct delivery address confirmation
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="cons">
-                        <h5>CONS</h5>
-                        <ul>
-                          <li>
-                            No explicit link to order details or button to
-                            manage delivery
-                          </li>
-                          <li>
-                            Map feature doesn’t show distance between customer
-                            and delivery
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p className="final-sentence">
+                <p>
                   V2 gave the user the most information possible from a quick
                   scan, which aligned best with our goals of speed and
                   transparency.
@@ -828,33 +820,31 @@ export default function Work() {
             </div>
           </div>
 
-          <div className="content--block addition nope " id="grey">
+          {/* BELOW HERRRE */}
+
+          <div className="content--block nope ">
             <div className="content--main ">
-              <h2
-                style={{
-                  fontFamily: "Calibre Regular",
-                  paddingTop: 2.5 + "%",
-                }}
-              >
-                Bucket 2: Status Updates{" "}
-              </h2>
-              <div className="double-image">
+              <div className="content--section-title-firebird">
+                Bucket 2 / Status Updates
+              </div>
+              <h3 className="bump-5">
+                We Prioritized Information Most Relevant to the User
+              </h3>
+              <div className="content--subdivide bump-5">
                 <div
                   className="version-pro-con"
-                  style={{ paddingRight: 5 + "%" }}
+                  style={{ marginRight: 2.5 + "%" }}
                 >
-                  <h3>V1</h3>
                   <div className="version-container">
                     <div className="double-image">
-                      <div className="image-container-long version">
-                        <img
-                          className="too-long"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_1.png"
-                          alt="Original design of Firebird's order-tracking screen"
-                          title="Original design of Firebird's order-tracking screen"
-                        ></img>
-                      </div>
-                      <div className="pro-con">
+                      <img
+                        className="too-long bump-2point5"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_1.png"
+                        alt="Original design of Firebird's order-tracking screen"
+                        title="Original design of Firebird's order-tracking screen"
+                      ></img>
+
+                      {/* <div className="pro-con">
                         <div className="pros">
                           <h5>PROS</h5>
                           <ul>
@@ -874,23 +864,26 @@ export default function Work() {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
+
+                  <p className="iteration-title">V1</p>
                 </div>
-                <div className="version-pro-con">
-                  <h3>V2</h3>
+                <div
+                  className="version-pro-con"
+                  style={{ marginRight: 2.5 + "%" }}
+                >
                   <div className="version-container">
                     <div className="double-image">
-                      <div className="image-container-long version">
-                        <img
-                          className="too-long"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_2.png"
-                          alt="Original design of Firebird's order-tracking screen"
-                          title="Original design of Firebird's order-tracking screen"
-                        ></img>
-                      </div>
-                      <div className="pro-con">
+                      <img
+                        className="too-long bump-2point5"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_2.png"
+                        alt="Original design of Firebird's order-tracking screen"
+                        title="Original design of Firebird's order-tracking screen"
+                      ></img>
+
+                      {/* <div className="pro-con">
                         {" "}
                         <div className="pros">
                           <h5>PROS</h5>
@@ -910,28 +903,25 @@ export default function Work() {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
+                  <p className="iteration-title">V2</p>
                 </div>
-              </div>
-              <div className="double-image bump-2point5">
+
                 <div
                   className="version-pro-con"
-                  style={{ marginRight: 7.5 + "%" }}
+                  style={{ marginRight: 2.5 + "%" }}
                 >
-                  <h3>✅V3</h3>
                   <div className="version-container">
-                    <div className="double-image">
-                      <div className="image-container-long version">
-                        <img
-                          className="too-long"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_3.png"
-                          alt="Original design of Firebird's order-tracking screen"
-                          title="Original design of Firebird's order-tracking screen"
-                        ></img>
-                      </div>
-                      <div className="pro-con">
+                    <img
+                      className="too-long bump-2point5"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_3.png"
+                      alt="Original design of Firebird's order-tracking screen"
+                      title="Original design of Firebird's order-tracking screen"
+                    ></img>
+
+                    {/* <div className="pro-con">
                         {" "}
                         <div className="pros">
                           <h5>PROS</h5>
@@ -948,23 +938,21 @@ export default function Work() {
                             <li>Manage order button is somewhat hidden</li>
                           </ul>
                         </div>
-                      </div>
-                    </div>
+                      </div> */}
                   </div>
+                  <p className="iteration-title">✅V3</p>
                 </div>
+
                 <div className="version-pro-con">
-                  <h3>V4</h3>
                   <div className="version-container">
-                    <div className="double-image">
-                      <div className="image-container-long version bump-2point5">
-                        <img
-                          className="too-long"
-                          src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_4.png"
-                          alt="Original design of Firebird's order-tracking screen"
-                          title="Original design of Firebird's order-tracking screen"
-                        ></img>
-                      </div>
-                      <div className="pro-con">
+                    <img
+                      className="too-long bump-2point5"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket2_4.png"
+                      alt="Original design of Firebird's order-tracking screen"
+                      title="Original design of Firebird's order-tracking screen"
+                    ></img>
+
+                    {/* <div className="pro-con">
                         {" "}
                         <div className="pros">
                           <h5>PROS</h5>
@@ -985,31 +973,29 @@ export default function Work() {
                             </li>
                           </ul>
                         </div>
-                      </div>
-                    </div>
+                      </div> */}
                   </div>
+                  <p className="iteration-title">V4</p>
                 </div>
               </div>
-              <p className="final-sentence">
+              <p>
                 V3 was chosen because it best highlighted both the CTA and order
                 information most relevant to the user.
               </p>
             </div>
           </div>
 
-          <div className="content--block addition nope">
+          <div className="content--block nope">
             <div className="content--main">
-              <h2
-                style={{
-                  fontFamily: "Calibre Regular",
-                  paddingTop: 2.5 + "%",
-                }}
-              >
-                Bucket 3: Delivery Confirmation{" "}
-              </h2>
-              <div className="twobytwo">
+              <div className="content--section-title-firebird">
+                Bucket 3 / Delivery Confirmation
+              </div>
+              <h3 className="bump-5">
+                Updated Email and Tracking Page Created Consistency Across
+                Channels
+              </h3>
+              <div className="content--subdivide bump-5">
                 <div className="version-pro-con ">
-                  <h3>✅ V1 - Tracking page visual cues</h3>
                   <div className="version-container ">
                     <div className="image-container version">
                       <img
@@ -1019,7 +1005,7 @@ export default function Work() {
                         title="V1 - Tracking page visual cues"
                       ></img>
                     </div>
-                    <div className="pro-con  ">
+                    {/* <div className="pro-con  ">
                       {" "}
                       <div className="pros">
                         <h5>PROS</h5>
@@ -1037,11 +1023,16 @@ export default function Work() {
                           <li>User must revisit tracking page to see update</li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
+                  <p className="iteration-title">
+                    ✅ V1 - Tracking page visual cues
+                  </p>
                 </div>
-                <div className="version-pro-con ">
-                  <h3>V2 - Past orders redirection</h3>
+                <div
+                  className="version-pro-con "
+                  style={{ paddingRight: 2.5 + "%" }}
+                >
                   <div className="version-container">
                     <div className="image-container version">
                       <img
@@ -1052,7 +1043,7 @@ export default function Work() {
                       ></img>
                     </div>
 
-                    <div className="pro-con ">
+                    {/* <div className="pro-con ">
                       <div className="pros">
                         <h5>PROS</h5>
                         <ul>
@@ -1069,24 +1060,22 @@ export default function Work() {
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
+                  <p className="iteration-title">
+                    V2 - Past orders redirection
+                  </p>
                 </div>
                 <div className="version-pro-con">
-                  <h3>✅ V3 - Email Alert with photo evidence</h3>
-                  <div
-                    className="double-image"
-                    style={{ paddingBottom: 2.5 + "%", paddingTop: 2.5 + "%" }}
-                  >
-                    <div style={{ width: 25 + "%" }}>
-                      <img
-                        className="content--image-wrapper-full version"
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
-                        alt="Email Alert with photo evidence"
-                        title="Email Alert with photo evidence"
-                      ></img>
-                    </div>
-                    <div className="pro-con">
+                  <div>
+                    <img
+                      className="content--image-wrapper-full version"
+                      src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
+                      alt="Email Alert with photo evidence"
+                      title="Email Alert with photo evidence"
+                    ></img>
+                  </div>
+                  {/* <div className="pro-con">
                       {" "}
                       <div className="pros">
                         <h5>PROS</h5>
@@ -1103,54 +1092,58 @@ export default function Work() {
                           <li>Track order button could be confusing here</li>
                         </ul>
                       </div>
-                    </div>
-                  </div>
+                    </div> */}
+                  <p className="iteration-title">
+                    ✅ V3 - Email Alert with photo evidence
+                  </p>
                 </div>
-                <div className="version-pro-con">
-                  <h3>V4 - Visual cues + photo evidence</h3>
-                  <div
-                    className="double-image"
-                    style={{
-                      paddingBottom: 2.5 + "%",
-                      paddingTop: 2.5 + "%",
-                    }}
-                  >
-                    <div style={{ width: 25 + "%" }}>
+                <div
+                  className="version-pro-con "
+                  style={{ paddingLeft: 2.5 + "%" }}
+                >
+                  <div className="version-container">
+                    <div className="image-container version">
                       <img
-                        className=" content--image-wrapper-full "
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_3.png"
-                        alt="V4 - Visual cues + photo evidence"
-                        title="V4 - Visual cues + photo evidence"
+                        className=" content--image-wrapper-full"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_2.png"
+                        alt="V2 - Past orders redirection"
+                        title="V2 - Past orders redirection"
                       ></img>
                     </div>
-                    <div className="pro-con">
-                      {" "}
+
+                    {/* <div className="pro-con ">
                       <div className="pros">
                         <h5>PROS</h5>
                         <ul>
-                          <li>Visually communicates order delivery</li>
-                          <li>Tangible proof of delivery</li>
+                          <li>Implies delivery of the order to user</li>
                         </ul>
                       </div>
                       <div className="cons">
                         <h5>CONS</h5>
                         <ul>
-                          <li>Space is underutilized in bottom section</li>
+                          <li>Could be confusing or misleading </li>
+                          <li>
+                            Doesn’t match the narrative built out by the status
+                            bar
+                          </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
+                  <p className="iteration-title">
+                    V4 - Visual cues + photo evidence
+                  </p>
                 </div>
-                <p>
-                  In the end, we decided to go with both the email update and
-                  tracking page update. Together, they gave the most amount of
-                  information as quickly as possible without interfering with
-                  each other.
-                </p>
               </div>
+              <p class="bump-5">
+                In the end, we decided to go with both the email update and
+                tracking page update. Together, they gave the most amount of
+                information as quickly as possible without interfering with each
+                other.
+              </p>
             </div>
           </div>
-          <div className="content--block ">
+          <div className="content--block " id="grey">
             <div className="content--main double-image ">
               <div
                 className="double-image"
