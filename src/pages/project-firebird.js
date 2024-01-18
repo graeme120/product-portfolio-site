@@ -554,17 +554,16 @@ export default function Work() {
               className="double-image"
               style={{ justifyContent: "space-between" }}
             >
-              <h2
+              <h3
                 style={{
-                  width: 40 + "%",
+                  width: 48 + "%",
                   paddingRight: 2.5 + "%",
                   paddingBottom: 0 + "%",
-                  fontFamily: "Calibre Regular",
                 }}
               >
                 All major delivery platforms rely on mobile notifications to
                 update users on delivery progress
-              </h2>
+              </h3>
               <img
                 style={{
                   paddingBottom: 2.5 + "%",
@@ -576,17 +575,15 @@ export default function Work() {
                 alt="arrow"
                 title="arrow"
               ></img>
-              <h2
+              <h3
                 style={{
-                  width: 40 + "%",
+                  width: 50 + "%",
                   paddingBottom: 0 + "%",
-                  fontFamily: "Calibre Regular",
                 }}
               >
                 Since Firebird is web-based, we must{" "}
-                <mark>leverage email updates </mark>
-                to keep users in the loop.
-              </h2>
+                <mark>leverage email updates</mark> to keep users in the loop.
+              </h3>
             </div>
           </div>
 
@@ -995,43 +992,9 @@ export default function Work() {
                 Channels
               </h3>
               <div className="content--subdivide bump-5">
-                <div className="version-pro-con ">
-                  <div className="version-container ">
-                    <div className="image-container version">
-                      <img
-                        className=" content--image-wrapper-full "
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_1.png"
-                        alt="V1 - Tracking page visual cues"
-                        title="V1 - Tracking page visual cues"
-                      ></img>
-                    </div>
-                    {/* <div className="pro-con  ">
-                      {" "}
-                      <div className="pros">
-                        <h5>PROS</h5>
-                        <ul>
-                          <li>Headline clearly displays delivered status</li>
-                          <li>
-                            Colour palette communicates success in delivery
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="cons">
-                        <h5>CONS</h5>
-                        <ul>
-                          <li>No tangible proof (e.g. photo) of delivery</li>
-                          <li>User must revisit tracking page to see update</li>
-                        </ul>
-                      </div>
-                    </div> */}
-                  </div>
-                  <p className="iteration-title">
-                    ✅ V1 - Tracking page visual cues
-                  </p>
-                </div>
                 <div
                   className="version-pro-con "
-                  style={{ paddingRight: 2.5 + "%" }}
+                  style={{ width: 250 + "%", paddingRight: 2.5 + "%" }}
                 >
                   <div className="version-container">
                     <div className="image-container version">
@@ -1063,10 +1026,13 @@ export default function Work() {
                     </div> */}
                   </div>
                   <p className="iteration-title">
-                    V2 - Past orders redirection
+                    V1 - Past orders redirection
                   </p>
                 </div>
-                <div className="version-pro-con">
+                <div
+                  className="version-pro-con"
+                  style={{ width: 100 + "%", paddingRight: 2.5 + "%" }}
+                >
                   <div>
                     <img
                       className="content--image-wrapper-full version"
@@ -1094,18 +1060,18 @@ export default function Work() {
                       </div>
                     </div> */}
                   <p className="iteration-title">
-                    ✅ V3 - Email Alert with photo evidence
+                    ✅ V2 - Email Alert with photo evidence
                   </p>
                 </div>
                 <div
                   className="version-pro-con "
-                  style={{ paddingLeft: 2.5 + "%" }}
+                  style={{ width: 250 + "%", paddingLeft: 2.5 + "%" }}
                 >
                   <div className="version-container">
                     <div className="image-container version">
                       <img
                         className=" content--image-wrapper-full"
-                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket-iterations/Bucket3_2.png"
+                        src="https://image-gosting.s3.amazonaws.com/ff_images/bucket3_3.png"
                         alt="V2 - Past orders redirection"
                         title="V2 - Past orders redirection"
                       ></img>
@@ -1131,7 +1097,7 @@ export default function Work() {
                     </div> */}
                   </div>
                   <p className="iteration-title">
-                    V4 - Visual cues + photo evidence
+                    ✅  V3 - Visual cues + photo evidence
                   </p>
                 </div>
               </div>
@@ -1144,21 +1110,17 @@ export default function Work() {
             </div>
           </div>
           <div className="content--block " id="grey">
-            <div className="content--main double-image ">
-              <div
-                className="double-image"
-                style={{ width: 100 + "%", paddingRight: 5 + "%" }}
-              >
-                <div style={{ paddingRight: 7.5 + "%" }}>
-                  <h2>Mobile Prototyping</h2>
-                  <p>
-                    Since our solution depended so heavily on email updates, it
-                    was clear that the tracking page had to be responsive to
-                    mobile devices, for users who opened email updates from
-                    their phones.
-                  </p>
-                </div>
-
+            <div className="content--main ">
+              <div style={{ paddingRight: 7.5 + "%" }}>
+                <h2>Mobile Prototyping</h2>
+                <p>
+                  Since our solution depended so heavily on email updates, it
+                  was clear that the tracking page had to be responsive to
+                  mobile devices, for users who opened email updates from their
+                  phones.
+                </p>
+              </div>
+              <div className="double-image" style={{ width: 50 + "%" }}>
                 <div className="image-container ">
                   <img
                     className=" content--image-wrapper-full bump-2point5 "
