@@ -27,6 +27,10 @@
   width: 85%;
 }
 
+.about-text > h3 {
+  font-size: 1.5em;
+}
+
 .about-profile {
   width: 50%;
 }
