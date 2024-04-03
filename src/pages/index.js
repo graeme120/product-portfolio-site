@@ -176,6 +176,19 @@ export default function Home() {
               </Link>
             </div>
 
+            <h3 id="bumpbump">
+              To browse my full portfolio, you can visit my{" "}
+              <a
+                className="explicit-link"
+                href="https://graemeswork.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                main website
+              </a>{" "}
+              👾👾
+            </h3>
+
             <h2 className="section-title">Upcoming Projects...</h2>
 
             {/* These should / could be replaced by a forEach datoCMS algo */}
